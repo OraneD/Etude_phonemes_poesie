@@ -12,7 +12,7 @@
 .ansi34 { color: #0000aa; }
 </style>
 
-<body class="body_foreground body_background" style="font-size: normal;" >
+<body width="100%;" class="body_foreground body_background" style="font-size: normal;" >
 <pre class="ansi2html-content">
 <table border="1" class="dataframe">
   <thead>
@@ -400,9 +400,6 @@
 </table>
 </pre>
 </body>
-<div style="width: 100%;">
-  <img src="exemple.svg" style="width: 100%;" alt="Click to see the source"></img>
-</div>
     </div>
   </foreignObject>
 </svg>
