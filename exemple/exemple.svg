@@ -1,0 +1,405 @@
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+.ansi31 { color: #aa0000; }
+.ansi32 { color: #00aa00; }
+.ansi34 { color: #0000aa; }
+</style>
+
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>vers</th>
+      <th>vers_phonetique</th>
+      <th>syllabes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>l'aurore apparaissait  quelle aurore  un abîme</td>
+      <td>lOROR apaREsE  | kEl OROR e~ abim</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>d'éblouissement vaste insondable sublime</td>
+      <td>debluis@mA vast  | e~sCdabl<span class="ansi32">@</span> syblim</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>une ardente lueur de paix et de bonté</td>
+      <td>yn aRdAt<span class="ansi32">@</span> lH9R  | d@ pE<span class="ansi31">z</span> e d@ bCte</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>c'était aux premiers temps du globe  et la clarté</td>
+      <td>setE<span class="ansi34">t</span> o pR@mje tA  | dy glOb e la klaRte</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>brillait sereine au front du ciel inaccessible</td>
+      <td>bRijE s@REn o fRC  | dy sjEl inaksesibl</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>étant tout ce que dieu peut avoir de visible</td>
+      <td>etA tu s@ k@ dj2  | p2<span class="ansi34">t</span> avwaR d@ vizibl</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>tout s'illuminait l'ombre et le brouillard obscur</td>
+      <td>tu silyminE lCbR  | e l@ bRujaR<span class="ansi34">t</span> OpskyR</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>des avalanches d'or s'écroulaient dans l'azur</td>
+      <td>de<span class="ansi31">z</span> avalAS<span class="ansi32">@</span> dOR  | sekRulE dA lazyR</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>le jour en flamme au fond de la terre ravie</td>
+      <td>l@ ZuR A flam o fC  | d@ la tER<span class="ansi32">@</span> Ravi</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>embrasait les lointains splendides de la vie</td>
+      <td>AbRazE le lwe~te~  | splAdid<span class="ansi32">@</span> d@ la vi</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>les horizons pleins d'ombre et de rocs chevelus</td>
+      <td>le ORizC ple~ dCbR  | e d@ ROk S@v@ly</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>et d'arbres effrayants que l'homme ne voit plus</td>
+      <td>e daRbR<span class="ansi32">@</span><span class="ansi31">z</span> efRejA  | k@ lOm<span class="ansi32">@</span> n@ vwa ply</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>luisaient comme le songe et comme le vertige</td>
+      <td>lHizE kOm<span class="ansi32">@</span> l@ sCZ  | e kOm<span class="ansi32">@</span> l@ vERtiZ</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>dans une profondeur d'éclair et de prodige</td>
+      <td>dA<span class="ansi31">z</span> yn<span class="ansi32">@</span> pROfCd9R  | deklER e d@ pROdiZ</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>l'éden pudique et nu s'éveillait mollement</td>
+      <td>ledEn pydik e ny  | sevejE mOl@mA</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>les oiseaux gazouillaient un hymne si charmant</td>
+      <td>le<span class="ansi31">z</span> wazo gazujE<span class="ansi34">t</span>  | e~ imn<span class="ansi32">@</span> si SaRmA</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>si frais si gracieux si suave et si tendre</td>
+      <td>si fRE si gRasj2  | si sHav e si tAdR</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>que les anges distraits se penchaient pour l'entendre</td>
+      <td>k@ le<span class="ansi31">z</span> AZ<span class="ansi32">@</span> distRE  | s@ pASE puR lAtAdR</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>le seul rugissement du tigre était plus doux</td>
+      <td>l@ s9l RyZis@mA  | dy tigR etE ply du</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>les halliers où l'agneau paissait avec les loups</td>
+      <td>le alje<span class="ansi31">z</span> u lanjo  | pEsE<span class="ansi34">t</span> avEk le lu</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>les mers où l'hydre aimait l'alcyon et les plaines</td>
+      <td>le mER<span class="ansi31">z</span> u lidR emE  | lalsjC e le plEn</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>où les ours et les daims confondaient leurs haleines</td>
+      <td>u le<span class="ansi31">z</span> uRs<span class="ansi31">z</span> e le de~  | kCfCdE l9R alEn</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>hésitaient dans le chœur des concerts infinis</td>
+      <td>ezitE dA l@ k9r  | de kCsER<span class="ansi31">z</span> e~fini</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>entre le cri de l'antre et la chanson des nids</td>
+      <td>AtR<span class="ansi32">@</span> l@ kRi d@ lAtR  | e la SAsC de ni</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>la prière semblait à la clarté mêlée</td>
+      <td>la pRijER<span class="ansi32">@</span> sAblE<span class="ansi34">t</span>  | a la klaRte mele</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>et sur cette nature encore immaculée</td>
+      <td>e syR sEt<span class="ansi32">@</span> natyR  | AkOR imakyle</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>qui du verbe éternel avait gardé l'accent</td>
+      <td>ki dy vERb etERnEl  | avE gaRde laksA</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>sur ce monde céleste angélique innocent</td>
+      <td>syR s@ mCd<span class="ansi32">@</span> selEst  | AZelik inOsA</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>le matin murmurant une sainte parole</td>
+      <td>l@ mate~ myRmyRA<span class="ansi34">t</span>  | yn<span class="ansi32">@</span> se~t<span class="ansi32">@</span> paROl</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>souriait et l'aurore était une auréole</td>
+      <td>suRjE<span class="ansi34">t</span> e lOROR  | etE<span class="ansi34">t</span> yn oReOl</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>tout avait la figure intègre du bonheur</td>
+      <td>tu<span class="ansi34">t</span> avE la figyR  | e~tEgR<span class="ansi32">@</span> dy bOn9R</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>pas de bouche d'où vînt un souffle empoisonneur</td>
+      <td>pa d@ buS<span class="ansi32">@</span> du ve~<span class="ansi34">t</span>  | e~ sufl ApwazOn2R</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>pas un être qui n'eût sa majesté première</td>
+      <td>pa<span class="ansi31">z</span> e~ EtR<span class="ansi32">@</span> ki ny  | sa maZEste pR@mjER</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>tout ce que l'infini peut jeter de lumière</td>
+      <td>tu s@ k@ le~fini  | p2 Z@te d@ lymjER</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>éclatait pêle-mêle à la fois dans les airs</td>
+      <td>eklatE pEl@mEl  | a la fwa dA le<span class="ansi31">z</span> ER</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>le vent jouait avec cette gerbe d'éclairs</td>
+      <td>l@ vA ZwE<span class="ansi34">t</span> avEk  | sEt<span class="ansi32">@</span> ZERb<span class="ansi32">@</span> deklER</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>dans le tourbillon libre et fuyant des nuées</td>
+      <td>dA l@ tuRbijC libR  | e fHijA de nHe</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>l'enfer balbutiait quelques vagues huées</td>
+      <td>lAfER balbysjE  | kElk<span class="ansi32">@</span> vag<span class="ansi32">@</span> He</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>qui s'évanouissaient dans le grand cri joyeux</td>
+      <td>ki sevanwisE  | dA l@ gRA kRi Zwaj2</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>des eaux des monts des bois de la terre et des cieux</td>
+      <td>de<span class="ansi31">z</span> o de mC de bwa  | d@ la tER e de sj2</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>les vents et les rayons semaient de tels délires</td>
+      <td>le vA<span class="ansi31">z</span> e le REjC  | s@mE d@ tEl deliR</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>que les forêts vibraient comme de grandes lyres</td>
+      <td>k@ le fORE vibRE  | kOm<span class="ansi32">@</span> d@ gRAd<span class="ansi32">@</span> liR</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>de l'ombre à la clarté de la base au sommet</td>
+      <td>d@ lCbR a la klaRte  | d@ la baz o sOmE</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>une fraternité vénérable germait</td>
+      <td>yn<span class="ansi32">@</span> fRatERnite  | veneRabl<span class="ansi32">@</span> ZERmE</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>l'astre était sans orgueil et le ver sans envie</td>
+      <td>lastR etE sA<span class="ansi31">z</span> ORg2j  | e l@ vER sA<span class="ansi31">z</span> Avi</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>on s'adorait d'un bout à l'autre de la vie</td>
+      <td>C sadORE de~ bu<span class="ansi34">t</span>  | a lotR<span class="ansi32">@</span> d@ la vi</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>une harmonie égale à la clarté versant</td>
+      <td>yn aRmOni egal  | a la klaRte vERsA</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>une extase divine au globe adolescent</td>
+      <td>yn Ekstaz<span class="ansi32">@</span> divin  | o glOb adOlesA</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>semblait sortir du cœur mystérieux du monde</td>
+      <td>sAblE sORtiR dy k9r  | misteRj2 dy mCd</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>l'herbe en était émue et le nuage et l'onde</td>
+      <td>lERb A etE<span class="ansi34">t</span> emy  | e l@ nHaZ e lCd</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>et même le rocher qui songe et qui se tait</td>
+      <td>e mEm<span class="ansi32">@</span> l@ ROSe  | ki sCZ e ki s@ tE</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>l'arbre tout pénétré de lumière chantait</td>
+      <td>laRbR<span class="ansi32">@</span> tu penetRe  | d@ lymjER<span class="ansi32">@</span> SAtE</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>chaque fleur échangeant son souffle et sa pensée</td>
+      <td>Sak<span class="ansi32">@</span> fl9R eSAZA  | sC sufl e sa pAse</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>avec le ciel serein d'où tombe la rosée</td>
+      <td>avEk l@ sjEl s@Re~  | du tCb<span class="ansi32">@</span> la Roze</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>recevait une perle et donnait un parfum</td>
+      <td>R@s@vE<span class="ansi34">t</span> yn<span class="ansi32">@</span> pERl  | e dOnE<span class="ansi34">t</span> e~ paRfe~</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>l'être resplendissait un dans tout tout dans un</td>
+      <td>lEtr<span class="ansi32">@</span> REsplAdisE<span class="ansi34">t</span>  | e~ dA tu tu dA<span class="ansi31">z</span> e~</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>le paradis brillait sous les sombres ramures</td>
+      <td>l@ paRadi bRijE  | su le sCbR<span class="ansi32">@</span> RamyR</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>de la vie ivre d'ombre et pleine de murmures</td>
+      <td>d@ la vi ivR<span class="ansi32">@</span> dCbR  | e plEn<span class="ansi32">@</span> d@ myRmyR</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>et la lumière était faite de vérité</td>
+      <td>e la lymjER etE  | fEt<span class="ansi32">@</span> d@ veRite</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>et tout avait la grâce ayant la pureté</td>
+      <td>e tu<span class="ansi34">t</span> avE la gRas  | EjA la pyR@te</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>tout était flamme hymen bonheur douceur clémence</td>
+      <td>tu<span class="ansi34">t</span> etE flam imEn  | bOn9R dus9R klemAs</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>tant ces immenses jours avaient une aube immense</td>
+      <td>tA se<span class="ansi31">z</span> imAs<span class="ansi32">@</span> ZuR<span class="ansi31">z</span>  | avE<span class="ansi34">t</span> yn ob imAs</td>
+      <td>12</td>
+    </tr>
+  </tbody>
+</table>
+</pre>
+</body>
+    </div>
+  </foreignObject>
+</svg>
