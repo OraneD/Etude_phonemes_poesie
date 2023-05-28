@@ -13,6 +13,7 @@
 </style>
 
 <body class="body_foreground body_background" style="font-size: normal;" >
+  <div class="conteiner">
 <pre class="ansi2html-content">
 <table border="1" class="dataframe">
   <thead>
@@ -399,6 +400,7 @@
   </tbody>
 </table>
 </pre>
+  </div>
 </body>
     </div>
   </foreignObject>
