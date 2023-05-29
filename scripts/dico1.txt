@@ -178873,75 +178873,7 @@ sibérie	sibeRi
 diane	dian
 meilleurs	mEj2R
 théroigne	terwaJ
-sisina
-novis
-cantabo
-chordis
-novelletum
-quod
-ludis
-in
-solitudine
-cordis
-esto
-implicata
-fœmina
-delicata
-per
-quam
-solvuntur
-peccata
-sicut
-beneficum
-lethe
-hauriam
-oscula
-quæ
-imbuta
-magnete
-quum
-vitiorum
-tempestas
-turbabat
-omnes
-semitas
-apparuisti
-deitas
-velut
-stella
-salutaris
-naufragiis
-amaris
-suspendam
-tuis
-aris
-piscina
-plena
-virtutis
-fons
-æternæ
-juventutis
-labris
-vocem
-redde
-mutis
-erat
-spurcum
-cremasti
-rudius
-exæquasti
-debile
-confirmasti
-fame
-mea
-taberna
-nocte
-lucerna
-recte
-semper
-guberna
-adde
-nunc
+sisina	sisina
 viribus	viRibus
 dulce	dulsE
 balneum	balneum
@@ -179113,4 +179045,80 @@ delphine	dElfin
 bœufs	b2f
 euménide	2menid
 pêle	pEl
+roidit	Rwadi
+unes	yn
+antoine	Atwan
+pourprés	puRpRe
+croulantes	kRulAt
+bacchus	bakys	
+endormeur	Adorm2r
+scapulaires	skapylER
+recélant	R@selA
+contempteurs	kCtApt2R
+renté	RAte
+lupanars	lypanaR
+charmilles	SaRmij
+myrtes	mirt
+enter	AtER
+sultane	syltan
+cendreux	sAdr2
+vaguant	vagA
+clignement	cliJ@mA
+hamlet	amlEt
+histrion	istRjC
+nonpareil	nCpaR
+busc	bysk
+cythère	sitER
+eldorado	EldoRado
+arome	aROm
+roucoulement	Rukul@mA
+ramier	Ramje
+bocagères	bokaZER
+séraphins	seRafe~
+suppliciés	syplicje
+distendus	distAdy
+puissé	pjise
+crésus	kResys
+louage	lHaZ
+capitole	kapitol	
+uns	e~
+circé	siRce
+cuivrent	cHivR
+icarie	ikari
+hune	yn
+amériques	ameRik
+capoue	kapu
+ouvragés	uvRaZe
+jusques	Zysk
+rétiaire	retHER
+lotus	lotys
+pylades	pilad
+électre	elEktr
+france	fRAns
+tamarins	tamare~
+fabliau	fablio
+in	e~
+folio	folio
+mécréant	mecReA
+tortu	toRty
+multiforme	myltifoRm
+limaçons	limasC
+harpagon	aRpagC
+célimène	selimEn
+gazetier	gazEtHE
+fat	fa
+quelqu	kelk
+cynthia	sintia
+endymion	AdimjC
+ruffian	RufjA
+hercule	ERkul
+gitche	ZitS
+manito	manito
+montueux	mCtH2
+tawasentha	tawasEta
+tuscaloosa	tyskaluza
+vœux	v2
+calumet	kalyme
+lola	lola
+valence	valAs
 ***
