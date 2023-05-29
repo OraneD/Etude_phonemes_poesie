@@ -178701,4 +178701,416 @@ l'être	lEtr
 d'or	dOR
 d'un	de~
 d'une dyn
+qu	k
+c	s
+j	Z
+m	m
+n	n
+t	t
+d	d
+l	l
+s	s
+gaîment	gEmA
+satan	satA
+trismégiste	tRismeZist
+catin	kate~
+helminthes	Elme~t
+ribote	Ribot
+encor	Akor
+canevas	kan@va
+lices	lis
+glapissants	glapisA
+grognants	gRoJA
+quoiqu	kwak
+œil	2j
+houka	uka
+poëte	poEt
+nœud	n2
+géhenne	ZeEn
+ambroisie	AbRwazi
+nectar	nEktaR
+puisqu	pjisk
+redorer	R@dore
+nard	naR
+myrrhe	miR
+ennuîrai	enjiRE
+harpies	aRpi
+jusqu	Zysk
+meilleure	mEj2R
+palmyre	palmiR
+delà	d@la
+miasmes	mjasm
+pensers	pAse
+benjoin	b9~Zwe~
+phœbus	fEbys
+cybèle	sibEl
+aujourd	ojuRd
+hui	ji
+épouvantement	epuvAt@mA
+ô	o
+hideurs	id2R
+vrai	vRE
+muses	myz
+rubens	RybEns
+léonard	leonaR
+vinci	ve~si
+rembrandt	RAbRAdt
+crucifix	kRysifi
+michel	miSEl
+hercules	ERkyl
+christs	SRist
+puget	pyZE
+watteau	wato
+cœurs	k9R
+goya	goja
+fœtus	fetys
+delacroix	d@lacRwa
+weber	vEbER
+deum	deum
+muse	myz
+succube	sykyb
+minturnes	me~tyRn
+rhythmiques	Ritmik
+borées	boRe
+azurées	azyRe
+jeun	Ze~
+florissaient	floRisE
+cénobite	senobit
+çà	sa
+sisyphe	sizif
+basaltiques	bazaltik
+remord	R@moR		
+juan	ZHA
+lorsqu	loRsk
+charon	SarC
+antisthène	AtistEn
+sganarelle	sganaREl
+tandis	tAdi
+elvire	ElviR
+époux	epu
+rapière	RapjER
+jésus	gezu
+risée	Rize
+poëtes	poEt
+brodequins	bRodeke~
+gavarni	gavaRni
+chloroses	SlorOz
+lady	lEdi
+macbeth	makbet
+eschyle	ESil
+autans	otA
+titans	titA
+nagent	naZ
+maures	mOR
+lubricité	lybRisite
+onduleux	Cdyl2
+antiope	Atjop
+florentines	floRAtin
+musculeux	myskyl2
+sœurs	s2R
+mignard	miJaR
+o	o
+suborneur	suboRn2R
+parce	paRs
+philtre	filtR
+tamariniers	tamaRinje
+moutonnant	mutonA
+nonchaloir	nCSalwaR
+asie	azi
+afrique	afRik
+moire	mwaR
+duvetés	dyv@te
+afin	afe~
+vermisseaux	vERmiso
+insolemment	e~solamA
+fangeuse	fAZ2z
+déité	deite
+havane	avan
+œuvre	2vR
+obi	obi
+faust	fOst
+styx	stiks
+proserpine	pRosERpin
+inviolé	e~vjole
+bohême	boEm
+centuple	sAtypl
+vanneur	van2R
+rhythmique	Ritmik
+glaive	glEv
+léthé	lete
+rancœur	RAk2R
+népenthès	nepAtEs
+vagissant	vaZisA
+glaives	glEv
+dague	dag
+pards	paR
+onces	Cs
+pétulant	petylA
+belzébuth	bElzebyt
+frissonnements	fRison@mA
+dictame	diktame
+aquilon	akilC
+tympanon	te~panC
+refleuri	R@fl2Ri
+diamantés	djamAte
+atonie	atoni
+sœur	s2R
+dévoûment	devumA
+david	david
+cochères	koSER
+reposoir	R@poswaR
+lazare	lazaR
+ranci	RAsi
+sépulcral	sepylkRal
+séraphique	seRafik
+rhythme	Ritm
+provoquants	pRovokA
+poix	pwa
+roide	Rwad
+oliban	olibA
+philtres	filtR
+sibérie	sibeRi
+diane	dian
+meilleurs	mEj2R
+théroigne	terwaJ
+sisina
+novis
+cantabo
+chordis
+novelletum
+quod
+ludis
+in
+solitudine
+cordis
+esto
+implicata
+fœmina
+delicata
+per
+quam
+solvuntur
+peccata
+sicut
+beneficum
+lethe
+hauriam
+oscula
+quæ
+imbuta
+magnete
+quum
+vitiorum
+tempestas
+turbabat
+omnes
+semitas
+apparuisti
+deitas
+velut
+stella
+salutaris
+naufragiis
+amaris
+suspendam
+tuis
+aris
+piscina
+plena
+virtutis
+fons
+æternæ
+juventutis
+labris
+vocem
+redde
+mutis
+erat
+spurcum
+cremasti
+rudius
+exæquasti
+debile
+confirmasti
+fame
+mea
+taberna
+nocte
+lucerna
+recte
+semper
+guberna
+adde
+nunc
+viribus	viRibus
+dulce	dulsE
+balneum	balneum
+suavibus	suavibus
+unguentatum	unguEntatum
+odoribus	odoRibus
+meos	meos
+circa	siRka
+lumbos	lumbos
+castitatis	kastitatis
+lorica	loRika
+aqua	akwa
+tincta	te~kta
+seraphica	sERafika
+patera	pateRa
+gemmis	Zemis
+corusca	ciRuska
+panis	panis
+salsus	salsus
+esca	Eska
+divinum	divinum
+vinum	vinum
+francisca	fRAsiska
+dais	dE
+chasseresse	Sas@rEss
+seine	sEn
+loire	lwaR
+ombreuses	Cbr2z
+agathe	agat
+grondeurs	gRCd2R
+inde	e~d
+chine	Sin
+érèbe	erEb
+abyssinienne	abisinjEn
+cafrine	kafRin
+chaumine	SOmin
+décombre	decCbR
+filous	filu
+danaïdes	danaid
+ressaigner	r@sEJe
+lerne	lErn
+pluviôse	plyvjOz
+fausset	fosE
+hydropique	idRopik
+pastels	pastEl
+incuriosité	e~kyRiosite
+saharah	saaRa
+insoucieux	e~susj2
+grotesque	gRotEsk
+fleurdelisé	fl2Rd@lise
+atour	atuR
+opiniâtrément	opiniatRemA
+profundis	pRofundis
+roideur	Rwad2R
+hermès	ERmEs
+midas	midas
+ovide	ovid
+frapperai	fRap@rE
+moïse	moiz
+sahara	saaRa
+nagera	naZ@ra
+faux	fo
+pirouettant	piRuEtA
+geôle	ZOl
+sylphide	silfid
+clepsydre	klEpsidR
+églogues	eglog
+rousseur	Rus2R
+cothurnes	kotyRn
+haillon	ajC
+nœuds	n9
+belleau	bElo
+valetaille	valEtaj
+rimeurs	Rim2R
+ronsard	RCsaR
+gueusant	g2zA
+véfour	vefuR
+andromaque	Adromak
+simoïs	simois
+bric	bRik
+voirie	vwaRi
+pleuvras	pl2vRa
+louvre	luvR
+pyrrhus	piRys
+hector	ektoR	
+hélénus	elenus
+phtisique	ftizik
+tettent	tEt
+fourmillante	furmijAnt
+roidissant	RwadisA
+savates	savat
+phénix	Seniks
+gabarre	gabaR
+éponine	eponin
+laïs	lais
+discords	discoRd
+pailleta	pajEta
+frascati	fraskati
+vestale	vEstal
+enamourée	EnamuRe
+thalie	tali
+tivoli	tivoli
+hippogriffe	ipogRif
+incivil	e~sivil
+insu	e~sy
+èves	Ev
+cadavéreux	kadaver@
+fraye	fREj
+catins	kate~
+plupart	plypaR
+convulsés	cCvylse
+quinquets	ke~kE
+lazzi	lazi
+artistement	aRtist@mA
+bayadère	bajadEr
+gouge	guZ
+antinoüs	Atinoys
+vernissés	veRnise
+lovelaces	lOv@las
+chenus	SEny
+gange	gAZ
+tromblon	tRCblC
+pomone	pomOn
+vénus	venys
+émondeur	emCd2r
+entour	Atur
+certe	sErt
+endormeuses	AdoRm2s
+autan	otA
+renouveau	R@nuvo
+babel	babEl
+dormants	doRmA
+naïades	najiad
+ganges	ZAZ
+pauvresses	povREss
+gésine	Zezin
+écumeux	ekym2
+fangeux	fAZ2
+buttant	bytA
+futailles	fytaj
+onduleuse	Cdyl2z
+adeline		ad2lin
+gueuserie	g2z2ri
+calenture	kalAtyr
+nageant	naZA
+impalpable	e~palpabl
+lamées	lame
+renoncule	r2nCkyl
+rosâtre	rozatr
+entr	Antr
+roides	rwad
+lesbos	lEsbos
+languissants	lAgisAt
+fourmillants	fuRmijA
+phrynés	SRine
+paphos	paSos
+sapho	saSo
+nubilité	nybilite
+platon	platC
+excès	eksE
+inépuisés	inepHise
+leucate	l2kat
+brick	bRik
+tartane	taRtan
+tachète	taSEt
+languissantes	lAgisAt
+hippolyte	ipolit
+delphine	dElfin
+bœufs	b2f
+euménide	2menid
+pêle	pEl
 ***
