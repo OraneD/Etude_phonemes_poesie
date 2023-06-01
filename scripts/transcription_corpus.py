@@ -14,6 +14,9 @@ import pandas as pd
 from tabulate import tabulate
 from ansi2html import Ansi2HTMLConverter
 import csv
+import time
+
+start_time = time.time()
 
 def transcription(corpusPath, stats_auteur) : 
     diereses = pd.read_csv("diereses.txt")
@@ -78,7 +81,7 @@ def transcription(corpusPath, stats_auteur) :
                                     longueur_vers = len(liste_mots_vers)
                                     nb_syllabes = 0
                                     while longueur_vers > 0 :
-                                        mot = liste_mots_vers[0]
+                                        mot = liste_mots_vers[0].strip()
                                         liste_mots_vers = liste_mots_vers[1:]
                                         longueur_vers = len(liste_mots_vers)
                                         with open("dico1.txt", "r") as dico :
@@ -174,7 +177,7 @@ def transcription(corpusPath, stats_auteur) :
                                                             
                                                         #Transcription simple 
                                                         vers_phonetique += phonetique + " "
-                                                        vers_phonetique_sanscouleur += "|"
+                                                        vers_phonetique_sanscouleur += phonetique
                                                         for lettre in phonetique :
                                                             if lettre in voyelles_sampa :
                                                                 nb_syllabes += 1
@@ -203,23 +206,24 @@ def transcription(corpusPath, stats_auteur) :
                                     print(vers_propre, vers_phonetique, nb_syllabes)
                                     print()
                                         
-                evaluation_poemes.append(nb_vers_bon/nb_vers)
             print("----MOTS INCONNUS------")    
             print(len((liste_mots_inconnus)))
             print(liste_mots_inconnus)
-            #with open("mots_inconnus_transcriptions.txt", "w") as file :
-                #for mot in liste_mots_inconnus :
-                    #file.write(mot + "\n")
+            with open("mots_inconnus_transcriptions.txt", "w") as file :
+                for mot in liste_mots_inconnus :
+                    file.write(mot + "\n")
 
             print("----EVALUATION----")
-
             print("Pourcentage pars vers :")
             print((nb_vers_bon / nb_vers)* 100)
 
             return liste_vers, liste_vers_phonetique, syllabes, liste_vers_phonetique_sanscouleur
     
                
-liste_vers, liste_vers_phonetique, syllabes, liste_vers_phonetique_sans_couleur = transcription(Path("../Corpus/Baudelaire"),"analyse_CM_profils.csv")         
+liste_vers, liste_vers_phonetique, syllabes, liste_vers_phonetique_sans_couleur = transcription(Path("../Corpus/Musset"),Path("../Corpus/Musset/analyse_CM_profils_Musset.csv")   )     
+
+end_time = time.time()
+print(end_time - start_time)
 
 def resultats_html(vers, vers_phonetique, syllabes, nomfichier) :          
     df_poeme = pd.DataFrame()
@@ -228,24 +232,27 @@ def resultats_html(vers, vers_phonetique, syllabes, nomfichier) :
     df_poeme["syllabes"] = syllabes
     print(tabulate(df_poeme, headers='keys', tablefmt='psql'))
     #CONVERSION AU FORMAT HTML
-    html = df_poeme.to_html()
-    conv = Ansi2HTMLConverter()
-    html_conv = html = conv.convert(html)
-    text_file = open(nomfichier, "w")
-    text_file.write(html_conv)
-    text_file.close()
+    #html = df_poeme.to_html()
+   # conv = Ansi2HTMLConverter()
+    #html_conv = html = conv.convert(html)
+    #text_file = open(nomfichier, "w")
+    #text_file.write(html_conv)
+    #text_file.close()
     
-resultats_html(liste_vers, liste_vers_phonetique, syllabes, "baudelaire.html")
+resultats_html(liste_vers, liste_vers_phonetique, syllabes, "musset.html")
 
 def resultats_csv(vers, vers_phonetique_sanscouleur, syllabes, nomfichier) :
-    with open(nomfichier, "w") as csv :
+    with open(nomfichier, "w") as csvfile :
         colonnes = ["Vers", "Phonétique", "Syllabes"]
-        objet = csv.DictWriter(csv, fieldnames=colonnes)
-        objet.writeheader()
-        for i in range(len(vers)) : 
-            objet.writerow({"Vers" : vers[i].strip("\n"), "Phonétique" : vers_phonetique_sanscouleur[i], "Syllabes" : syllabes[i]})
+        objet = csv.writer(csvfile)
+        objet.writerow(colonnes)
+        c = zip(vers, vers_phonetique_sanscouleur, syllabes)
+        objet.writerows(c)
+
     
-resultats_csv(liste_vers, liste_vers_phonetique_sans_couleur, syllabes, "baudelaire.csv")
+resultats_csv(liste_vers, liste_vers_phonetique_sans_couleur, syllabes, Path("../resultats/csv_transcriptions/musset.csv"))
+
+
 
 
 
