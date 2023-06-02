@@ -1,0 +1,338 @@
+ID	ID_AUTEUR	ID_RECUEIL	ID_POEME	TYPE_TEXTE	LM	PROFIL	NBR	REPETITION	REGLE	DESCRIPTION	REMARQUES	DATE	
+MUS1.lm:8	MUS	MUS_1	MUS1	poem	8	8	14		0.1	mètre simple		2022-06-06	
+MUS10.lm:12	MUS	MUS_1	MUS10	poem	12	6+6	12		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS11.lm:12	MUS	MUS_1	MUS11	poem	12	6+6	12		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS12.lm:4	MUS	MUS_1	MUS12	poem	4	4	17		0.1	mètre simple		2022-06-06	
+MUS12.lm:6	MUS	MUS_1	MUS12	poem	6	6	51		0.1	mètre simple		2022-06-06	
+MUS13.lm:3	MUS	MUS_1	MUS13	poem	3	3	10		0.1	mètre simple		2022-06-06	
+MUS13.lm:8	MUS	MUS_1	MUS13	poem	8	8	30		0.1	mètre simple		2022-06-06	
+MUS14.lm:12	MUS	MUS_1	MUS14	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS15.lm:2	MUS	MUS_1	MUS15	poem	2	2	34		0.1	mètre simple		2022-06-06	
+MUS15.lm:6	MUS	MUS_1	MUS15	poem	6	6	102		0.1	mètre simple		2022-06-06	
+MUS16.lm:12	MUS	MUS_1	MUS16	poem	12	6−6	590		1.1.2.1.2.1	profil traditionnel avec vers entravé(s)		2022-06-06	
+MUS17.lm:8	MUS	MUS_1	MUS17	poem	8	8	15		0.1	mètre simple		2022-06-06	
+MUS17.lm:12	MUS	MUS_1	MUS17	poem	12	6+6	279		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS18.lm:12	MUS	MUS_1	MUS18	poem	12	6+6	171		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS19.lm:12	MUS	MUS_1	MUS19	poem	12	6+6	91		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS2.lm:12	MUS	MUS_1	MUS2	poem	12	6+6	500		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS20.lm:12	MUS	MUS_1	MUS20	poem	12	6+6	139		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS21.lm:10	MUS	MUS_1	MUS21	poem	10	5+5	16		1.1.2.1.1.2	profil traditionnel		2022-06-06	
+MUS22.lm:8	MUS	MUS_1	MUS22	poem	8	8	24		0.1	mètre simple		2022-06-06	
+MUS23.lm:8	MUS	MUS_1	MUS23	poem	8	8	49		0.1	mètre simple		2022-06-06	
+MUS24.lm:8	MUS	MUS_1	MUS24	poem	8	8	36		0.1	mètre simple		2022-06-06	
+MUS25.lm:6	MUS	MUS_1	MUS25	poem	6	6	2		0.1	mètre simple		2022-06-06	
+MUS25.lm:12	MUS	MUS_1	MUS25	poem	12	6+6	15		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS26.lm:6	MUS	MUS_1	MUS26	poem	6	6	4		0.1	mètre simple		2022-06-06	
+MUS26.lm:12	MUS	MUS_1	MUS26	poem	12	6+6	16		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS27.lm:12	MUS	MUS_1	MUS27	poem	12	6+6	20		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS28.lm:8	MUS	MUS_1	MUS28	poem	8		1		0.0	vers unique		2022-06-06	
+MUS28.lm:12	MUS	MUS_1	MUS28	poem	12	6+6	13		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS29.lm:8	MUS	MUS_1	MUS29	poem	8	8	32		0.1	mètre simple		2022-06-06	
+MUS3.lm:2	MUS	MUS_1	MUS3	drama	2		1		0.0	vers unique		2022-06-06	
+MUS3.lm:7	MUS	MUS_1	MUS3	drama	7	7	14		0.1	mètre simple		2022-06-06	
+MUS3.lm:8	MUS	MUS_1	MUS3	drama	8	8	2		0.1	mètre simple		2022-06-06	
+MUS3.lm:12	MUS	MUS_1	MUS3	drama	12	6+6	711		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS30.lm:8	MUS	MUS_1	MUS30	poem	8	8	2		0.1	mètre simple		2022-06-06	
+MUS30.lm:10	MUS	MUS_1	MUS30	poem	10	4+6	1		1.0.0	vers unique	équivalence culturelle	2022-06-06	
+MUS30.lm:12	MUS	MUS_1	MUS30	poem	12	6+6	735		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS31.lm:12	MUS	MUS_1	MUS31	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS32.lm:4	MUS	MUS_1	MUS32	drama	4		1		0.0	vers unique		2022-06-06	
+MUS32.lm:6	MUS	MUS_1	MUS32	drama	6	6	7		0.1	mètre simple		2022-06-06	
+MUS32.lm:7	MUS	MUS_1	MUS32	drama	7	7	4		0.1	mètre simple		2022-06-06	
+MUS32.lm:8	MUS	MUS_1	MUS32	drama	8	8	58		0.1	mètre simple		2022-06-06	
+MUS32.lm:10	MUS	MUS_1	MUS32	drama	10	4+6	1		1.0.0	vers unique	équivalence culturelle	2022-06-06	
+MUS32.lm:12	MUS	MUS_1	MUS32	drama	12	6−6	1566		1.1.2.1.2.1	profil traditionnel avec vers entravé(s)		2022-06-06	
+MUS33.lm:6	MUS	MUS_1	MUS33	drama	6	6	2		0.1	mètre simple		2022-06-06	
+MUS33.lm:8	MUS	MUS_1	MUS33	drama	8	8	7		0.1	mètre simple		2022-06-06	
+MUS33.lm:10	MUS	MUS_1	MUS33	drama	10	4+6	3		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS33.lm:12	MUS	MUS_1	MUS33	drama	12	6+6	683		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS34.lm:12	MUS	MUS_1	MUS34	poem	12	6+6	882		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS4.lm:12	MUS	MUS_1	MUS4	poem	12	6+6	522		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS5.lm:8	MUS	MUS_1	MUS5	poem	8	8	40		0.1	mètre simple		2022-06-06	
+MUS6.lm:6	MUS	MUS_1	MUS6	poem	6	6	42		0.1	mètre simple		2022-06-06	
+MUS7.lm:8	MUS	MUS_1	MUS7	poem	8	8	42		0.1	mètre simple		2022-06-06	
+MUS8.lm:8	MUS	MUS_1	MUS8	poem	8	8	48		0.1	mètre simple		2022-06-06	
+MUS9.lm:12	MUS	MUS_1	MUS9	poem	12	6+6	12		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS100.lm:12	MUS	MUS_2	MUS100	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS101.lm:6	MUS	MUS_2	MUS101	poem	6	6	3		0.1	mètre simple		2022-06-06	
+MUS101.lm:7	MUS	MUS_2	MUS101	poem	7	7	9		0.1	mètre simple		2022-06-06	
+MUS102.lm:4	MUS	MUS_2	MUS102	poem	4		1		0.0	vers unique		2022-06-06	
+MUS102.lm:6	MUS	MUS_2	MUS102	poem	6	6	3		0.1	mètre simple		2022-06-06	
+MUS102.lm:8	MUS	MUS_2	MUS102	poem	8	8	21		0.1	mètre simple		2022-06-06	
+MUS102.lm:10	MUS	MUS_2	MUS102	poem	10	4÷6	12		1.1.1.2.1.1.3	profil traditionnel avec vers bloqué(s)	profil concurrent atypique écarté : ['7.3']	2022-06-06	
+MUS102.lm:12	MUS	MUS_2	MUS102	poem	12	6+6	36		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS103.lm:4	MUS	MUS_2	MUS103	poem	4	4	10		0.1	mètre simple		2022-06-06	
+MUS103.lm:8	MUS	MUS_2	MUS103	poem	8	8	35		0.1	mètre simple		2022-06-06	
+MUS104.lm:12	MUS	MUS_2	MUS104	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS35.lm:12	MUS	MUS_2	MUS35	poem	12	6+6	784		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS36.lm:12	MUS	MUS_2	MUS36	poem	12	6−6	264		1.1.2.1.2.1	profil traditionnel avec vers entravé(s)		2022-06-06	
+MUS37.lm:8	MUS	MUS_2	MUS37	poem	8	8	12		0.1	mètre simple		2022-06-06	
+MUS37.lm:12	MUS	MUS_2	MUS37	poem	12	6+6	62		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS38.lm:8	MUS	MUS_2	MUS38	poem	8	8	49		0.1	mètre simple		2022-06-06	
+MUS38.lm:12	MUS	MUS_2	MUS38	poem	12	6+6	153		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS39.lm:8	MUS	MUS_2	MUS39	poem	8	8	166		0.1	mètre simple		2022-06-06	
+MUS39.lm:10	MUS	MUS_2	MUS39	poem	10	4+6	50		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS40.lm:8	MUS	MUS_2	MUS40	poem	8	8	26		0.1	mètre simple		2022-06-06	
+MUS40.lm:12	MUS	MUS_2	MUS40	poem	12	6+6	111		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS41.lm:7	MUS	MUS_2	MUS41	poem	7	7	36		0.1	mètre simple		2022-06-06	
+MUS41.lm:8	MUS	MUS_2	MUS41	poem	8	8	113		0.1	mètre simple		2022-06-06	
+MUS41.lm:10	MUS	MUS_2	MUS41	poem	10	4+6	16		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS41.lm:12	MUS	MUS_2	MUS41	poem	12	6+6	148		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS42.lm:12	MUS	MUS_2	MUS42	poem	12	6+6	280		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS43.lm:12	MUS	MUS_2	MUS43	poem	12	6+6	162		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS44.lm:8	MUS	MUS_2	MUS44	poem	8	8	101		0.1	mètre simple		2022-06-06	
+MUS44.lm:12	MUS	MUS_2	MUS44	poem	12	6+6	148		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS45.lm:12	MUS	MUS_2	MUS45	poem	12	6+6	72		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS46.lm:12	MUS	MUS_2	MUS46	poem	12	6+6	254		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS47.lm:12	MUS	MUS_2	MUS47	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS48.lm:12	MUS	MUS_2	MUS48	poem	12	6+6	95		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS49.lm:12	MUS	MUS_2	MUS49	poem	12	6+6	129		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS50.lm:8	MUS	MUS_2	MUS50	poem	8	8	215		0.1	mètre simple		2022-06-06	
+MUS50.lm:10	MUS	MUS_2	MUS50	poem	10	4+6	129		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS50.lm:12	MUS	MUS_2	MUS50	poem	12	6+6	28		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS51.lm:3	MUS	MUS_2	MUS51	poem	3		1		0.0	vers unique		2022-06-06	
+MUS51.lm:5	MUS	MUS_2	MUS51	poem	5	5	4		0.1	mètre simple		2022-06-06	
+MUS51.lm:7	MUS	MUS_2	MUS51	poem	7		2		0.0	vers unique		2022-06-06	
+MUS51.lm:8	MUS	MUS_2	MUS51	poem	8	8	5		0.1	mètre simple		2022-06-06	
+MUS51.lm:10	MUS	MUS_2	MUS51	poem	10	10	1		1.0.0	vers unique	juste une longueur métrique	2022-06-06	
+MUS52.lm:4	MUS	MUS_2	MUS52	poem	4	4	12		0.1	mètre simple		2022-06-06	
+MUS52.lm:10	MUS	MUS_2	MUS52	poem	10	4+6	6		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS53.lm:4	MUS	MUS_2	MUS53	poem	4	4	10		0.1	mètre simple		2022-06-06	
+MUS53.lm:8	MUS	MUS_2	MUS53	poem	8	8	10		0.1	mètre simple		2022-06-06	
+MUS54.lm:12	MUS	MUS_2	MUS54	poem	12	6+6	50		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS55.lm:12	MUS	MUS_2	MUS55	poem	12	6+6	12		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS56.lm:12	MUS	MUS_2	MUS56	poem	12	6+6	40		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS57.lm:8	MUS	MUS_2	MUS57	poem	8	8	14		0.1	mètre simple		2022-06-06	
+MUS57.lm:12	MUS	MUS_2	MUS57	poem	12	6+6	17		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS58.lm:8	MUS	MUS_2	MUS58	poem	8	8	30		0.1	mètre simple		2022-06-06	
+MUS59.lm:12	MUS	MUS_2	MUS59	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS60.lm:8	MUS	MUS_2	MUS60	poem	8	8	40		0.1	mètre simple		2022-06-06	
+MUS61.lm:12	MUS	MUS_2	MUS61	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS62.lm:12	MUS	MUS_2	MUS62	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS63.lm:8	MUS	MUS_2	MUS63	poem	8	8	14		0.1	mètre simple		2022-06-06	
+MUS63.lm:10	MUS	MUS_2	MUS63	poem	10	4+6	6		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS64.lm:10	MUS	MUS_2	MUS64	poem	10	4+6	14		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS65.lm:12	MUS	MUS_2	MUS65	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS66.lm:8	MUS	MUS_2	MUS66	poem	8		1		0.0	vers unique		2022-06-06	
+MUS66.lm:12	MUS	MUS_2	MUS66	poem	12	6+6	11		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS67.lm:8	MUS	MUS_2	MUS67	poem	8	8	20		0.1	mètre simple		2022-06-06	
+MUS68.lm:12	MUS	MUS_2	MUS68	poem	12	6+6	83		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS69.lm:8	MUS	MUS_2	MUS69	poem	8	8	375		0.1	mètre simple		2022-06-06	
+MUS70.lm:8	MUS	MUS_2	MUS70	poem	8	8	11		0.1	mètre simple		2022-06-06	
+MUS70.lm:10	MUS	MUS_2	MUS70	poem	10	4+6	1		1.0.0	vers unique	équivalence culturelle	2022-06-06	
+MUS70.lm:12	MUS	MUS_2	MUS70	poem	12	6+6	23		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS71.lm:8	MUS	MUS_2	MUS71	poem	8	8	12		0.1	mètre simple		2022-06-06	
+MUS72.lm:8	MUS	MUS_2	MUS72	poem	8	8	14		0.1	mètre simple		2022-06-06	
+MUS73.lm:8	MUS	MUS_2	MUS73	poem	8	8	18		0.1	mètre simple		2022-06-06	
+MUS73.lm:10	MUS	MUS_2	MUS73	poem	10	4+6	6		1.1.1.1.1.1	profil traditionnel	profil(s) concurrent(s) écarté(s) : ['7+3']	2022-06-06	
+MUS73.lm:12	MUS	MUS_2	MUS73	poem	12	6+6	6		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS74.lm:6	MUS	MUS_2	MUS74	poem	6	6	45		0.1	mètre simple		2022-06-06	
+MUS74.lm:12	MUS	MUS_2	MUS74	poem	12	6+6	135		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS75.lm:12	MUS	MUS_2	MUS75	poem	12	6+6	204		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS76.lm:4	MUS	MUS_2	MUS76	poem	4	4	74		0.1	mètre simple		2022-06-06	
+MUS76.lm:8	MUS	MUS_2	MUS76	poem	8	8	74		0.1	mètre simple		2022-06-06	
+MUS77.lm:4	MUS	MUS_2	MUS77	poem	4		3	rep	0.0	vers unique	Tous les vers de 4 sont identiques !	2022-06-06	
+MUS77.lm:6	MUS	MUS_2	MUS77	poem	6	6	6		0.1	mètre simple		2022-06-06	
+MUS77.lm:10	MUS	MUS_2	MUS77	poem	10	4+6	12		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS77.lm:12	MUS	MUS_2	MUS77	poem	12	6+6	6		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS78.lm:8	MUS	MUS_2	MUS78	poem	8	8	14		0.1	mètre simple		2022-06-06	
+MUS79.lm:4	MUS	MUS_2	MUS79	poem	4		2	rep	0.0	vers unique	Tous les vers de 4 sont identiques !	2022-06-06	
+MUS79.lm:10	MUS	MUS_2	MUS79	poem	10	4+6	13		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS80.lm:12	MUS	MUS_2	MUS80	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS81.lm:3	MUS	MUS_2	MUS81	poem	3	3	2		0.1	mètre simple		2022-06-06	
+MUS81.lm:8	MUS	MUS_2	MUS81	poem	8	8	13		0.1	mètre simple		2022-06-06	
+MUS82.lm:12	MUS	MUS_2	MUS82	poem	12	6+6	132		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS83.lm:12	MUS	MUS_2	MUS83	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS84.lm:4	MUS	MUS_2	MUS84	poem	4	4	18		0.1	mètre simple		2022-06-06	
+MUS84.lm:8	MUS	MUS_2	MUS84	poem	8	8	42		0.1	mètre simple		2022-06-06	
+MUS85.lm:12	MUS	MUS_2	MUS85	poem	12	6+6	186		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS86.lm:12	MUS	MUS_2	MUS86	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS87.lm:12	MUS	MUS_2	MUS87	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS88.lm:12	MUS	MUS_2	MUS88	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS89.lm:12	MUS	MUS_2	MUS89	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS90.lm:3	MUS	MUS_2	MUS90	poem	3	3	30		0.1	mètre simple		2022-06-06	
+MUS90.lm:7	MUS	MUS_2	MUS90	poem	7	7	30		0.1	mètre simple		2022-06-06	
+MUS91.lm:3	MUS	MUS_2	MUS91	poem	3	3	68		0.1	mètre simple		2022-06-06	
+MUS91.lm:8	MUS	MUS_2	MUS91	poem	8	8	68		0.1	mètre simple		2022-06-06	
+MUS92.lm:4	MUS	MUS_2	MUS92	poem	4	4	64		0.1	mètre simple		2022-06-06	
+MUS92.lm:8	MUS	MUS_2	MUS92	poem	8	8	128		0.1	mètre simple		2022-06-06	
+MUS93.lm:5	MUS	MUS_2	MUS93	poem	5	5	56		0.1	mètre simple		2022-06-06	
+MUS93.lm:10	MUS	MUS_2	MUS93	poem	10	5+5	28		1.1.2.1.1.2	profil traditionnel		2022-06-06	
+MUS94.lm:8	MUS	MUS_2	MUS94	poem	8	8	20		0.1	mètre simple		2022-06-06	
+MUS95.lm:4	MUS	MUS_2	MUS95	poem	4		2	rep	0.0	vers unique	Tous les vers de 4 sont identiques !	2022-06-06	
+MUS95.lm:10	MUS	MUS_2	MUS95	poem	10	4+6	13		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS96.lm:8	MUS	MUS_2	MUS96	poem	8	8	195		0.1	mètre simple		2022-06-06	
+MUS97.lm:12	MUS	MUS_2	MUS97	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS98.lm:12	MUS	MUS_2	MUS98	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS99.lm:4	MUS	MUS_2	MUS99	poem	4	4	8		0.1	mètre simple		2022-06-06	
+MUS99.lm:8	MUS	MUS_2	MUS99	poem	8	8	4		0.1	mètre simple		2022-06-06	
+MUS105.lm:2	MUS	MUS_3	MUS105	poem	2	2	42		0.1	mètre simple		2022-06-06	
+MUS105.lm:6	MUS	MUS_3	MUS105	poem	6	6	84		0.1	mètre simple		2022-06-06	
+MUS106.lm:8	MUS	MUS_3	MUS106	poem	8	8	9		0.1	mètre simple		2022-06-06	
+MUS106.lm:12	MUS	MUS_3	MUS106	poem	12	6+6	15		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS107.lm:12	MUS	MUS_3	MUS107	poem	12	6−6	204		1.1.2.1.2.1	profil traditionnel avec vers entravé(s)		2022-06-06	
+MUS108.lm:8	MUS	MUS_3	MUS108	poem	8	8	32		0.1	mètre simple		2022-06-06	
+MUS109.lm:8	MUS	MUS_3	MUS109	poem	8	8	9		0.1	mètre simple		2022-06-06	
+MUS110.lm:8	MUS	MUS_3	MUS110	poem	8	8	4		0.1	mètre simple		2022-06-06	
+MUS111.lm:2	MUS	MUS_3	MUS111	poem	2	2	2		0.1	mètre simple		2022-06-06	
+MUS111.lm:8	MUS	MUS_3	MUS111	poem	8	8	13		0.1	mètre simple		2022-06-06	
+MUS112.lm:5	MUS	MUS_3	MUS112	poem	5	5	22		0.1	mètre simple		2022-06-06	
+MUS112.lm:7	MUS	MUS_3	MUS112	poem	7	7	2		0.1	mètre simple		2022-06-06	
+MUS113.lm:10	MUS	MUS_3	MUS113	poem	10	4+6	34		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS114.lm:8	MUS	MUS_3	MUS114	poem	8	8	4		0.1	mètre simple		2022-06-06	
+MUS114.lm:12	MUS	MUS_3	MUS114	poem	12	6+6	1		1.0.0	vers unique	équivalence culturelle	2022-06-06	
+MUS115.lm:8	MUS	MUS_3	MUS115	poem	8	8	24		0.1	mètre simple		2022-06-06	
+MUS116.lm:8	MUS	MUS_4	MUS116	poem	8	8	32		0.1	mètre simple		2022-06-06	
+MUS117.lm:8	MUS	MUS_4	MUS117	poem	8	8	4		0.1	mètre simple		2022-06-06	
+MUS117.lm:10	MUS	MUS_4	MUS117	poem	10	4+6	4		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS117.lm:12	MUS	MUS_4	MUS117	poem	12	6+6	1		1.0.0	vers unique	équivalence culturelle	2022-06-06	
+MUS118.lm:2	MUS	MUS_4	MUS118	poem	2	2	22		0.1	mètre simple		2022-06-06	
+MUS118.lm:5	MUS	MUS_4	MUS118	poem	5	5	44		0.1	mètre simple		2022-06-06	
+MUS119.lm:12	MUS	MUS_4	MUS119	poem	12	6+6	7		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS120.lm:2	MUS	MUS_4	MUS120	poem	2	2	14		0.1	mètre simple		2022-06-06	
+MUS120.lm:12	MUS	MUS_4	MUS120	poem	12	6+6	45		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS121.lm:12	MUS	MUS_4	MUS121	poem	12	6+6	94		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS122.lm:6	MUS	MUS_4	MUS122	poem	6	6	24		0.1	mètre simple		2022-06-06	
+MUS122.lm:12	MUS	MUS_4	MUS122	poem	12	6+6	36		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS123.lm:12	MUS	MUS_4	MUS123	poem	12	6+6	70		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS124.lm:2	MUS	MUS_4	MUS124	poem	2	2	2		0.1	mètre simple		2022-06-06	
+MUS124.lm:3	MUS	MUS_4	MUS124	poem	3	3	2		0.1	mètre simple		2022-06-06	
+MUS124.lm:4	MUS	MUS_4	MUS124	poem	4	4	8		0.1	mètre simple		2022-06-06	
+MUS124.lm:5	MUS	MUS_4	MUS124	poem	5		1		0.0	vers unique		2022-06-06	
+MUS124.lm:6	MUS	MUS_4	MUS124	poem	6	6	6		0.1	mètre simple		2022-06-06	
+MUS124.lm:7	MUS	MUS_4	MUS124	poem	7	7	2		0.1	mètre simple		2022-06-06	
+MUS124.lm:8	MUS	MUS_4	MUS124	poem	8	8	7		0.1	mètre simple		2022-06-06	
+MUS124.lm:9	MUS	MUS_4	MUS124	poem	9	5+4	3		1.1.2.3.1	profil non traditionnel		2022-06-06	
+MUS124.lm:10	MUS	MUS_4	MUS124	poem	10	10	1		1.0.0	vers unique	juste une longueur métrique	2022-06-06	
+MUS124.lm:12	MUS	MUS_4	MUS124	poem	12	6+6	1		1.0.0	vers unique	équivalence culturelle	2022-06-06	
+MUS125.lm:8	MUS	MUS_4	MUS125	poem	8	8	48		0.1	mètre simple		2022-06-06	
+MUS126.lm:12	MUS	MUS_4	MUS126	poem	12	6+6	8		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS127.lm:8	MUS	MUS_4	MUS127	poem	8	8	4		0.1	mètre simple		2022-06-06	
+MUS127.lm:12	MUS	MUS_4	MUS127	poem	12	6+6	20		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS128.lm:8	MUS	MUS_4	MUS128	poem	8	8	2		0.1	mètre simple		2022-06-06	
+MUS128.lm:12	MUS	MUS_4	MUS128	poem	12	6+6	2		1.1.1.1.1	profil traditionnel	profil(s) concurrent(s) atypiques écarté(s) : ['2+10']	2022-06-06	
+MUS129.lm:12	MUS	MUS_4	MUS129	poem	12	6+6	38		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS130.lm:6	MUS	MUS_4	MUS130	poem	6	6	56		0.1	mètre simple		2022-06-06	
+MUS131.lm:7	MUS	MUS_4	MUS131	poem	7	7	144		0.1	mètre simple		2022-06-06	
+MUS132.lm:12	MUS	MUS_4	MUS132	poem	12	6+6	23		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS133.lm:6	MUS	MUS_4	MUS133	poem	6	6	32		0.1	mètre simple		2022-06-06	
+MUS134.lm:8	MUS	MUS_4	MUS134	poem	8	8	2		0.1	mètre simple		2022-06-06	
+MUS134.lm:12	MUS	MUS_4	MUS134	poem	12	6+6	52		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS135.lm:12	MUS	MUS_4	MUS135	poem	12	6+6	12		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS136.lm:12	MUS	MUS_4	MUS136	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS137.lm:12	MUS	MUS_4	MUS137	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS138.lm:12	MUS	MUS_4	MUS138	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS139.lm:12	MUS	MUS_4	MUS139	poem	12	6+6	8		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS140.lm:12	MUS	MUS_4	MUS140	poem	12	6+6	10		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS141.lm:12	MUS	MUS_4	MUS141	poem	12	6+6	26		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS142.lm:8	MUS	MUS_4	MUS142	poem	8	8	4		0.1	mètre simple		2022-06-06	
+MUS143.lm:12	MUS	MUS_4	MUS143	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS144.lm:12	MUS	MUS_4	MUS144	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS145.lm:6	MUS	MUS_4	MUS145	poem	6	6	11		0.1	mètre simple		2022-06-06	
+MUS145.lm:12	MUS	MUS_4	MUS145	poem	12	6+6	55		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS146.lm:12	MUS	MUS_4	MUS146	poem	12	6+6	40		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS147.lm:12	MUS	MUS_4	MUS147	poem	12	6+6	4		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS148.lm:8	MUS	MUS_4	MUS148	poem	8	8	72		0.1	mètre simple		2022-06-06	
+MUS149.lm:12	MUS	MUS_4	MUS149	poem	12	6+6	8		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS150.lm:7	MUS	MUS_4	MUS150	poem	7	7	4		0.1	mètre simple		2022-06-06	
+MUS151.lm:8	MUS	MUS_4	MUS151	poem	8	8	6		0.1	mètre simple		2022-06-06	
+MUS151.lm:10	MUS	MUS_4	MUS151	poem	10	4+6	2		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS152.lm:8	MUS	MUS_4	MUS152	poem	8		1		0.0	vers unique		2022-06-06	
+MUS152.lm:10	MUS	MUS_4	MUS152	poem	10	4+6	6		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS153.lm:8	MUS	MUS_4	MUS153	poem	8	8	40		0.1	mètre simple		2022-06-06	
+MUS154.lm:8	MUS	MUS_4	MUS154	poem	8	8	20		0.1	mètre simple		2022-06-06	
+MUS155.lm:6	MUS	MUS_4	MUS155	poem	6		1		0.0	vers unique		2022-06-06	
+MUS155.lm:8	MUS	MUS_4	MUS155	poem	8	8	3		0.1	mètre simple		2022-06-06	
+MUS155.lm:10	MUS	MUS_4	MUS155	poem	10	4+6	3		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS155.lm:12	MUS	MUS_4	MUS155	poem	12	6+6	4		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS156.lm:8	MUS	MUS_4	MUS156	poem	8	8	28		0.1	mètre simple		2022-06-06	
+MUS157.lm:4	MUS	MUS_4	MUS157	poem	4	4	6		0.1	mètre simple		2022-06-06	
+MUS157.lm:5	MUS	MUS_4	MUS157	poem	5	5	2		0.1	mètre simple		2022-06-06	
+MUS157.lm:6	MUS	MUS_4	MUS157	poem	6	6	4		0.1	mètre simple		2022-06-06	
+MUS157.lm:7	MUS	MUS_4	MUS157	poem	7	7	5		0.1	mètre simple		2022-06-06	
+MUS157.lm:8	MUS	MUS_4	MUS157	poem	8	8	8		0.1	mètre simple		2022-06-06	
+MUS157.lm:9	MUS	MUS_4	MUS157	poem	9	9i	1		1.0.0	vers unique	juste une longueur métrique	2022-06-06	
+MUS157.lm:12	MUS	MUS_4	MUS157	poem	12	6+6	2		1.1.1.1.1	profil traditionnel	profil(s) concurrent(s) atypiques écarté(s) : ['3+9', '4+8', '10+2']	2022-06-06	
+MUS158.lm:4	MUS	MUS_4	MUS158	poem	4	4	2		0.1	mètre simple		2022-06-06	
+MUS158.lm:5	MUS	MUS_4	MUS158	poem	5	5	7		0.1	mètre simple		2022-06-06	
+MUS158.lm:7	MUS	MUS_4	MUS158	poem	7	7	7		0.1	mètre simple		2022-06-06	
+MUS159.lm:8	MUS	MUS_4	MUS159	poem	8	8	44		0.1	mètre simple		2022-06-06	
+MUS159.lm:10	MUS	MUS_4	MUS159	poem	10	4+6	1		1.0.0	vers unique	équivalence culturelle	2022-06-06	
+MUS160.lm:12	MUS	MUS_4	MUS160	poem	12	6+6	18		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS161.lm:12	MUS	MUS_4	MUS161	poem	12	6+6	12		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS162.lm:2	MUS	MUS_4	MUS162	poem	2	2	66		0.1	mètre simple		2022-06-06	
+MUS162.lm:8	MUS	MUS_4	MUS162	poem	8	8	66		0.1	mètre simple		2022-06-06	
+MUS163.lm:12	MUS	MUS_4	MUS163	poem	12	6+6	4		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS164.lm:8	MUS	MUS_4	MUS164	poem	8	8	6		0.1	mètre simple		2022-06-06	
+MUS165.lm:12	MUS	MUS_4	MUS165	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS166.lm:2	MUS	MUS_4	MUS166	poem	2		5		0.0	vers unique		2022-06-06	
+MUS166.lm:5	MUS	MUS_4	MUS166	poem	5	5	20		0.1	mètre simple		2022-06-06	
+MUS166.lm:6	MUS	MUS_4	MUS166	poem	6	6	10		0.1	mètre simple		2022-06-06	
+MUS166.lm:7	MUS	MUS_4	MUS166	poem	7	7	9		0.1	mètre simple		2022-06-06	
+MUS166.lm:8	MUS	MUS_4	MUS166	poem	8	8	11		0.1	mètre simple		2022-06-06	
+MUS166.lm:12	MUS	MUS_4	MUS166	poem	12	6+6	5		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS167.lm:7	MUS	MUS_4	MUS167	poem	7		1		0.0	vers unique		2022-06-06	
+MUS167.lm:8	MUS	MUS_4	MUS167	poem	8	8	4		0.1	mètre simple		2022-06-06	
+MUS168.lm:4	MUS	MUS_4	MUS168	poem	4	4	6		0.1	mètre simple		2022-06-06	
+MUS168.lm:8	MUS	MUS_4	MUS168	poem	8	8	14		0.1	mètre simple		2022-06-06	
+MUS169.lm:12	MUS	MUS_4	MUS169	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS170.lm:8	MUS	MUS_4	MUS170	poem	8	8	40		0.1	mètre simple		2022-06-06	
+MUS171.lm:12	MUS	MUS_4	MUS171	poem	12	6+6	6		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS172.lm:7	MUS	MUS_4	MUS172	poem	7	7	60		0.1	mètre simple		2022-06-06	
+MUS173.lm:7	MUS	MUS_4	MUS173	poem	7	7	6		0.1	mètre simple		2022-06-06	
+MUS174.lm:8	MUS	MUS_4	MUS174	poem	8	8	7		0.1	mètre simple		2022-06-06	
+MUS175.lm:12	MUS	MUS_4	MUS175	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS176.lm:4	MUS	MUS_4	MUS176	poem	4		2	rep	0.0	vers unique	Tous les vers de 4 sont identiques !	2022-06-06	
+MUS176.lm:10	MUS	MUS_4	MUS176	poem	10	4+6	13		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS177.lm:8	MUS	MUS_4	MUS177	poem	8	8	3		0.1	mètre simple		2022-06-06	
+MUS177.lm:12	MUS	MUS_4	MUS177	poem	12	6+6	17		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS178.lm:8	MUS	MUS_4	MUS178	poem	8	8	42		0.1	mètre simple		2022-06-06	
+MUS179.lm:2	MUS	MUS_4	MUS179	poem	2		1		0.0	vers unique		2022-06-06	
+MUS179.lm:6	MUS	MUS_4	MUS179	poem	6	6	4		0.1	mètre simple		2022-06-06	
+MUS179.lm:8	MUS	MUS_4	MUS179	poem	8	8	16		0.1	mètre simple		2022-06-06	
+MUS179.lm:10	MUS	MUS_4	MUS179	poem	10	4+6	14		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS179.lm:12	MUS	MUS_4	MUS179	poem	12	6+6	3		1.1.1.1.1	profil traditionnel	profil(s) concurrent(s) atypiques écarté(s) : ['4+8']	2022-06-06	
+MUS180.lm:12	MUS	MUS_4	MUS180	poem	12	6+6	4		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS181.lm:8	MUS	MUS_4	MUS181	poem	8	8	20		0.1	mètre simple		2022-06-06	
+MUS181.lm:10	MUS	MUS_4	MUS181	poem	10	4+6	3		1.1.2.1.1.1	profil traditionnel		2022-06-06	
+MUS182.lm:12	MUS	MUS_4	MUS182	poem	12	6+6	35		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS183.lm:12	MUS	MUS_4	MUS183	poem	12	6+6	12		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS184.lm:8	MUS	MUS_4	MUS184	poem	8	8	6		0.1	mètre simple		2022-06-06	
+MUS184.lm:10	MUS	MUS_4	MUS184	poem	10	4+6	1		1.0.0	vers unique	équivalence culturelle	2022-06-06	
+MUS185.lm:3	MUS	MUS_4	MUS185	poem	3	3	5		0.1	mètre simple		2022-06-06	
+MUS185.lm:4	MUS	MUS_4	MUS185	poem	4		1		0.0	vers unique		2022-06-06	
+MUS185.lm:8	MUS	MUS_4	MUS185	poem	8	8	6		0.1	mètre simple		2022-06-06	
+MUS186.lm:6	MUS	MUS_4	MUS186	poem	6		1		0.0	vers unique		2022-06-06	
+MUS186.lm:8	MUS	MUS_4	MUS186	poem	8	8	4		0.1	mètre simple		2022-06-06	
+MUS186.lm:10	MUS	MUS_4	MUS186	poem	10	4+6	1		1.0.0	vers unique	équivalence culturelle	2022-06-06	
+MUS186.lm:12	MUS	MUS_4	MUS186	poem	12	6+6	7		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS187.lm:8	MUS	MUS_4	MUS187	poem	8	8	5		0.1	mètre simple		2022-06-06	
+MUS188.lm:12	MUS	MUS_4	MUS188	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS189.lm:12	MUS	MUS_4	MUS189	poem	12	6+6	8		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS190.lm:12	MUS	MUS_4	MUS190	poem	12	6+6	7		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS191.lm:12	MUS	MUS_4	MUS191	poem	12	6+6	8		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS192.lm:12	MUS	MUS_4	MUS192	poem	12	6+6	9		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS193.lm:12	MUS	MUS_4	MUS193	poem	12	6+6	25		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS194.lm:12	MUS	MUS_4	MUS194	poem	12	6+6	22		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS195.lm:12	MUS	MUS_4	MUS195	poem	12	6+6	24		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS196.lm:10	MUS	MUS_4	MUS196	poem	10	5+5	12		1.1.2.1.1.2	profil traditionnel		2022-06-06	
+MUS197.lm:6	MUS	MUS_5	MUS197	poem	6	6	18		0.1	mètre simple		2022-06-06	
+MUS197.lm:12	MUS	MUS_5	MUS197	poem	12	6+6	36		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS198.lm:8	MUS	MUS_5	MUS198	poem	8	8	4		0.1	mètre simple		2022-06-06	
+MUS199.lm:8	MUS	MUS_5	MUS199	poem	8	8	13		0.1	mètre simple		2022-06-06	
+MUS200.lm:6	MUS	MUS_5	MUS200	poem	6	6	4		0.1	mètre simple		2022-06-06	
+MUS200.lm:7	MUS	MUS_5	MUS200	poem	7		1		0.0	vers unique		2022-06-06	
+MUS200.lm:8	MUS	MUS_5	MUS200	poem	8	8	8		0.1	mètre simple		2022-06-06	
+MUS201.lm:3	MUS	MUS_5	MUS201	poem	3	3	69		0.1	mètre simple		2022-06-06	
+MUS201.lm:4	MUS	MUS_5	MUS201	poem	4		1		0.0	vers unique		2022-06-06	
+MUS201.lm:8	MUS	MUS_5	MUS201	poem	8	8	70		0.1	mètre simple		2022-06-06	
+MUS202.lm:6	MUS	MUS_5	MUS202	poem	6	6	15		0.1	mètre simple		2022-06-06	
+MUS203.lm:6	MUS	MUS_5	MUS203	poem	6	6	15		0.1	mètre simple		2022-06-06	
+MUS204.lm:3	MUS	MUS_5	MUS204	poem	3	3	10		0.1	mètre simple		2022-06-06	
+MUS204.lm:7	MUS	MUS_5	MUS204	poem	7	7	20		0.1	mètre simple		2022-06-06	
+MUS205.lm:12	MUS	MUS_5	MUS205	poem	12	6+6	14		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS206.lm:12	MUS	MUS_5	MUS206	poem	12	6+6	4		1.1.2.1.1	profil traditionnel		2022-06-06	
+MUS207.lm:8	MUS	MUS_5	MUS207	poem	8	8	4		0.1	mètre simple		2022-06-06	
+MUS208.lm:8	MUS	MUS_5	MUS208	poem	8	8	4		0.1	mètre simple		2022-06-06	
+MUS209.lm:4	MUS	MUS_5	MUS209	poem	4	4	3		0.1	mètre simple		2022-06-06	
+MUS209.lm:6	MUS	MUS_5	MUS209	poem	6		1		0.0	vers unique		2022-06-06	

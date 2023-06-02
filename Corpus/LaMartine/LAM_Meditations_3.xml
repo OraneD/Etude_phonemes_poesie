@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="FRA" xsi:schemaLocation="https://git.unicaen.fr/malherbe/corpus/-/blob/master/XSD/TEI_Corpus_Malherbe_1.5.xsd">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">MÉDITATIONS POÉTIQUES</title>
+				<title type="sub">TROISIÈMES MÉDITATIONS</title>
+				<title type="medium">Édition électronique</title>
+				<author key="LAM">
+					<name>
+						<forename>Alphonse</forename>
+						<nameLink>de</nameLink>
+						<surname>LAMARTINE</surname>
+					</name>
+					<date from="1790" to="1869">1790-1869</date>
+				</author>
+				<editor>
+					Équipe du projet de recherche en traitement automatique des textes versifiés (corpus Maherbe)
+					<choice>
+						<abbr>CRISCO, Université de Caen Normandie</abbr>
+						<expan>Centre de Recherche Inter-langues sur la signification en contexte</expan>
+					</choice>
+					(EA 4255)
+				</editor>
+				<respStmt>
+					<resp>Encodage en XML, application des programmes de traitement automatique, vérification et correction des données analysées</resp>
+					<name id="RR">
+						<forename>Richard</forename>
+						<surname>Renault</surname>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<extent>688 vers</extent>
+			<publicationStmt>
+				<publisher>
+					<orgname>
+						<choice>
+							<abbr>CRISCO, Université de Caen Normandie</abbr>
+							<expan>Centre de Recherche Inter-langues sur la signification en contexte</expan>
+						</choice>
+					</orgname>
+					<address>
+						<addrLine>Université de Caen Normandie</addrLine>
+						<addrLine>14032 CAEN CEDEX</addrLine>
+						<addrLine>FRANCE</addrLine>
+					</address>
+					<email>crisco.incipit@unicaen.fr</email>
+					<ref type="URL">http://www.crisco.unicaen.fr/verlaine/</ref>
+				</publisher>
+				<pubPlace>Caen</pubPlace>
+				<date when="2021">2021</date>
+				<idno type="local">LAM_3</idno>
+				<availability status="free">
+					<licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Licence Creative Commons : CC-BY-NC-SA</licence>
+					<p>
+						Ce document est distribué sous licence libre Creative Commons CC-BY-NC-SA :
+						CC = Licence Creative Commons
+						BY = Attribution : Inclure les informations sur la licence, les créateurs et contributeurs,
+							 sur les sources et sur les modifications introduites.
+						NC = Pas d’utilisation commerciale.
+						SA = Partage dans les mêmes conditions.
+					</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblFull>
+					<titleStmt>
+						<title type="main">NOUVELLES MÉDITATIONS POÉTIQUES</title>
+						<author>Alphonse de Lamartine</author>
+					</titleStmt>
+					<publicationStmt>
+						<publisher>wikisource.org</publisher>
+						<idno type="URL">https://fr.wikisource.org/wiki/M%C3%A9ditations_po%C3%A9tiques/%C3%89dition_de_1860</idno>
+					</publicationStmt>
+					<sourceDesc>
+						<biblStruct>
+							<monogr>
+								<title>ŒUVRES COMPLÈTES DE LAMARTINE</title>
+								<author>Alphonse de Lamartine</author>
+								<edition>PUBLIÉES ET INÉDITES</edition>
+								<idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k210080c#</idno>
+								<imprint>
+									<pubPlace>Paris</pubPlace>
+									<publisher>CHEZ L'AUTEUR, HUE DE LA VILLE-L'ÉVÊQUE, 43</publisher>
+									<date when="1860">1860</date>
+								</imprint>
+								<biblScope unit="tome">TOME PREMIER</biblScope>
+							</monogr>
+						</biblStruct>
+					</sourceDesc>
+				</biblFull>
+			</sourceDesc>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title>MÉDITATIONS POÉTIQUES</title>
+						<author>Alphonse de Lamartine</author>
+						<idno type="URI">https://archive.org/details/mditationsp00lama/page/280/mode/2up</idno>
+						<imprint>
+							<pubPlace>Bruxelles</pubPlace>
+							<publisher>J.P.MELINE, LIBRAIRE-ÉDITEUR.</publisher>
+							<date when="1835">1835</date>
+						</imprint>
+					</monogr>
+					<note>Édition de référence pour les corrections métriques</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date from="1812" to="1847">1812-1847</date>
+			</creation>
+		</profileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>
+					Cette édition électronique s'inscrit dans un projet de constitution d'un corpus de textes versifiés
+					pour le traitement automatique des formes et structures métriques.
+				</p>
+			</projectDesc>
+			<samplingDecl>
+				<p>Les préfaces de l'édition de référence ne sont pas reprises dans la présente édition.</p>
+			</samplingDecl>
+			<editorialDecl>
+				<p>L'insertion des balises XML, délimitant les différentes unités du texte a été faite de manière semi-automatique.</p>
+				<p>L'orthographe du texte a été vérifiée avec le correcteur GNU Aspell.</p>
+				<p>Les retraits ont été adaptés aux différentes longueurs métriques (procédure automatique après application du programme de calcul de la longueur métrique des vers).</p>
+				<normalization>
+					<p>Les majuscules accentuées ont été restituées.</p>
+					<p>Les lettres ligaturées (œ et æ) ont été restituées par le correcteur orthographique.</p>
+					<p>La ponctuation a été normalisée (espace devant un signe de ponctuation double).</p>
+					<p>Les faux points de suspension (3 points) ont été remplacés par le caractère approprié (…).</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="poem" key="LAM70">
+				<head type="number">PREMIÈRE MÉDITATION</head>
+				<head type="main">LA PERVENCHE</head>
+				<lg n="1">
+					<l n="1" num="1.1">Pâle fleur, timide pervenche,</l>
+					<l n="2" num="1.2">Je sais la place où tu fleuris,</l>
+					<l n="3" num="1.3">Le gazon où ton front se penche</l>
+					<l n="4" num="1.4">Pour humecter tes yeux flétris !</l>
+				</lg>
+				<lg n="2">
+					<l n="5" num="2.1">C’est dans un sentier qui se cache</l>
+					<l n="6" num="2.2">Sous ses deux bords de noisetiers,</l>
+					<l n="7" num="2.3">Où pleut sur l’ombre qu’elle tache</l>
+					<l n="8" num="2.4">La neige des blancs églantiers.</l>
+				</lg>
+				<lg n="3">
+					<l n="9" num="3.1">L’ombre t’y voile, l’herbe égoutte</l>
+					<l n="10" num="3.2">Les perles de nos nuits d’été,</l>
+					<l n="11" num="3.3">Le rayon les boit goutte à goutte</l>
+					<l n="12" num="3.4">Sur ton calice velouté.</l>
+				</lg>
+				<lg n="4">
+					<l n="13" num="4.1">Une source tout près palpite,</l>
+					<l n="14" num="4.2">Où s’abreuve le merle noir,</l>
+					<l n="15" num="4.3">Il y chante, et moi j’y médite</l>
+					<l n="16" num="4.4">Souvent de l’aube jusqu’au soir.</l>
+				</lg>
+				<lg n="5">
+					<l n="17" num="5.1">Ô fleur, que tu dirais de choses</l>
+					<l n="18" num="5.2">À mon amour, si tu retiens</l>
+					<l n="19" num="5.3">Ce que je dis à lèvres closes</l>
+					<l n="20" num="5.4">Quand tes yeux me peignent les siens !</l>
+				</lg>
+			</div>
+			<div type="poem" key="LAM71">
+				<head type="number">DEUXIÈME MÉDITATION</head>
+				<head type="main">SULTAN, LE CHEVAL ARABE</head>
+				<head type="sub_1">À M. DE CHAMPEAUX</head>
+				<head type="sub_2">1838</head>
+				<lg n="1">
+					<l n="1" num="1.1">Le soleil du désert ne luit plus sur ta lame,</l>
+					<l n="2" num="1.2">Ô mon large yatagan plus poli qu’un miroir,</l>
+					<l n="3" num="1.3">Où Kaïdha mirait son visage de femme,</l>
+					<l n="4" num="1.4">Comme un rayon sortant des ombres d’un ciel noir ?</l>
+				</lg>
+				<lg n="2">
+					<l n="5" num="2.1">Tu pends par la poignée au pilier d’une tente,</l>
+					<l n="6" num="2.2">Avec mon narghilé, ma selle, et mon fusil ;</l>
+					<l n="7" num="2.3">Et, semblable à mon cœur qui s’use dans l’attente,</l>
+					<l n="8" num="2.4">La rouille et le repos te dévorent le fil !</l>
+				</lg>
+				<lg n="3">
+					<l n="9" num="3.1">Et toi, mon fier Sultan, à la crinière noire,</l>
+					<l n="10" num="3.2">Coursier né des amours de la foudre et du vent,</l>
+					<l n="11" num="3.3">Dont quelques poils de jais tigraient la blanche moire,</l>
+					<l n="12" num="3.4">Dont le sabot mordait sur le sable mouvant,</l>
+				</lg>
+				<lg n="4">
+					<l n="13" num="4.1">Que fais-tu maintenant, cher berceur de mes rêves ?</l>
+					<l n="14" num="4.2">Mon oreille aimait tant ton pas mélodieux,</l>
+					<l n="15" num="4.3">Quand la bruyante mer, dont nous suivions les grèves,</l>
+					<l n="16" num="4.4">Nous jetait sa fraîcheur et son écume aux yeux !</l>
+				</lg>
+				<lg n="5">
+					<l n="17" num="5.1">Tu rengorgeais si beau ton cou marbré de veines,</l>
+					<l n="18" num="5.2">Quand celle que ma main sur ta croupe élançait</l>
+					<l n="19" num="5.3">T’appelait par ton nom, et, retirant tes rênes,</l>
+					<l n="20" num="5.4">Marquetait de baisers ton poil qui frémissait !</l>
+				</lg>
+				<lg n="6">
+					<l n="21" num="6.1">Je la livrais sans peur à ton galop sauvage !</l>
+					<l n="22" num="6.2">La vague de la mer, dans le golfe dormant,</l>
+					<l n="23" num="6.3">Moins amoureusement berce près du rivage</l>
+					<l n="24" num="6.4">La barque abandonnée à son balancement :</l>
+				</lg>
+				<lg n="7">
+					<l n="25" num="7.1">Car, au plus léger cri qui gonflait sa poitrine,</l>
+					<l n="26" num="7.2">Tu t’arrêtais tournant ton bel œil vers tes flancs,</l>
+					<l n="27" num="7.3">Et, retenant ton feu dans ta rose narine,</l>
+					<l n="28" num="7.4">De l’écume du mors tu lavais ses pieds blancs.</l>
+				</lg>
+				<lg n="8">
+					<l n="29" num="8.1">Penses-tu quelquefois, le front bas vers la terre,</l>
+					<l n="30" num="8.2">À ce maître venu dans ton désert natal,</l>
+					<l n="31" num="8.3">Qui parlait sur ta croupe une langue étrangère,</l>
+					<l n="32" num="8.4">Et qui t’avait payé d’un monceau de métal ?</l>
+				</lg>
+				<lg n="9">
+					<l n="33" num="9.1">Penses-tu quelquefois à la jeune maîtresse</l>
+					<l n="34" num="9.2">Qui pour parer ta bride, houri d’un autre ciel,</l>
+					<l n="35" num="9.3">Détachait les rubis ou les fleurs de sa tresse,</l>
+					<l n="36" num="9.4">Et dont la main t’offrait de blancs cristaux de miel ?</l>
+				</lg>
+				<lg n="10">
+					<l n="37" num="10.1">Où sont-ils ? que font-ils ? quels climats les retiennent ?</l>
+					<l n="38" num="10.2">Les vaisseaux dont tu vois souvent blanchir les mâts,</l>
+					<l n="39" num="10.3">Ces grands oiseaux des mers qui vont et qui reviennent,</l>
+					<l n="40" num="10.4">Sur ton sable doré ne les déposent pas.</l>
+				</lg>
+				<lg n="11">
+					<l n="41" num="11.1">Ne les hennis-tu pas de ton naseau sonore ?</l>
+					<l n="42" num="11.2">Ton cœur dans ton poitrail ne bat-il pas d’amour,</l>
+					<l n="43" num="11.3">Quand ton oreille entend dans les champs de l’aurore</l>
+					<l n="44" num="11.4">Le nom, cher au Liban, de ce maître d’un jour ?</l>
+				</lg>
+				<lg n="12">
+					<l n="45" num="12.1">Oh ! oui, car de ta selle, en détachant mes armes,</l>
+					<l n="46" num="12.2">Tu me jetas tout triste un regard presque humain,</l>
+					<l n="47" num="12.3">Je vis ton œil bronzé se ternir, et deux larmes,</l>
+					<l n="48" num="12.4">Le long de tes naseaux, glissèrent sur ma main !</l>
+				</lg>
+			</div>
+			<div type="poem" key="LAM72">
+				<head type="number">TROISIÈME MÉDITATION</head>
+				<head type="main">LA FENÊTRE DE LA MAISON PATERNELLE</head>
+				<head type="sub_2">1816</head>
+				<lg n="1">
+					<l n="1" num="1.1">Autour du toit qui nous vit naître</l>
+					<l n="2" num="1.2">Un pampre étalait ses rameaux,</l>
+					<l n="3" num="1.3">Ses grains dorés, vers la fenêtre,</l>
+					<l n="4" num="1.4">Attiraient les petits oiseaux.</l>
+				</lg>
+				<lg n="2">
+					<l n="5" num="2.1">Ma mère étendant sa main blanche,</l>
+					<l n="6" num="2.2">Rapprochait les grappes de miel,</l>
+					<l n="7" num="2.3">Et ses enfants suçaient la branche,</l>
+					<l n="8" num="2.4">Qu’ils rendaient aux oiseaux du ciel.</l>
+				</lg>
+				<lg n="3">
+					<l n="9" num="3.1">L’oiseau n’est plus, la mère est morte ;</l>
+					<l n="10" num="3.2">Le vieux cep languit jaunissant,</l>
+					<l n="11" num="3.3">L’herbe d’hiver croît sur la porte,</l>
+					<l n="12" num="3.4">Et moi, je pleure en y pensant.</l>
+				</lg>
+				<lg n="4">
+					<l n="13" num="4.1">C’est pourquoi la vigne enlacée</l>
+					<l n="14" num="4.2">Aux mémoires de mon berceau,</l>
+					<l n="15" num="4.3">Porte à mon âme une pensée,</l>
+					<l n="16" num="4.4">Et doit ramper sur mon tombeau.</l>
+				</lg>
+			</div>
+			<div type="poem" key="LAM73">
+				<head type="number">QUATRIÈME MÉDITATION</head>
+				<head type="main">À LAURENCE</head>
+				<lg n="1">
+					<l n="1" num="1.1">Es-tu d’Europe ? es-tu d’Asie ?</l>
+					<l n="2" num="1.2">Es-tu songe ? es-tu poésie ?</l>
+					<l n="3" num="1.3">Es-tu nature, ou fantaisie,</l>
+					<l n="4" num="1.4">Ou fantôme, ou réalité ?</l>
+					<l n="5" num="1.5">Dans tes yeux l’Inde se décèle,</l>
+					<l n="6" num="1.6">Sur tes cheveux le Nord ruisselle ;</l>
+					<l n="7" num="1.7">Tout climat a son étincelle</l>
+					<l n="8" num="1.8">Dans le disque de ta beauté !</l>
+				</lg>
+				<lg n="2">
+					<l n="9" num="2.1">Sœur des Psychés, ou fille d’Ève !</l>
+					<l n="10" num="2.2">Quand ma jeunesse avait sa séve,</l>
+					<l n="11" num="2.3">C’était sous ces traits que le rêve</l>
+					<l n="12" num="2.4">M’incarnait en un mille amours ;</l>
+					<l n="13" num="2.5">Je leur disais : « Je vous adore !</l>
+					<l n="14" num="2.6">» Ne disparaissez pas encore !… »</l>
+					<l n="15" num="2.7">Mais ils fuyaient avec l’aurore,</l>
+					<l n="16" num="2.8">Et tu renais avec les jours !</l>
+				</lg>
+				<lg n="3">
+					<l n="17" num="3.1">Oh ! pourquoi, divine inconnue,</l>
+					<l n="18" num="3.2">Pourquoi si tard es-tu venue,</l>
+					<l n="19" num="3.3">Du ciel, de l’air ou de la nue,</l>
+					<l n="20" num="3.4">Passer et luire devant moi ?</l>
+					<l n="21" num="3.5">Du regard je t’aurais suivie !</l>
+					<l n="22" num="3.6">Ô Dieu ! qui me rendra ma vie ?</l>
+					<l n="23" num="3.7">Ma part de temps me fut ravie,</l>
+					<l n="24" num="3.8">Puisque je vécus avant toi.</l>
+				</lg>
+				<lg n="4">
+					<l n="25" num="4.1">Jour à jour, d’ivresse en ivresse,</l>
+					<l n="26" num="4.2">Tu m’aurais conduit comme en laisse,</l>
+					<l n="27" num="4.3">Sans autre chaîne qu’une tresse,</l>
+					<l n="28" num="4.4">Depuis l’aube jusqu’au trépas ;</l>
+					<l n="29" num="4.5">Sur tout l’univers dispersée,</l>
+					<l n="30" num="4.6">Et dans mille coupes versée,</l>
+					<l n="31" num="4.7">Ma vie, immobile pensée,</l>
+					<l n="32" num="4.8">N’eût été qu’un pas sur tes pas !</l>
+				</lg>
+				<ab type="dot">· · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</ab>
+				<ab type="dot">· · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</ab>
+				<ab type="dot">· · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</ab>
+				<ab type="dot">· · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</ab>
+				<ab type="dot">· · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</ab>
+				<ab type="dot">· · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</ab>
+				<ab type="dot">· · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</ab>
+				<ab type="dot">· · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</ab>
+				<lg n="5">
+					<l n="33" num="5.1">Retour perdu vers l’impossible !</l>
+					<l n="34" num="5.2">Le Temps, sous son aile inflexible,</l>
+					<l n="35" num="5.3">A passé ma vie à son crible,</l>
+					<l n="36" num="5.4">Ainsi qu’un rude moissonneur ;</l>
+					<l n="37" num="5.5">Un peu de terre amoncelée</l>
+					<l n="38" num="5.6">Dira bientôt dans la vallée :</l>
+					<l n="39" num="5.7">« De ses jours la gerbe est foulée,</l>
+					<l n="40" num="5.8">» Et voilà la part du glaneur ! »</l>
+				</lg>
+				<lg n="6">
+					<l n="41" num="6.1">Ces heures, en cercle enchaînées,</l>
+					<l n="42" num="6.2">Qui dansaient au seuil des années,</l>
+					<l n="43" num="6.3">Sortent du chœur découronnées,</l>
+					<l n="44" num="6.4">Et leur aspect se rembrunit ;</l>
+					<l n="45" num="6.5">La dernière vers moi s’avance,</l>
+					<l n="46" num="6.6">Et du doigt me montre en silence</l>
+					<l n="47" num="6.7">La couche où le sommeil commence</l>
+					<l n="48" num="6.8">Sur un oreiller de granit.</l>
+				</lg>
+				<lg n="7">
+					<l n="49" num="7.1">Est-ce l’heure d’ouvrir son âme</l>
+					<l n="50" num="7.2">À ces songes aux traits de femme,</l>
+					<l n="51" num="7.3">Qui brûlent d’un poison de flamme</l>
+					<l n="52" num="7.4">Les yeux d’abord, le cœur après,</l>
+					<l n="53" num="7.5">Quand des jours l’espace et le nombre</l>
+					<l n="54" num="7.6">Se borne au petit cercle d’ombre</l>
+					<l n="55" num="7.7">Que décrit, sur un tertre sombre,</l>
+					<l n="56" num="7.8">La flèche d’un jeune cyprès ?</l>
+				</lg>
+				<lg n="8">
+					<l n="57" num="8.1">Mais toi, si tu viens jeune encore,</l>
+					<l n="58" num="8.2">Au bras de l’époux qui t’adore,</l>
+					<l n="59" num="8.3">Voir une marguerite éclore</l>
+					<l n="60" num="8.4">De ce gazon qui fleurit tard,</l>
+					<l n="61" num="8.5">Dis, en marchant sur ma poussière :</l>
+					<l n="62" num="8.6">« Celui qui dort sous cette pierre</l>
+					<l n="63" num="8.7">» Conserve au ciel, dans sa paupière,</l>
+					<l n="64" num="8.8">» Un rayon qui fut mon regard ! »</l>
+				</lg>
+			</div>
+			<div type="poem" key="LAM74">
+				<head type="number">CINQUIÈME MÉDITATION</head>
+				<head type="main">À M. DE MUSSET</head>
+				<head type="sub_1">EN RÉPONSE À SES VERS</head>
+				<head type="form">FRAGMENT DE MÉDITATION</head>
+				<head type="sub_2">1840</head>
+				<lg n="1">
+					<l n="1" num="1.1">Maintenant qu’abrité des monts de mon enfance,</l>
+					<l n="2" num="1.2">Je n’entends plus Paris ni son murmure immense,</l>
+					<l n="3" num="1.3">Qui, semblable à la mer contre un cap écumant,</l>
+					<l n="4" num="1.4">Répand loin de ses murs son retentissement ;</l>
+					<l n="5" num="1.5">Maintenant que mes jours et mes heures limpides</l>
+					<l n="6" num="1.6">Résonnent sous la main comme des urnes vides,</l>
+					<l n="7" num="1.7">Et que je puis en paix les combler à plaisir</l>
+					<l n="8" num="1.8">De contemplations, de chants et de loisir,</l>
+					<l n="9" num="1.9">Qu’entre le firmament et mon œil qui s’y lève</l>
+					<l n="10" num="1.10">Aucun plafond jaloux n’intercepte mon rêve,</l>
+					<l n="11" num="1.11">Et que j’y vois surgir ses feux sur les coteaux,</l>
+					<l n="12" num="1.12">Comme de blanches nefs à l’horizon des eaux ;</l>
+					<l n="13" num="1.13">Rassasié de paix, de silence et d’extase,</l>
+					<l n="14" num="1.14">Le limon de mon cœur descend au fond du vase ;</l>
+					<l n="15" num="1.15">J’entends chanter en moi les brises d’autrefois,</l>
+					<l n="16" num="1.16">Et je me sens tenté d’essayer si mes doigts</l>
+					<l n="17" num="1.17">Pourront, donnant au rhythme une âme cadencée,</l>
+					<l n="18" num="1.18">Tendre cet arc sonore où vibrait ma pensée.</l>
+					<l n="19" num="1.19">S’ils ne le peuvent plus, que ces vers oubliés</l>
+					<l n="20" num="1.20">Aillent au moins frémir et tomber à tes piés !</l>
+				</lg>
+				<lg n="2">
+					<l n="21" num="2.1">Enfant aux blonds cheveux, jeune homme au cœur de cire,</l>
+					<l n="22" num="2.2">Dont la lèvre a le pli des larmes ou du rire,</l>
+					<l n="23" num="2.3">Selon que la beauté qui règne sur tes yeux</l>
+					<l n="24" num="2.4">Eut un regard hier sévère ou gracieux ;</l>
+					<l n="25" num="2.5">Poétique jouet de molle poésie,</l>
+					<l n="26" num="2.6">Qui prends pour passion ta vague fantaisie,</l>
+					<l n="27" num="2.7">Bulle d’air coloré dans une bulle d’eau</l>
+					<l n="28" num="2.8">Que l’enfant fait jaillir du bout d’un chalumeau,</l>
+					<l n="29" num="2.9">Que la beauté rieuse avec sa folle haleine</l>
+					<l n="30" num="2.10">Élève vers le ciel, y suspend, y promène,</l>
+					<l n="31" num="2.11">Pour y voir un moment son image flotter,</l>
+					<l n="32" num="2.12">Et qui, lorsqu’en vapeur elle vient d’éclater,</l>
+					<l n="33" num="2.13">Ne sait pas si cette eau, dont elle est arrosée,</l>
+					<l n="34" num="2.14">Est le sang de ton cœur ou l’eau de la rosée ;</l>
+					<l n="35" num="2.15">Émule de Byron, au sourire moqueur,</l>
+					<l n="36" num="2.16">D’où vient ce cri plaintif arraché de ton cœur ?</l>
+					<l n="37" num="2.17">Quelle main, de ton luth en parcourant la gamme,</l>
+					<l n="38" num="2.18">A changé tout à coup la clef de ta jeune âme,</l>
+					<l n="39" num="2.19">Et fait rendre à l’esprit le son du cœur humain ?</l>
+					<l n="40" num="2.20">Est-ce qu’un pli de rose aurait froissé ta main ?</l>
+					<l n="41" num="2.21">Est-ce que ce poignard d’Alep ou de Grenade,</l>
+					<l n="42" num="2.22">Poétique hochet des douleurs de parade,</l>
+					<l n="43" num="2.23">Dont la lame au soleil ruisselle comme l’eau,</l>
+					<l n="44" num="2.24">En effleurant ton sein aurait percé la peau,</l>
+					<l n="45" num="2.25">Et, distillant ton sang de sa pointe rougie,</l>
+					<l n="46" num="2.26">Mêlé la pourpre humaine au nectar de l’orgie ?</l>
+					<l n="47" num="2.27">Ou n’est-ce pas plutôt que cet ennui profond</l>
+					<l n="48" num="2.28">Que contient chaque coupe et qu’on savoure au fond</l>
+					<l n="49" num="2.29">Des ivresses du cœur, amère et fade lie,</l>
+					<l n="50" num="2.30">Fit détourner ta lèvre avec mélancolie.</l>
+					<l n="51" num="2.31">Et que le vase vide, et dont tes doigts sont las,</l>
+					<l n="52" num="2.32">Tombe et sonne à tes pieds, et s’y brise en éclats ?…</l>
+				</lg>
+				<ab type="dot">────</ab>
+				<lg n="3">
+					<l n="53" num="3.1">Ah ! c’est que vient le tour des heures sérieuses,</l>
+					<l n="54" num="3.2">Où l’ironie en pleurs fuit les lèvres rieuses,</l>
+					<l n="55" num="3.3">Qu’on s’aperçoit enfin qu’à se moquer du sort,</l>
+					<l n="56" num="3.4">Le cœur le plus cynique est dupe de l’effort,</l>
+					<l n="57" num="3.5">Que rire de soi-même en secret autorise</l>
+					<l n="58" num="3.6">Dieu même à mépriser l’homme qui se méprise ;</l>
+					<l n="59" num="3.7">Que ce rôle est grimace et profanation ;</l>
+					<l n="60" num="3.8">Que le rire et la mort sont contradiction ;</l>
+					<l n="61" num="3.9">Que du cortége humain, dans sa route éternelle,</l>
+					<l n="62" num="3.10">La marche vers son but est grave et solennelle ;</l>
+					<l n="63" num="3.11">Et que celui qui rit de l’enfance au tombeau,</l>
+					<l n="64" num="3.12">De l’immortalité porte mal le flambeau,</l>
+					<l n="65" num="3.13">Avilit sa nature et joue avec son âme,</l>
+					<l n="66" num="3.14">Et de son propre souffle éteint sa sainte flamme.</l>
+					<l n="67" num="3.15">Est-ce un titre à porter au seuil du jugement,</l>
+					<l n="68" num="3.16">Pour tout œuvre ici-bas qu’un long ricanement ?</l>
+					<l n="69" num="3.17">L’homme répondra-t-il, quand le souverain maître</l>
+					<l n="70" num="3.18">Lui crîra dans son cœur : « Pourquoi t’ai-je fait naître ? »</l>
+					<l n="71" num="3.19">» Qu’as-tu fait pour le temps, pour le ciel et pour moi ?</l>
+					<l n="72" num="3.20">» — J’ai ri de l’univers, de toi-même, et de moi ! »</l>
+				</lg>
+				<ab type="dot">────</ab>
+				<lg n="4">
+					<l n="73" num="4.1">Honte à qui croit ainsi jouer avec sa lyre,</l>
+					<l n="74" num="4.2">La vie est un mystère, et non pas un délire.</l>
+				</lg>
+				<ab type="dot">────</ab>
+				<lg n="5">
+					<l n="75" num="5.1">Après l’avoir nié, — toi-même tu le sens.</l>
+					<l n="76" num="5.2">Dans un des lourds réveils de l’ivresse des sens,</l>
+					<l n="77" num="5.3">Sentant ton cœur désert, ton front brûlant et vide,</l>
+					<l n="78" num="5.4">Tu tournes dans tes doigts le fer du suicide ;</l>
+					<l n="79" num="5.5">Mais, avant de mourir, tu veux savoir de moi</l>
+					<l n="80" num="5.6">Si j’ai souffert, aimé, déliré comme toi,</l>
+					<l n="81" num="5.7">Et comment j’ai passé, par ces crises du drame,</l>
+					<l n="82" num="5.8">Des tempêtes des sens aux grands calmes de l’âme,</l>
+					<l n="83" num="5.9">Et comment sur les flots je me suis élevé,</l>
+					<l n="84" num="5.10">Et quel phare divin mes doutes ont trouvé,</l>
+					<l n="85" num="5.11">Et de quel nom je nomme et de quel sens j’adore</l>
+					<l n="86" num="5.12">Ce Dieu que ma pensée en sa nuit vit éclore,</l>
+					<l n="87" num="5.13">Ce Dieu dont la présence, aussitôt qu’il nous luit,</l>
+					<l n="88" num="5.14">Comble tout précipice, éclaire toute nuit.</l>
+				</lg>
+				<ab type="dot">────</ab>
+				<lg n="6">
+					<l n="89" num="6.1">Triste serait l’accent, et cette longue histoire</l>
+					<l n="90" num="6.2">Remûrait trop de cendre au fond de ma mémoire.</l>
+					<l n="91" num="6.3">Il est sur son sentier si dur de revenir,</l>
+					<l n="92" num="6.4">Quand chaque pied saignant se heurte au souvenir !</l>
+					<l n="93" num="6.5">Mais écoute tomber seulement cette goutte</l>
+					<l n="94" num="6.6">De l’eau trouble du cœur, et tu la sauras toute ?</l>
+				</lg>
+				<ab type="dot">────</ab>
+				<lg n="7">
+					<l n="95" num="7.1">Je vivais comme toi, vieux et froid à vingt ans,</l>
+					<l n="96" num="7.2">Laissant les guêpes mordre aux fleurs de mon printemps,</l>
+					<l n="97" num="7.3">Laissant la lèvre pâle et fétide des vices</l>
+					<l n="98" num="7.4">Effeuiller leur corolle et pomper leurs calices,</l>
+					<l n="99" num="7.5">Méprisant mes amours et les montrant au doigt,</l>
+					<l n="100" num="7.6">Comme un enfant grossier qui trouble l’eau qu’il boit.</l>
+					<l n="101" num="7.7">Mon seul soleil était la clarté des bougies ;</l>
+					<l n="102" num="7.8">Je détestais l’aurore en sortant des orgies.</l>
+				</lg>
+				<ab type="dot">────</ab>
+				<lg n="8">
+					<l n="103" num="8.1">À mes lèvres, où Dieu sommeillait dans l’oubli,</l>
+					<l n="104" num="8.2">Un sourire ironique avait donné son pli ;</l>
+					<l n="105" num="8.3">Tous mes propos n’étaient qu’amère raillerie.</l>
+					<l n="106" num="8.4">Je plaignais la pudeur comme une duperie ;</l>
+					<l n="107" num="8.5">Et si quelque reproche ou de mère ou de sœur,</l>
+					<l n="108" num="8.6">À mes premiers instincts parlant avec douceur,</l>
+					<l n="109" num="8.7">Me rappelait les jours de ma naïve enfance,</l>
+					<l n="110" num="8.8">Nos mains jointes, nos yeux levés, notre innocence ;</l>
+					<l n="111" num="8.9">Si quelque tendre écho de ces soirs d’autrefois</l>
+					<l n="112" num="8.10">Dans mon esprit troublé s’éveillant à leur voix,</l>
+					<l n="113" num="8.11">D’une aride rosée humectait ma paupière,</l>
+					<l n="114" num="8.12">Mon front haut secouait ses cheveux en arrière ;</l>
+					<l n="115" num="8.13">Pervers, je rougissais de mon bon sentiment ;</l>
+					<l n="116" num="8.14">Je refoulais en moi mon attendrissement,</l>
+					<l n="117" num="8.15">Et j’allais tout honteux vers mes viles idoles,</l>
+					<l n="118" num="8.16">Parmi de vils railleurs, bafouer ces paroles ! !</l>
+				</lg>
+				<ab type="dot">────</ab>
+				<lg n="9">
+					<l n="119" num="9.1">Voilà quelle gangrène énervait mon esprit,</l>
+					<l n="120" num="9.2">Quand l’amour, cet amour qui tue ou qui guérit,</l>
+					<l n="121" num="9.3">Cette plante de vie au céleste dictame,</l>
+					<l n="122" num="9.4">Distilla dans mon cœur des lèvres d’une femme.</l>
+					<l n="123" num="9.5">Une femme ? Est-ce un nom qui puisse te nommer,</l>
+					<l n="124" num="9.6">Chaste apparition qui me forças d’aimer,</l>
+					<l n="125" num="9.7">Forme dont la splendeur à l’aube eût fait envie,</l>
+					<l n="126" num="9.8">Saint éblouissement d’une heure de ma vie ;</l>
+					<l n="127" num="9.9">Toi qui de ce limon m’enlevas d’un regard,</l>
+					<l n="128" num="9.10">Comme un rayon d’en haut attire le brouillard,</l>
+					<l n="129" num="9.11">Et, le transfigurant en brillant météore,</l>
+					<l n="130" num="9.12">Le roule en dais de feu sous les pas de l’aurore ?</l>
+					<l n="131" num="9.13">Ses yeux, bleus comme l’eau, furent le pur miroir</l>
+					<l n="132" num="9.14">Où mon âme se vit et rougit de se voir,</l>
+					<l n="133" num="9.15">Où, pour que le mortel ne profanât pas l’ange,</l>
+					<l n="134" num="9.16">De mes impuretés je dépouillai la fange.</l>
+					<l n="135" num="9.17">Pour cueillir cet amour, fruit immatériel,</l>
+					<l n="136" num="9.18">Chacun de mes soupirs m’enleva vers le ciel.</l>
+					<l n="137" num="9.19">Quand elle disparut derrière le nuage,</l>
+					<l n="138" num="9.20">Mon cœur purifié contenait une image,</l>
+					<l n="139" num="9.21">Et je ne pouvais plus, de peur de la ternir,</l>
+					<l n="140" num="9.22">Redescendre jamais d’un si haut souvenir !</l>
+				</lg>
+				<ab type="dot">────</ab>
+				<lg n="10">
+					<l n="141" num="10.1">Depuis ce jour lointain, des jours, des jours sans nombre</l>
+					<l n="142" num="10.2">Ont jeté sur mon cœur leur soleil ou leur ombre ;</l>
+					<l n="143" num="10.3">Comme un sol moissonné, mais qui germe toujours,</l>
+					<l n="144" num="10.4">La vie a dans mon cœur porté d’autres amours ;</l>
+					<l n="145" num="10.5">De l’heure matinale à cette heure avancée,</l>
+					<l n="146" num="10.6">J’ai sous d’autres abris rafraîchi ma pensée,</l>
+					<l n="147" num="10.7">D’autres yeux ont noyé leurs rayons dans les miens :</l>
+					<l n="148" num="10.8">Mais du premier rayon toujours je me souviens,</l>
+					<l n="149" num="10.9">Toujours j’en cherche ici la trace éblouissante,</l>
+					<l n="150" num="10.10">Et mon âme a gardé la place à l’âme absente.</l>
+					<l n="151" num="10.11">Voilà pourquoi souvent tu vois mon front baissé,</l>
+					<l n="152" num="10.12">Comme quelqu’un qui cherche où son guide a passé.</l>
+				</lg>
+			</div>
+			<div type="poem" key="LAM75">
+				<head type="number">SIXIÈME MÉDITATION</head>
+				<head type="main">SUR UN DON DE LA DUCHESSE D’ANGOULÊME<ref target="1" type="noteAnchor">1</ref></head>
+				<head type="sub_1">AUX INDIGENTS DE PARIS, EN 1841</head>
+				<lg n="1">
+					<l n="1" num="1.1">Pour me précipiter de plus haut dans l’abîme,</l>
+					<l n="2" num="1.2">Le sort mit mon berceau sur les genoux des rois.</l>
+					<l n="3" num="1.3">La couronne à mon temps me marqua pour victime ;</l>
+					<l n="4" num="1.4">L’orage de mon front la fit tomber deux fois.</l>
+				</lg>
+				<lg n="2">
+					<l n="5" num="2.1">Le bourreau me jeta le bandeau de ma mère</l>
+					<l n="6" num="2.2">De mes ans dans l’exil je vécus la moitié ;</l>
+					<l n="7" num="2.3">Mon diadème fut une ironie amère,</l>
+					<l n="8" num="2.4">Reine ici, reine là, mais par droit de pitié.</l>
+				</lg>
+				<lg n="3">
+					<l n="9" num="3.1">J’accepte ! Mais le ciel en prenant mon royaume,</l>
+					<l n="10" num="3.2">Comme pour ajouter un contraste moqueur,</l>
+					<l n="11" num="3.3">Me fit une fortune à l’image du chaume,</l>
+					<l n="12" num="3.4">Et ne me laisse rien de royal que le cœur,</l>
+				</lg>
+				<lg n="4">
+					<l n="13" num="4.1">Ce cœur qu’il fait aux rois dans sa magnificence,</l>
+					<l n="14" num="4.2">Où s’élève exaucé le vœu du suppliant,</l>
+					<l n="15" num="4.3">Qui croit, même impuissant, à sa toute-puissance ;</l>
+					<l n="16" num="4.4">Qui s’ouvre comme un temple au doigt d’un mendiant.</l>
+				</lg>
+				<lg n="5">
+					<l n="17" num="5.1">De si loin qu’un malheur me jette une parole,</l>
+					<l n="18" num="5.2">J’étends comme autrefois mon bras vers mon trésor ;</l>
+					<l n="19" num="5.3">J’ouvre ma main royale, il en tombe une obole !…</l>
+					<l n="20" num="5.4">Mais on voit mon empreinte, et l’on dit : « C’est de l’or ! »</l>
+				</lg>
+				<closer>
+					<note type="footnote" id="1">
+						Madame la duchesse d’Angoulême avait envoyé, de l’exil, <lb/>
+						un don pour les indigents, à madame Sophie Gay.
+					</note>
+				</closer>
+			</div>
+			<div type="poem" key="LAM76">
+				<head type="number">SEPTIÈME MÉDITATION</head>
+				<head type="main">L’IDÉAL</head>
+				<head type="sub_1">SUR UNE PAGE REPRÉSENTANT DES GÉNIES ENFANTS</head>
+				<head type="sub_2">1827</head>
+				<lg n="1">
+					<l n="1" num="1.1">Hôtes des jeunes cœurs, beaux enfants des Génies,</l>
+					<l n="2" num="1.2">Allez jouer plus loin, allez sourire ailleurs !</l>
+					<l n="3" num="1.3">Les cordes de ma voix n’ont plus pour harmonies</l>
+					<l n="4" num="1.4"><space unit="char" quantity="8"/>Que des tristesses et des pleurs.</l>
+				</lg>
+				<lg n="2">
+					<l n="5" num="2.1">Chers anges du matin éclos dans les rosées,</l>
+					<l n="6" num="2.2">Nos lèvres d’homme, hélas ! pour vous n’ont plus de miel ;</l>
+					<l n="7" num="2.3">Et vos ailes d’azur, de larmes arrosées,</l>
+					<l n="8" num="2.4"><space unit="char" quantity="8"/>Ne nous porteraient plus au ciel.</l>
+				</lg>
+				<lg n="3">
+					<l n="9" num="3.1">Il faut aux cœurs saignants des anges plus austères,</l>
+					<l n="10" num="3.2">Pâles, vêtus de deuil, voilés de demi-jour,</l>
+					<l n="11" num="3.3">Et plongeant en silence au fond de nos mystères</l>
+					<l n="12" num="3.4"><space unit="char" quantity="8"/>Un rayon doux comme l’amour.</l>
+				</lg>
+				<lg n="4">
+					<l n="13" num="4.1">Ces fantômes du cœur ont des accents de femme ;</l>
+					<l n="14" num="4.2">Sous de longs cheveux noirs ils dérobent leurs traits ;</l>
+					<l n="15" num="4.3">Ils vous disent tout bas, dans la langue de l’âme,</l>
+					<l n="16" num="4.4"><space unit="char" quantity="8"/>De tristes et divins secrets.</l>
+				</lg>
+				<lg n="5">
+					<l n="17" num="5.1">Nul ne connaît leur nom, nul n’a vu leur visage ;</l>
+					<l n="18" num="5.2">Ils s’attachent au cœur comme l’ombre à nos pas.</l>
+					<l n="19" num="5.3">Est-ce un être réel ? est-ce un divin mirage</l>
+					<l n="20" num="5.4"><space unit="char" quantity="8"/>Du bonheur qu’on pressent là-bas ?</l>
+				</lg>
+				<lg n="6">
+					<l n="21" num="6.1">Qu’importe ? Ciel ou terre, ange ou femme, ombre ou rêve,</l>
+					<l n="22" num="6.2">Quelque nom qui te nomme, il est divin pour moi.</l>
+					<l n="23" num="6.3">Que la terre l’ébauche et que le ciel l’achève</l>
+					<l n="24" num="6.4"><space unit="char" quantity="8"/>Le nom sublime qui dit, TOI !</l>
+				</lg>
+			</div>
+			<div type="poem" key="LAM77">
+				<head type="number">HUITIÈME MÉDITATION</head>
+				<head type="main">ADIEU À GRAZIELLA</head>
+				<head type="sub_2">1813</head>
+				<lg n="1">
+					<l n="1" num="1.1">Adieu ! mot qu’une larme humecte sur la lèvre ;</l>
+					<l n="2" num="1.2">Mot qui finit la joie et qui tranche l’amour ;</l>
+					<l n="3" num="1.3">Mot par qui le départ de délices nous sèvre ;</l>
+					<l n="4" num="1.4">Mot que l’éternité doit effacer un jour !</l>
+				</lg>
+				<lg n="2">
+					<l n="5" num="2.1">Adieu !… Je t’ai souvent prononcé dans ma vie,</l>
+					<l n="6" num="2.2">Sans comprendre, en quittant les êtres que j’aimais,</l>
+					<l n="7" num="2.3">Ce que tu contenais de tristesse et de lie</l>
+					<l n="8" num="2.4">Quand l’homme dit, Retour ! et que Dieu dit, Jamais !</l>
+				</lg>
+				<lg n="3">
+					<l n="9" num="3.1">Mais aujourd’hui je sens que ma bouche prononce</l>
+					<l n="10" num="3.2">Le mot qui contient tout, puisqu’il est plein de toi ;</l>
+					<l n="11" num="3.3">Qui tombe dans l’abîme, et qui n’a pour réponse</l>
+					<l n="12" num="3.4">Que l’éternel silence entre une image et moi !…</l>
+				</lg>
+				<lg n="4">
+					<l n="13" num="4.1">Et cependant mon cœur redit à chaque haleine</l>
+					<l n="14" num="4.2">Ce mot qu’un sourd sanglot entrecoupe au milieu,</l>
+					<l n="15" num="4.3">Comme si tous les sons dont la nature est pleine</l>
+					<l n="16" num="4.4">N’avaient pour sens unique, hélas ! qu’un grand adieu !</l>
+				</lg>
+			</div>
+			<div type="poem" key="LAM78">
+				<head type="number">NEUVIÈME MÉDITATION</head>
+				<head type="main">À UNE JEUNE FILLE</head>
+				<head type="sub_1">QUI AVAIT RACONTÉ UN RÊVE</head>
+				<head type="sub_2">1847</head>
+				<lg n="1">
+					<l n="1" num="1.1">Un baiser sur mon front ! un baiser, même en rêve !</l>
+					<l n="2" num="1.2">Mais de mon front pensif le frais baiser s’enfuit ;</l>
+					<l n="3" num="1.3">Mais de mes jours taris l’été n’a plus de séve ;</l>
+					<l n="4" num="1.4">Mais l’Aurore jamais n’embrassera la Nuit.</l>
+				</lg>
+				<lg n="2">
+					<l n="5" num="2.1">Elle rêvait sans doute aussi que son haleine</l>
+					<l n="6" num="2.2">Me rendait les climats de mes jeunes saisons,</l>
+					<l n="7" num="2.3">Que la neige fondait sur une tête humaine,</l>
+					<l n="8" num="2.4">Et que la fleur de l’âme avait deux floraisons.</l>
+				</lg>
+				<lg n="3">
+					<l n="9" num="3.1">Elle rêvait sans doute aussi que sur ma joue</l>
+					<l n="10" num="3.2">Mes cheveux par le vent écartés de mes yeux,</l>
+					<l n="11" num="3.3">Pareils aux jais flottants que sa tête secoue,</l>
+					<l n="12" num="3.4">Noyaient ses doigts distraits dans leurs flocons soyeux.</l>
+				</lg>
+				<lg n="4">
+					<l n="13" num="4.1">Elle rêvait sans doute aussi que l’innocence</l>
+					<l n="14" num="4.2">Gardait contre un désir ses roses et ses lis ;</l>
+					<l n="15" num="4.3">Que j’étais <hi rend="ital">Jocelyn</hi> et qu’elle était <hi rend="ital">Laurence</hi> ;</l>
+					<l n="16" num="4.4">Que la vallée en fleurs nous cachait dans ses plis.</l>
+				</lg>
+				<lg n="5">
+					<l n="17" num="5.1">Elle rêvait sans doute aussi que mon délire</l>
+					<l n="18" num="5.2">En vers mélodieux pleurait comme autrefois ;</l>
+					<l n="19" num="5.3">Que mon cœur, sous sa main, devenait une lyre</l>
+					<l n="20" num="5.4">Qui dans un seul soupir accentuait deux voix.</l>
+				</lg>
+				<lg n="6">
+					<l n="21" num="6.1">Fatale vision ! Tout mon être frissonne ;</l>
+					<l n="22" num="6.2">On dirait que mon sang veut remonter son cours.</l>
+					<l n="23" num="6.3">Enfant, ne dites plus vos rêves à personne,</l>
+					<l n="24" num="6.4">Et ne rêvez jamais, ou bien rêvez toujours !</l>
+				</lg>
+			</div>
+			<div type="poem" key="LAM79">
+				<head type="number">DIXIÈME MÉDITATION</head>
+				<head type="main">PRIÈRE DE L’INDIGENT</head>
+				<head type="sub_2">1846</head>
+				<lg n="1">
+					<l n="1" num="1.1">Ô toi dont l’oreille s’incline</l>
+					<l n="2" num="1.2">Au nid du pauvre passereau,</l>
+					<l n="3" num="1.3">Au brin d’herbe de la colline</l>
+					<l n="4" num="1.4">Qui soupire après un peu d’eau ;</l>
+				</lg>
+				<lg n="2">
+					<l n="5" num="2.1">Providence qui les console,</l>
+					<l n="6" num="2.2">Toi qui sais de quelle humble main</l>
+					<l n="7" num="2.3">S’échappe la secrète obole</l>
+					<l n="8" num="2.4">Dont le pauvre achète son pain ;</l>
+				</lg>
+				<lg n="3">
+					<l n="9" num="3.1">Toi qui tiens dans ta main diverse</l>
+					<l n="10" num="3.2">L’abondance et la nudité,</l>
+					<l n="11" num="3.3">Afin que de leur doux commerce</l>
+					<l n="12" num="3.4">Naissent justice et charité ;</l>
+				</lg>
+				<lg n="4">
+					<l n="13" num="4.1">Charge-toi seule, ô Providence,</l>
+					<l n="14" num="4.2">De connaître nos bienfaiteurs,</l>
+					<l n="15" num="4.3">Et de puiser leur récompense</l>
+					<l n="16" num="4.4">Dans les trésors de tes faveurs !</l>
+				</lg>
+				<lg n="5">
+					<l n="17" num="5.1">Notre cœur, qui pour eux t’implore</l>
+					<l n="18" num="5.2">À l’ignorance est condamné ;</l>
+					<l n="19" num="5.3">Car toujours leur main gauche ignore</l>
+					<l n="20" num="5.4">Ce que leur main droite a donné.</l>
+				</lg>
+			</div>
+			<div type="poem" key="LAM80">
+				<head type="number">ONZIÈME MÉDITATION</head>
+				<head type="main">LES ESPRITS DES FLEURS</head>
+				<head type="sub_2">1847</head>
+				<lg n="1">
+					<l n="1" num="1.1">Voyez-vous de l’or de ces urnes</l>
+					<l n="2" num="1.2">S’échapper ces esprits des fleurs,</l>
+					<l n="3" num="1.3">Tout trempés de parfums nocturnes,</l>
+					<l n="4" num="1.4">Tout vêtus de fraîches couleurs ?</l>
+				</lg>
+				<lg n="2">
+					<l n="5" num="2.1">Ce ne sont pas de vains fantômes</l>
+					<l n="6" num="2.2">Créés par un art décevant,</l>
+					<l n="7" num="2.3">Pour donner un corps aux aromes</l>
+					<l n="8" num="2.4">Que nos gazons livrent au vent.</l>
+				</lg>
+				<lg n="3">
+					<l n="9" num="3.1">Non : chaque atome de matière</l>
+					<l n="10" num="3.2">Par un esprit est habité ;</l>
+					<l n="11" num="3.3">Tout sent, et la nature entière</l>
+					<l n="12" num="3.4">N’est que douleur et volupté !</l>
+				</lg>
+				<lg n="4">
+					<l n="13" num="4.1">Chaque rayon d’humide flamme</l>
+					<l n="14" num="4.2">Qui jaillit de vos yeux si doux ;</l>
+					<l n="15" num="4.3">Chaque soupir qui de mon âme</l>
+					<l n="16" num="4.4">S’élance, et palpite vers vous ;</l>
+				</lg>
+				<lg n="5">
+					<l n="17" num="5.1">Chaque parole réprimée</l>
+					<l n="18" num="5.2">Qui meurt sur mes lèvres de feu,</l>
+					<l n="19" num="5.3">N’osant même à la fleur aimée</l>
+					<l n="20" num="5.4">D’un nom chéri livrer l’aveu ;</l>
+				</lg>
+				<lg n="6">
+					<l n="21" num="6.1">Ces songes que la nuit fait naître</l>
+					<l n="22" num="6.2">Comme pour nous venger du jour,</l>
+					<l n="23" num="6.3">Tout prend un corps, une âme, un être,</l>
+					<l n="24" num="6.4">Visibles, mais au seul amour !</l>
+				</lg>
+				<lg n="7">
+					<l n="25" num="7.1">Cet ange flottant des prairies,</l>
+					<l n="26" num="7.2">Pâle et penché comme ses lis,</l>
+					<l n="27" num="7.3">C’est une de mes rêveries</l>
+					<l n="28" num="7.4">Restée aux fleurs que je cueillis.</l>
+				</lg>
+				<lg n="8">
+					<l n="29" num="8.1">Et sur ses ailes renversées</l>
+					<l n="30" num="8.2">Celui qui jouit d’expirer,</l>
+					<l n="31" num="8.3">Ce n’est qu’une de mes pensées</l>
+					<l n="32" num="8.4">Que vos lèvres vont respirer.</l>
+				</lg>
+			</div>
+			<div type="poem" key="LAM81">
+				<head type="number">DOUZIÈME MÉDITATION</head>
+				<head type="main">LES FLEURS SUR L’AUTEL</head>
+				<opener>
+					<dateline>
+						<placeName>Ischia</placeName>,
+						<date when="1846">1846</date>
+					</dateline>
+				</opener>
+				<lg n="1">
+					<l n="1" num="1.1">Quand sous la majesté du Maître qu’elle adore</l>
+					<l n="2" num="1.2">L’âme humaine a besoin de se fondre d’amour,</l>
+					<l n="3" num="1.3">Comme une mer dont l’eau s’échauffe et s’évapore,</l>
+					<l n="4" num="1.4">Pour monter en nuage à la source du jour ;</l>
+				</lg>
+				<lg n="2">
+					<l n="5" num="2.1">Elle cherche partout dans l’art, dans la nature,</l>
+					<l n="6" num="2.2">Le vase le plus saint pour y brûler l’encens.</l>
+					<l n="7" num="2.3">Mais pour l’Être innomé quelle coupe assez pure ?</l>
+					<l n="8" num="2.4">Et quelle âme ici-bas n’a profané ses sens ?</l>
+				</lg>
+				<lg n="3">
+					<l n="9" num="3.1">Les vieillards ont éteint le feu des sacrifices ;</l>
+					<l n="10" num="3.2">Les enfants laisseront vaciller son flambeau ;</l>
+					<l n="11" num="3.3">Les vierges ont pleuré le froid de leurs cilices :</l>
+					<l n="12" num="3.4">Comment parer l’autel de ces fleurs du tombeau ?</l>
+				</lg>
+				<lg n="4">
+					<l n="13" num="4.1">Voilà pourquoi les fleurs, ces prières écloses</l>
+					<l n="14" num="4.2">Dont Dieu lui-même emplit les corolles de miel,</l>
+					<l n="15" num="4.3">Pures comme ces lis, chastes comme ces roses,</l>
+					<l n="16" num="4.4">Semblent prier pour nous dans ces maisons du ciel.</l>
+				</lg>
+				<lg n="5">
+					<l n="17" num="5.1">Quand l’homme a déposé sur les degrés du temple</l>
+					<l n="18" num="5.2">Ce faisceau de parfum, ce symbole d’honneur,</l>
+					<l n="19" num="5.3">Dans un muet espoir son regard le contemple ;</l>
+					<l n="20" num="5.4">Il croit ce don du ciel acceptable au Seigneur.</l>
+				</lg>
+				<lg n="6">
+					<l n="21" num="6.1">Il regarde la fleur dans l’urne déposée</l>
+					<l n="22" num="6.2">Exhaler lentement son âme au pied des dieux,</l>
+					<l n="23" num="6.3">Et la brise qui boit ses gouttes de rosée</l>
+					<l n="24" num="6.4">Lui paraît une main qui vient sécher ses yeux.</l>
+				</lg>
+			</div>
+			<div type="poem" key="LAM82">
+				<head type="number">TREIZIÈME MÉDITATION</head>
+				<head type="main">LE LÉZARD</head>
+				<head type="sub_1">SUR LES RUINES DE ROME</head>
+				<head type="sub_2">1846</head>
+				<lg n="1">
+					<l n="1" num="1.1">Un jour, seul dans le Colisée,</l>
+					<l n="2" num="1.2">Ruine de l’orgueil romain,</l>
+					<l n="3" num="1.3">Sur l’herbe de sang arrosée</l>
+					<l n="4" num="1.4">Je m’assis, <hi rend="ital">Tacite</hi> à la main.</l>
+				</lg>
+				<lg n="2">
+					<l n="5" num="2.1">Je lisais les crimes de Rome,</l>
+					<l n="6" num="2.2">Et l’empire à l’encan vendu,</l>
+					<l n="7" num="2.3">Et, pour élever un seul homme,</l>
+					<l n="8" num="2.4">L’univers si bas descendu.</l>
+				</lg>
+				<lg n="3">
+					<l n="9" num="3.1">Je voyais la plèbe idolâtre,</l>
+					<l n="10" num="3.2">Saluant les triomphateurs,</l>
+					<l n="11" num="3.3">Baigner ses yeux sur le théâtre</l>
+					<l n="12" num="3.4">Dans le sang des gladiateurs.</l>
+				</lg>
+				<lg n="4">
+					<l n="13" num="4.1">Sur la muraille qui l’incruste,</l>
+					<l n="14" num="4.2">Je recomposais lentement</l>
+					<l n="15" num="4.3">Les lettres du nom de l’Auguste</l>
+					<l n="16" num="4.4">Qui dédia le monument.</l>
+				</lg>
+				<lg n="5">
+					<l n="17" num="5.1">J’en épelais le premier signe :</l>
+					<l n="18" num="5.2">Mais, déconcertant mes regards,</l>
+					<l n="19" num="5.3">Un lézard dormait sur la ligne</l>
+					<l n="20" num="5.4">Où brillait le nom des Césars.</l>
+				</lg>
+				<lg n="6">
+					<l n="21" num="6.1">Seul héritier des sept collines,</l>
+					<l n="22" num="6.2">Seul habitant de ces débris,</l>
+					<l n="23" num="6.3">Il remplaçait sous ces ruines</l>
+					<l n="24" num="6.4">Le grand flot des peuples taris.</l>
+				</lg>
+				<lg n="7">
+					<l n="25" num="7.1">Sorti des fentes des murailles,</l>
+					<l n="26" num="7.2">Il venait, de froid engourdi,</l>
+					<l n="27" num="7.3">Réchauffer ses vertes écailles</l>
+					<l n="28" num="7.4">Au contact du bronze attiédi.</l>
+				</lg>
+				<lg n="8">
+					<l n="29" num="8.1">Consul, César, maître du monde,</l>
+					<l n="30" num="8.2">Pontife, Auguste, égal aux dieux,</l>
+					<l n="31" num="8.3">L’ombre de ce reptile immonde</l>
+					<l n="32" num="8.4">Éclipsait ta gloire à mes yeux !</l>
+				</lg>
+				<lg n="9">
+					<l n="33" num="9.1">La nature a son ironie :</l>
+					<l n="34" num="9.2">Le livre échappa de ma main.</l>
+					<l n="35" num="9.3">Ô Tacite, tout ton génie</l>
+					<l n="36" num="9.4">Raille moins fort l’orgueil humain !</l>
+				</lg>
+			</div>
+			<div type="poem" key="LAM83">
+				<head type="number">QUATORZIÈME MÉDITATION</head>
+				<head type="main">SUR UNE PAGE</head>
+				<head type="sub_1">PEINTE D’INSECTES ET DE PLANTES</head>
+				<lg n="1">
+					<l n="1" num="1.1">Insectes bourdonnants ; papillons ; fleurs ailées ;</l>
+					<l n="2" num="1.2">Aux touffes des rosiers lianes enroulées ;</l>
+					<l n="3" num="1.3">Convolvulus tressés aux fils des liserons ;</l>
+					<l n="4" num="1.4">Pervenches, beaux yeux bleus qui regardez dans l’ombre ;</l>
+					<l n="5" num="1.5">Nénufars endormis sur les eaux ; fleurs sans nombre ;</l>
+					<l n="6" num="1.6">Calices qui noyez les trompes des cirons !</l>
+				</lg>
+				<lg n="2">
+					<l n="7" num="2.1">Fruits où mon Dieu parfume avec tant d’abondance</l>
+					<l n="8" num="2.2">Le pain de ses saisons et de sa providence ;</l>
+					<l n="9" num="2.3">Figue où brille sur l’œil une larme de miel ;</l>
+					<l n="10" num="2.4">Pêches qui ressemblez aux pudeurs de la joue ;</l>
+					<l n="11" num="2.5">Oiseau qui fais reluire un écrin sur ta roue,</l>
+					<l n="12" num="2.6">Et dont le cou de moire a fixé l’arc-en-ciel !</l>
+				</lg>
+				<lg n="3">
+					<l n="13" num="3.1">La main qui vous peignit en confuse guirlande</l>
+					<l n="14" num="3.2">Devant vos yeux, Seigneur, en étale l’offrande,</l>
+					<l n="15" num="3.3">Comme on ouvre à vos pieds la gerbe de vos dons.</l>
+					<l n="16" num="3.4">Vous avez tout produit, contemplez votre ouvrage !</l>
+					<l n="17" num="3.5">Et nous, dont les besoins sont encore un hommage,</l>
+					<l n="18" num="3.6">Rendons grâce toujours, et toujours demandons !</l>
+				</lg>
+			</div>
+			<div type="poem" key="LAM84">
+				<head type="number">QUINZIÈME MÉDITATION</head>
+				<head type="main">SUR L’INGRATlTUDE DES PEUPLES</head>
+				<head type="form">ODE</head>
+				<head type="sub_2">1827</head>
+				<lg n="1">
+					<l n="1" num="1.1">Un jour qu’errant de ville en ville,</l>
+					<l n="2" num="1.2">Et cachant sa lyre et son nom,</l>
+					<l n="3" num="1.3">L’aveugle qui chantait Achille</l>
+					<l n="4" num="1.4">Montait au temple d’Apollon ;</l>
+					<l n="5" num="1.5">Ses rivaux, que sa gloire outrage,</l>
+					<l n="6" num="1.6">Le reconnaissent à l’image</l>
+					<l n="7" num="1.7">Du dieu qu’on adore à Claros,</l>
+					<l n="8" num="1.8">Et chassent du seuil du génie</l>
+					<l n="9" num="1.9">Ce mendiant, dont l’Ionie</l>
+					<l n="10" num="1.10">Un jour disputera les os !</l>
+				</lg>
+				<lg n="2">
+					<l n="11" num="2.1">À pas lents, la tête baissée,</l>
+					<l n="12" num="2.2">Le vieillard reprend son chemin,</l>
+					<l n="13" num="2.3">Seul, et roulant dans sa pensée</l>
+					<l n="14" num="2.4">L’injustice du genre humain.</l>
+					<l n="15" num="2.5">En marchant, sous son bras il presse</l>
+					<l n="16" num="2.6">Sa lyre sainte et vengeresse,</l>
+					<l n="17" num="2.7">Qui résonne comme un carquois ;</l>
+					<l n="18" num="2.8">Et sur un écueil de la plage</l>
+					<l n="19" num="2.9">Il va s’asseoir près du rivage,</l>
+					<l n="20" num="2.10">Pleurant et chantant à la fois.</l>
+				</lg>
+				<lg n="3">
+					<l n="21" num="3.1">« Reptiles qui vivez de gloire,</l>
+					<l n="22" num="3.2">Disait-il, déchirez mes jours !</l>
+					<l n="23" num="3.3">Souillez d’avance ma mémoire</l>
+					<l n="24" num="3.4">D’un poison qui ronge toujours !</l>
+					<l n="25" num="3.5">Sifflez, vils serpents de l’envie !</l>
+					<l n="26" num="3.6">De ma fortune et de ma vie</l>
+					<l n="27" num="3.7">Arrachez le dernier lambeau,</l>
+					<l n="28" num="3.8">Jusqu’à ce que les Euménides</l>
+					<l n="29" num="3.9">Écrasent vos têtes livides</l>
+					<l n="30" num="3.10">Sur la pierre de mon tombeau !</l>
+				</lg>
+				<lg n="4">
+					<l n="31" num="4.1">« Tel est donc le sort, ô nature,</l>
+					<l n="32" num="4.2">Que tu garde à tes favoris ?</l>
+					<l n="33" num="4.3">De tout temps l’outrage et l’injure</l>
+					<l n="34" num="4.4">Sont le pain dont tu les nourris.</l>
+					<l n="35" num="4.5">Sitôt qu’un des fils de Mémoire</l>
+					<l n="36" num="4.6">Élève ses mains vers la gloire,</l>
+					<l n="37" num="4.7">Un cri s’élève : il doit périr !</l>
+					<l n="38" num="4.8">Semblable aux chiens de Laconie,</l>
+					<l n="39" num="4.9">La haine dispute au génie</l>
+					<l n="40" num="4.10">Un seuil qu’elle ne peut franchir.</l>
+				</lg>
+				<lg n="5">
+					<l n="41" num="5.1">« Cependant j’ai courbé ma tête</l>
+					<l n="42" num="5.2">Au niveau de vos fronts jaloux ;</l>
+					<l n="43" num="5.3">J’ai fui de retraite en retraite,</l>
+					<l n="44" num="5.4">De peur d’être plus grand que vous !</l>
+					<l n="45" num="5.5">Ma voix, sans écho sur la terre,</l>
+					<l n="46" num="5.6">Montait sur un bord solitaire ;</l>
+					<l n="47" num="5.7">Et quand je vous tendais la main</l>
+					<l n="48" num="5.8">(Les siècles le pourront-ils croire ?),</l>
+					<l n="49" num="5.9">Je ne demandais pas de gloire,</l>
+					<l n="50" num="5.10">Ingrats ! je mendiais du pain !</l>
+				</lg>
+				<lg n="6">
+					<l n="51" num="6.1">« Mais le génie en vain dépouille</l>
+					<l n="52" num="6.2">L’éclat dont il est revêtu :</l>
+					<l n="53" num="6.3">Comme Ulysse qu’un haillon souille,</l>
+					<l n="54" num="6.4">Il est trahi par sa vertu.</l>
+					<l n="55" num="6.5">De quelque ombre qu’il se recèle,</l>
+					<l n="56" num="6.6">Dès qu’un être divin se mêle</l>
+					<l n="57" num="6.7">Aux enfants de ce vil séjour,</l>
+					<l n="58" num="6.8">L’envie à sa trace s’enchaîne,</l>
+					<l n="59" num="6.9">Et le reconnaît à sa haine,</l>
+					<l n="60" num="6.10">Comme la terre à son amour.</l>
+				</lg>
+				<lg n="7">
+					<l n="61" num="7.1">« Si du moins, ô langues impures,</l>
+					<l n="62" num="7.2">Contentes de boire mes pleurs,</l>
+					<l n="63" num="7.3">Vos traits restaient dans mes blessures !…</l>
+					<l n="64" num="7.4">Mais non : vous vivez, et je meurs !</l>
+					<l n="65" num="7.5">Mes yeux, à travers leur nuage,</l>
+					<l n="66" num="7.6">Vous voient renaître d’âge en âge.</l>
+					<l n="67" num="7.7">Ô temps, que me dévoiles-tu ?</l>
+					<l n="68" num="7.8">Toujours le génie est un crime.</l>
+					<l n="69" num="7.9">Toujours, quoi ! toujours un abîme</l>
+					<l n="70" num="7.10">Entre la gloire et la vertu ?</l>
+				</lg>
+				<lg n="8">
+					<l n="71" num="8.1">« Race immortelle des Zoïle,</l>
+					<l n="72" num="8.2">Non, vous ne vous éteindrez plus !</l>
+					<l n="73" num="8.3">Bavius attend son Virgile,</l>
+					<l n="74" num="8.4">Socrate meurt sous Anitus !</l>
+					<l n="75" num="8.5">Le Dante est maudit de Florence ;</l>
+					<l n="76" num="8.6">La mort, dans sa dure indigence</l>
+					<l n="77" num="8.7">Surprend l’aveugle d’Albion ;</l>
+					<l n="78" num="8.8">Et l’Envie un jour se console</l>
+					<l n="79" num="8.9">De marchander pour une obole</l>
+					<l n="80" num="8.10">La gloire d’une nation <ref target="1" type="noteAnchor">1</ref> !</l>
+				</lg>
+				<lg n="9">
+					<l n="81" num="9.1">« Le chantre divin d’Herminie,</l>
+					<l n="82" num="9.2">Rongeant son cœur dans sa prison,</l>
+					<l n="83" num="9.3">Sous les assauts de l’insomnie</l>
+					<l n="84" num="9.4">Sent fléchir jusqu’à sa raison.</l>
+					<l n="85" num="9.5">D’une haine injuste et barbare</l>
+					<l n="86" num="9.6">Les sombres cachots de Ferrare</l>
+					<l n="87" num="9.7">Éteignent-ils l’affreux flambeau ?</l>
+					<l n="88" num="9.8">Non : la haine qui lui pardonne</l>
+					<l n="89" num="9.9">Lui laisse entrevoir sa couronne,</l>
+					<l n="90" num="9.10">Mais c’est plus loin que son tombeau !</l>
+				</lg>
+				<lg n="10">
+					<l n="91" num="10.1">« Et toi, chantre d’un saint martyre ;</l>
+					<l n="92" num="10.2">Toi que Sion vit adorer</l>
+					<l n="93" num="10.3">Toi qu’en secret l’envie admire,</l>
+					<l n="94" num="10.4">En s’indignant de t’admirer ;</l>
+					<l n="95" num="10.5">En vain, en rampant sur ta trace,</l>
+					<l n="96" num="10.6">La Haine avec sa langue efface</l>
+					<l n="97" num="10.7">Ta route à l’immortalité :</l>
+					<l n="98" num="10.8">Trop grand pour un siècle vulgaire,</l>
+					<l n="99" num="10.9">Ta gloire tristement éclaire</l>
+					<l n="100" num="10.10">Son envieuse obscurité !</l>
+				</lg>
+				<lg n="11">
+					<l n="101" num="11.1">« En vain l’impure Calomnie</l>
+					<l n="102" num="11.2">Lançant ses traits sur l’avenir,</l>
+					<l n="103" num="11.3">Ne pouvant nier ton génie,</l>
+					<l n="104" num="11.4">S’efforce au moins de le ternir :</l>
+					<l n="105" num="11.5">Comme un vaisseau voguant sur l’onde</l>
+					<l n="106" num="11.6">Traîne après soi la vase immonde</l>
+					<l n="107" num="11.7">Qu’il a soulevée en son cours,</l>
+					<l n="108" num="11.8">Ton nom, plus fort que l’injustice,</l>
+					<l n="109" num="11.9">Traîne ton Zoïle au supplice</l>
+					<l n="110" num="11.10">D’une honte qui vit toujours !</l>
+				</lg>
+				<lg n="12">
+					<l n="111" num="12.1">« Meute hideuse qu’un grand homme</l>
+					<l n="112" num="12.2">Traîne sans cesse sur ses pas,</l>
+					<l n="113" num="12.3">Toujours acharnés s’il vous nomme,</l>
+					<l n="114" num="12.4">Honteux s’il ne vous nomme pas ;</l>
+					<l n="115" num="12.5">Je pourrais… Mais que ce silence</l>
+					<l n="116" num="12.6">Soit contre eux ma seule vengeance !</l>
+					<l n="117" num="12.7">Les dieux nous vengent à ce prix.</l>
+					<l n="118" num="12.8">Que l’oubli soit leur anathème ;</l>
+					<l n="119" num="12.9">Que leurs noms n’héritent pas même</l>
+					<l n="120" num="12.10">L’immortalité du mépris !</l>
+				</lg>
+				<lg n="13">
+					<l n="121" num="13.1">« Vils profanateurs que vous êtes,</l>
+					<l n="122" num="13.2">Aux yeux des siècles indignés</l>
+					<l n="123" num="13.3">Croyez-vous couronner vos têtes</l>
+					<l n="124" num="13.4">Des rayons que vous éteignez ?</l>
+					<l n="125" num="13.5">Non ! la gloire par vous ternie</l>
+					<l n="126" num="13.6">Ne couvre que d’ignominie</l>
+					<l n="127" num="13.7">Un front que l’ombre aurait caché ;</l>
+					<l n="128" num="13.8">Et de ce front livide et blême</l>
+					<l n="129" num="13.9">Le laurier tombe de lui-même,</l>
+					<l n="130" num="13.10">Flétri dès qu’il vous a touché ! »</l>
+				</lg>
+				<lg n="14">
+					<l n="131" num="14.1">Il se tut : sa lyre plaintive</l>
+					<l n="132" num="14.2">Suspendit ses rhythmes touchants,</l>
+					<l n="133" num="14.3">Croyant que l’écho de la rive</l>
+					<l n="134" num="14.4">Avait seul entendu ses chants ;</l>
+					<l n="135" num="14.5">Mais, par ses rivaux irritée,</l>
+					<l n="136" num="14.6">Sur ses pas la foule ameutée</l>
+					<l n="137" num="14.7">Suivait sa trace et l’entendit :</l>
+					<l n="138" num="14.8">Leurs cœurs de venin se gonflèrent,</l>
+					<l n="139" num="14.9">Au lieu d’applaudir ils sifflèrent ;</l>
+					<l n="140" num="14.10">Car ainsi l’envie applaudit.</l>
+				</lg>
+				<lg n="15">
+					<l n="141" num="15.1">Du sein de la foule offensée</l>
+					<l n="142" num="15.2">De ces ennemis inhumains,</l>
+					<l n="143" num="15.3">Soudain une pierre lancée</l>
+					<l n="144" num="15.4">Va frapper sa lyre en ses mains.</l>
+					<l n="145" num="15.5">L’aveugle en vain la presse encore,</l>
+					<l n="146" num="15.6">Elle roule en débris sonore</l>
+					<l n="147" num="15.7">Du sein qui veut la retenir ;</l>
+					<l n="148" num="15.8">Mais, en se brisant sous ce crime,</l>
+					<l n="149" num="15.9">Elle jette un accord sublime</l>
+					<l n="150" num="15.10">Qui retentit dans l’avenir !</l>
+				</lg>
+				<closer>
+					<note type="footnote" id="1">Le Paradis perdu, vendu pour dix guinées.</note>
+				</closer>
+			</div>
+			<div type="poem" key="LAM85">
+				<head type="number">SEIZIÈME MÉDITATION</head>
+				<head type="main">SALUT À L’ÎLE D’ISCHIA</head>
+				<head type="sub_2">1812</head>
+				<lg n="1">
+					<l n="1" num="1.1">Il est doux d’aspirer, en abordant la grève,</l>
+					<l n="2" num="1.2">Le parfum que la brise apporte à l’étranger,</l>
+					<l n="3" num="1.3">Et de sentir les fleurs que son haleine enlève</l>
+					<l n="4" num="1.4">Pleuvoir sur votre front du haut de l’oranger.</l>
+				</lg>
+				<lg n="2">
+					<l n="5" num="2.1">Il est doux de poser sur le sable immobile</l>
+					<l n="6" num="2.2">Un pied lourd, et lassé du mouvement des flots ;</l>
+					<l n="7" num="2.3">De voir les blonds enfants et les femmes d’une île</l>
+					<l n="8" num="2.4">Vous tendre les fruits d’or sous leurs treilles éclos.</l>
+				</lg>
+				<lg n="3">
+					<l n="9" num="3.1">Il est doux de prêter une oreille ravie</l>
+					<l n="10" num="3.2">À la langue du ciel, que rien ne peut ternir ;</l>
+					<l n="11" num="3.3">Qui vous reporte en rêve à l’aube de la vie,</l>
+					<l n="12" num="3.4">Et dont chaque syllabe est un cher souvenir.</l>
+				</lg>
+				<lg n="4">
+					<l n="13" num="4.1">Il est doux, sur la plage où le monarque arrive,</l>
+					<l n="14" num="4.2">D’entendre aux flancs des forts les salves du canon ;</l>
+					<l n="15" num="4.3">De l’écho de ses pas faire éclater la rive,</l>
+					<l n="16" num="4.4">Et rouler jusqu’au ciel les saluts à son nom.</l>
+				</lg>
+				<lg n="5">
+					<l n="17" num="5.1">Mais de tous ces accents dont le bord vous salue,</l>
+					<l n="18" num="5.2">Aucun n’est aussi doux sur la terre ou les mers</l>
+					<l n="19" num="5.3">Que le son caressant d’une voix inconnue,</l>
+					<l n="20" num="5.4">Qui récite au poëte un refrain de ses vers <ref target="1" type="noteAnchor">1</ref>.</l>
+				</lg>
+				<lg n="6">
+					<l n="21" num="6.1">Cette voix va plus loin réveiller son délire</l>
+					<l n="22" num="6.2">Que l’airain de la guerre ou l’orgue de l’autel.</l>
+					<l n="23" num="6.3">Mais quand le cœur d’un siècle est devenu sa lyre,</l>
+					<l n="24" num="6.4">L’écho s’appelle gloire, et devient immortel.</l>
+				</lg>
+				<closer>
+					<note id="1" type="footnote">
+						En arrivant au port d’Ischia, l’auteur entendit une jeune fille <lb/>
+						réciter une strophe de ses vers.
+					</note>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>
