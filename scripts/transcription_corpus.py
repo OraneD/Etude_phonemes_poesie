@@ -220,7 +220,7 @@ def transcription(corpusPath, stats_auteur) :
             return liste_vers, liste_vers_phonetique, syllabes, liste_vers_phonetique_sanscouleur
     
                
-liste_vers, liste_vers_phonetique, syllabes, liste_vers_phonetique_sans_couleur = transcription(Path("../Corpus/Musset"),Path("../Corpus/Musset/analyse_CM_profils_Musset.csv")   )     
+liste_vers, liste_vers_phonetique, syllabes, liste_vers_phonetique_sans_couleur = transcription(Path("../Corpus/LaMartine"),Path("../Corpus/LaMartine/analyse_CM_profils_Lamartine.csv")   )     
 
 end_time = time.time()
 print(end_time - start_time)
@@ -233,13 +233,13 @@ def resultats_html(vers, vers_phonetique, syllabes, nomfichier) :
     print(tabulate(df_poeme, headers='keys', tablefmt='psql'))
     #CONVERSION AU FORMAT HTML
     #html = df_poeme.to_html()
-   # conv = Ansi2HTMLConverter()
+   #conv = Ansi2HTMLConverter()
     #html_conv = html = conv.convert(html)
     #text_file = open(nomfichier, "w")
     #text_file.write(html_conv)
     #text_file.close()
     
-resultats_html(liste_vers, liste_vers_phonetique, syllabes, "musset.html")
+resultats_html(liste_vers, liste_vers_phonetique, syllabes, "lamartine.html")
 
 def resultats_csv(vers, vers_phonetique_sanscouleur, syllabes, nomfichier) :
     with open(nomfichier, "w") as csvfile :
@@ -250,7 +250,7 @@ def resultats_csv(vers, vers_phonetique_sanscouleur, syllabes, nomfichier) :
         objet.writerows(c)
 
     
-resultats_csv(liste_vers, liste_vers_phonetique_sans_couleur, syllabes, Path("../resultats/csv_transcriptions/musset.csv"))
+resultats_csv(liste_vers, liste_vers_phonetique_sans_couleur, syllabes, Path("../resultats/csv_transcriptions/lamartine.csv"))
 
 
 
