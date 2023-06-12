@@ -1,0 +1,4 @@
+../resultats/csv_transcriptions/hugo.csv Vers :33814 Alexandrins :26553
+../resultats/csv_transcriptions/baudelaire.csv Vers :2947 Alexandrins :2644
+../resultats/csv_transcriptions/musset.csv Vers :7932 Alexandrins :7056
+../resultats/csv_transcriptions/lamartine.csv Vers :17462 Alexandrins :15371
