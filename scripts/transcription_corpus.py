@@ -17,6 +17,11 @@ import csv
 import time
 
 start_time = time.time()
+import os
+#print(os.getcwd())
+#os.chdir("Etude_phonemes_poesie/scripts")
+#print(os.getcwd())
+
 
 def transcription(corpusPath, stats_auteur) : 
     diereses = pd.read_csv("diereses.txt")
@@ -62,8 +67,10 @@ def transcription(corpusPath, stats_auteur) :
                                 for vers in div.findall('.//{http://www.tei-c.org/ns/1.0}l') :
                                     if vers.text == None :
                                         continue
+                                    elif vers.get("quantity") == "8" :
+                                        continue
                                     remplacement_apo = re.sub(r"’", "'", vers.text)
-                                    vers_propre = re.sub(r"[^\w\s\'’-]", "", remplacement_apo).lower()
+                                    vers_propre = re.sub(r"[^\w\s\'’-]", "", remplacement_apo).lower().strip("-").strip("'")
                                     liste_mots_vers = vers_propre.split()
                                     for mot in liste_mots_vers :
                                         if "'" in mot :
@@ -206,21 +213,21 @@ def transcription(corpusPath, stats_auteur) :
                                     print(vers_propre, vers_phonetique, nb_syllabes)
                                     print()
                                         
-            print("----MOTS INCONNUS------")    
-            print(len((liste_mots_inconnus)))
-            print(liste_mots_inconnus)
-            with open("mots_inconnus_transcriptions.txt", "w") as file :
-                for mot in liste_mots_inconnus :
-                    file.write(mot + "\n")
+    print("----MOTS INCONNUS------")    
+    print(len((liste_mots_inconnus)))
+    print(liste_mots_inconnus)
+    with open("mots_inconnus_transcriptions.txt", "w") as file :
+        for mot in liste_mots_inconnus :
+            file.write(mot + "\n")
 
-            print("----EVALUATION----")
-            print("Pourcentage pars vers :")
-            print((nb_vers_bon / nb_vers)* 100)
+    print("----EVALUATION----")
+    print("Pourcentage pars vers :")
+    print((nb_vers_bon / nb_vers)* 100)
 
-            return liste_vers, liste_vers_phonetique, syllabes, liste_vers_phonetique_sanscouleur
+    return liste_vers, liste_vers_phonetique, syllabes, liste_vers_phonetique_sanscouleur
     
                
-liste_vers, liste_vers_phonetique, syllabes, liste_vers_phonetique_sans_couleur = transcription(Path("../Corpus/LaMartine"),Path("../Corpus/LaMartine/analyse_CM_profils_Lamartine.csv")   )     
+liste_vers, liste_vers_phonetique, syllabes, liste_vers_phonetique_sans_couleur = transcription(Path("../Corpus/Hugo"),Path("../Corpus/Hugo/analyse_CM_profils_Hugo.csv")   )     
 
 end_time = time.time()
 print(end_time - start_time)
@@ -232,14 +239,14 @@ def resultats_html(vers, vers_phonetique, syllabes, nomfichier) :
     df_poeme["syllabes"] = syllabes
     print(tabulate(df_poeme, headers='keys', tablefmt='psql'))
     #CONVERSION AU FORMAT HTML
-    #html = df_poeme.to_html()
-   #conv = Ansi2HTMLConverter()
-    #html_conv = html = conv.convert(html)
-    #text_file = open(nomfichier, "w")
-    #text_file.write(html_conv)
-    #text_file.close()
+    html = df_poeme.to_html()
+    conv = Ansi2HTMLConverter()
+    html_conv = html = conv.convert(html)
+    text_file = open(nomfichier, "w")
+    text_file.write(html_conv)
+    text_file.close()
     
-resultats_html(liste_vers, liste_vers_phonetique, syllabes, "lamartine.html")
+resultats_html(liste_vers, liste_vers_phonetique, syllabes, Path("../resultats/tableaux_html/Hugo.html"))
 
 def resultats_csv(vers, vers_phonetique_sanscouleur, syllabes, nomfichier) :
     with open(nomfichier, "w") as csvfile :
@@ -250,7 +257,7 @@ def resultats_csv(vers, vers_phonetique_sanscouleur, syllabes, nomfichier) :
         objet.writerows(c)
 
     
-resultats_csv(liste_vers, liste_vers_phonetique_sans_couleur, syllabes, Path("../resultats/csv_transcriptions/lamartine.csv"))
+resultats_csv(liste_vers, liste_vers_phonetique_sans_couleur, syllabes, Path("../resultats/csv_transcriptions/hugo.csv"))
 
 
 
