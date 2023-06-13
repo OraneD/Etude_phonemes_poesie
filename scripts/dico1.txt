@@ -1176,7 +1176,7 @@ Washington	waSigtOn
 Wimbledon	wimbl2dOn
 Win2000	Hindozd2mil
 Windsor	windsOR
-Wolfgang	wOlfgag
+Wolfgang	wOlfgAg
 Wyoming	wajOmig
 XPress	ikspREs
 Xavier	gzavje
