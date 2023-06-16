@@ -40,10 +40,10 @@ def stats_consonnes(fichier, consonnes):
 
 
                 
-Nhugo, Vhugo = stats_consonnes("../resultats/csv_transcriptions/hugo.csv", ["p", "b", "m"])
-Nbaudelaire, Vbaudelaire = stats_consonnes("../resultats/csv_transcriptions/baudelaire.csv", ["p", "b", "m"])
-Nmusset, Vmusset = stats_consonnes("../resultats/csv_transcriptions/musset.csv", ["p", "b", "m"])
-Nlamartine, Vlamartine = stats_consonnes("../resultats/csv_transcriptions/lamartine.csv", ["p", "b", "m"])
+Nhugo, Vhugo = stats_consonnes("../resultats/csv_transcriptions/hugo.csv", ["s", "z"])
+Nbaudelaire, Vbaudelaire = stats_consonnes("../resultats/csv_transcriptions/baudelaire.csv", ["s", "z"])
+Nmusset, Vmusset = stats_consonnes("../resultats/csv_transcriptions/musset.csv", ["s", "z"])
+Nlamartine, Vlamartine = stats_consonnes("../resultats/csv_transcriptions/lamartine.csv", ["s", "z"])
 
 
 N = 4
