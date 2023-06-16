@@ -15,7 +15,7 @@ import numpy as np
 liste_phonemes = ["a", "A", "b", "C", "k", "d", "e", "E", "f", "g", "H", "i", "j", "J", "t", "Z", "z", "e~", "w", "@", "s", "R", "2", "u", "y", "o", "O", "9", "v", "m", "n", "N", "S"]
 liste_e = ["@", "2", "9"]
 liste_o = ["o", "O"]
-liste_voyelles = ["a", "@", "2" "9", "o", "O", "e", "E", "u", "y", "i", "e~", "A", "C"]
+liste_voyelles = ["a", "@", "2", "9", "o", "O", "e", "E", "u", "y", "i", "e~", "A", "C"]
 liste_voyelles_dico = ["a", "@", "o", "e", "E", "u", "y", "i", "e~", "A", "C"]
 #Pourcentage par phonème
 def stats_phonemes(fichier):
@@ -29,18 +29,16 @@ def stats_phonemes(fichier):
                     csvreader = csv.reader(filecsv)
                     for row in csvreader :
                         if row[2] == "12":
-                            for phoneme in liste_phonemes :
-                                if phoneme in liste_voyelles  and phoneme in liste_e and len(re.findall(phoneme, row[1])) != 0 :
+                            for phoneme in liste_voyelles :
+                                if  phoneme in liste_e and len(re.findall(phoneme, row[1])) != 0 :
                                     dico_voyelles["@"] += len(re.findall(phoneme, row[1]))
                                     nb_pho_total += len(re.findall(phoneme, row[1]))
-                                elif phoneme in liste_voyelles and phoneme in liste_o and len(re.findall(phoneme, row[1])) != 0 :
+                                elif  phoneme in liste_o and len(re.findall(phoneme, row[1])) != 0 :
                                     dico_voyelles["o"] += len(re.findall(phoneme, row[1]))
                                     nb_pho_total += len(re.findall(phoneme, row[1]))
-                                elif phoneme in liste_voyelles and len(re.findall(phoneme, row[1])) != 0 :
+                                elif  len(re.findall(phoneme, row[1])) != 0 :
                                     dico_voyelles[phoneme] += len(re.findall(phoneme, row[1]))
-                                    nb_pho_total += len(re.findall(phoneme, row[1]))
-                                elif len(re.findall(phoneme, row[1])) != 0 :
-                                    nb_pho_total += len(re.findall(phoneme, row[1]))
+
                                     
     
                 names = list(dico_voyelles.keys())
@@ -73,7 +71,7 @@ bar4 = plt.bar(ind+width*3, uvals, width, color = "tab:red")
 
 
 plt.ylabel("%")
-plt.title("Pourcentage de chaque voyelle (parmi tous les phonèmes)")
+plt.title("Pourcentage de chaque voyelle (parmi toutes les voyelles)")
 
 plt.xticks(ind+width, Nhugo)
 
