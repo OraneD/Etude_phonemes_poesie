@@ -15,7 +15,7 @@ import numpy as np
 liste_phonemes = ["a", "A", "b", "C", "k", "d", "e", "E", "f", "g", "H", "i", "j", "J", "t", "Z", "z", "e~", "w", "@", "s", "R", "2", "u", "y", "o", "O", "9", "v", "m", "n", "N", "S"]
 liste_e = ["@", "2", "9"]
 liste_o = ["o", "O"]
-liste_voyelles = ["a", "@", "2", "9", "o", "O", "e", "E", "u", "y", "i", "e~", "A", "C"]
+liste_voyelles = ["a", "@", "2", "9", "o", "O", "e", "E", "u", "y", "i", "e~", "A", "C", "H", "j"]
 liste_voyelles_dico = ["a", "@", "o", "e", "E", "u", "y", "i", "e~", "A", "C"]
 
 liste_consonnes = ["p", "t", "k", "f", "s" ,"S","b", "d", "g", "v", "z" "j", "l","R", "n" "N", "m"]
@@ -23,15 +23,18 @@ liste_consonnes = ["p", "t", "k", "f", "s" ,"S","b", "d", "g", "v", "z" "j", "l"
 #Pourcentage par phonème
 def stats_cesure(fichier):
                 dico_cesure = {}
-
+                nb_row = 0
     
                 with open(fichier, "r") as filecsv:
                     print(fichier)
                     csvreader = csv.reader(filecsv)
                     for row in csvreader :
                         if row[2] == "12":
+                            nb_row += 1
                             for phoneme in liste_voyelles :
                                 regex = ("(p|t|k|f|s|S|b|d|g|v|z|j|l|R|n|N|m){1}" + phoneme + "(p|t|k|f|s|S|b|d|g|v|z|j|l|R|n|N|m)" + "\|")
+                                regex_voyelle = ("(p|t|k|f|s|S|b|d|g|v|z|j|l|R|n|N|m){1}" + phoneme + "\|")
+                                regex_vcc = ( phoneme + "(p|t|k|f|s|S|b|d|g|v|z|j|l|R|n|N|m){2}" + "\|")
                                 if  re.search(regex, row[1]) :
                                     rex = re.search(regex, row[1])
 
@@ -39,22 +42,40 @@ def stats_cesure(fichier):
                                         dico_cesure[rex.group().strip("|")] = 1
                                     else :
                                         dico_cesure[rex.group().strip("|")] += 1
+                                        
+                                elif re.search(regex_voyelle, row[1]) :
+                                    rex_voyelle = re.search(regex_voyelle, row[1])
+
+                                    if dico_cesure.get(rex_voyelle.group().strip("/")) == None :
+                                        dico_cesure[rex_voyelle.group().strip("|")] = 1
+                                    else :
+                                        dico_cesure[rex.group().strip("|")] += 1
+                                                                        
+                                elif re.search(regex_vcc, row[1]) :
+                                    rex_vcc = re.search(regex_vcc, row[1])
+                                    print(rex_vcc.group())
+                                    if dico_cesure.get(rex_vcc.group().strip("/")) == None :
+                                        dico_cesure[rex_vcc.group().strip("|")] = 1
+                                    else :
+                                        dico_cesure[rex.vcc().strip("|")] += 1
+                                    
 
                                     
     
                 
-                
+                print(nb_row)
                 values = [round((v / sum(dico_cesure.values())) * 100, 2) for v in dico_cesure.values()]
                 sorted_dic = sorted(dico_cesure.items(), key=lambda x:x[1], reverse = True)
                 lst_names = []
                 lst_value = []
-                print(sorted_dic)
                 
                 keys = ["Syllabe", "Occurrences", "Pourcentage"]
+                print(sum(dico_cesure.values()))
                 with open("syllabes_cesure_hugo.csv", "w") as csvfile :
                     writer =  csv.writer(csvfile)
+                    writer.writerow(keys)
                     for key, value in dico_cesure.items() :
-                        writer.writerow([key, value])
+                        writer.writerow([key, value, round(value / sum(dico_cesure.values()) * 100, 2)])
     
                     
                      
@@ -81,7 +102,7 @@ counts = Vhugo
 ax.bar(syl, counts)
 
 ax.set_ylabel('Pourcentage parmi tous les vers')
-ax.set_title('Syllabes à la césure les plus fréquentes pour Hugo (consonne-voyelle-consonne)')
+ax.set_title('Syllabes à la césure les plus fréquentes pour Hugo')
 
 
 plt.show()
