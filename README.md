@@ -8,6 +8,7 @@ Le script rajoute en plus les liaisons /s/ et /t/ qui sont notées en rouge et e
 </div>
 
 ## Guide Transcription ##
+Alphabet phonétique SAMPA avec quelques changements, notamment pour les voyelles nasales.
 <div style="width: 100%;">
   <img src="sampa_guide/sampa.svg" style="width: 100%;" alt="Click to see the source">
 </div>
