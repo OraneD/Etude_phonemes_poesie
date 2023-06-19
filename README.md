@@ -7,6 +7,11 @@ Le script rajoute en plus les liaisons /s/ et /t/ qui sont notées en rouge et e
   <img src="exemple/exemple.svg" style="width: 100%;" alt="Click to see the source">
 </div>
 
+## Guide Transcription ##
+<div style="width: 100%;">
+  <img src="sampa_guide/sampa.svg" style="width: 100%;" alt="Click to see the source">
+</div>
+
 ## Corpus ##
 Sélection de recueils au format XML comportant des alexandrins dans le corpus [Malherbe](https://www.ortolang.fr/market/corpora/malherbe) :
 * **Victor Hugo** : Les Contemplations, La Légende des siècles, Les Feuilles d'Automne, Les Rayons et les Ombres
