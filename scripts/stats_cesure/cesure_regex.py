@@ -56,13 +56,13 @@ def stats_cesure(fichier):
                 lst_names = []
                 lst_value = []
                 
-                keys = ["Syllabe", "Occurrences", "Pourcentage"]
-                print(sum(dico_cesure.values()))
-                with open("syllabes_cesure_hugo.csv", "w") as csvfile :
-                    writer =  csv.writer(csvfile)
-                    writer.writerow(keys)
-                    for key, value in dico_cesure.items() :
-                        writer.writerow([key, value, round(value / sum(dico_cesure.values()) * 100, 2)])
+               # keys = ["Syllabe", "Occurrences", "Pourcentage"]
+                #print(sum(dico_cesure.values()))
+               # with open("syllabes_cesure_hugo.csv", "w") as csvfile :
+                   # writer =  csv.writer(csvfile)
+                   # writer.writerow(keys)
+                   # for key, value in dico_cesure.items() :
+                       # writer.writerow([key, value, round(value / sum(dico_cesure.values()) * 100, 2)])
     
                     
                      
@@ -74,19 +74,19 @@ def stats_cesure(fichier):
 
 
                 
-Nhugo, Vhugo = stats_cesure("../resultats/csv_transcriptions/hugo.csv")
+#Nhugo, Vhugo = stats_cesure("../resultats/csv_transcriptions/hugo.csv")
 #Nbaudelaire, Vbaudelaire = stats_cesure("../resultats/csv_transcriptions/baudelaire.csv")
-#Nmusset, Vmusset = stats_cesure("../resultats/csv_transcriptions/musset.csv")
-#Nlamartine, Vlamartine = stats_cesure("../resultats/csv_transcriptions/lamartine.csv")
+#Nmusset, Vmusset = stats_cesure("../../resultats/csv_transcriptions/musset.csv")
+Nlamartine, Vlamartine = stats_cesure("../../resultats/csv_transcriptions/lamartine.csv")
 
 
 fig, ax = plt.subplots()
 
-syl = Nhugo
-counts = Vhugo
+syl = Nlamartine
+counts = Vlamartine
 
 
 ax.bar(syl, counts)
 
 ax.set_ylabel('Pourcentage parmi tous les vers')
-ax.set_title('Syllabes à la césure les plus fréquentes pour Baudelaire')
+ax.set_title('Syllabes à la césure les plus fréquentes pour Lamartine')
