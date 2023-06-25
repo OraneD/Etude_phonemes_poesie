@@ -11,6 +11,8 @@ from pathlib import Path
 import re 
 import matplotlib.pyplot as plt
 import numpy as np
+import os
+print(os.getcwd())
 
 liste_phonemes = ["a", "A", "b", "C", "k", "d", "e", "E", "f", "g", "H", "i", "j", "J", "t", "Z", "z", "e~", "w", "@", "s", "R", "2", "u", "y", "o", "O", "9", "v", "m", "n", "N", "S"]
 liste_e = ["@", "2", "9"]
@@ -20,7 +22,6 @@ liste_voyelles_dico = ["a", "@", "o", "e", "E", "u", "y", "i", "e~", "A", "C"]
 #Pourcentage par phonème
 def stats_phonemes(fichier):
                 dico_voyelles = {}
-                nb_pho_total = 0
                 for voyelle in liste_voyelles_dico :
                     dico_voyelles[voyelle] = 0
     
@@ -32,25 +33,24 @@ def stats_phonemes(fichier):
                             for phoneme in liste_voyelles :
                                 if  phoneme in liste_e and len(re.findall(phoneme, row[1])) != 0 :
                                     dico_voyelles["@"] += len(re.findall(phoneme, row[1]))
-                                    nb_pho_total += len(re.findall(phoneme, row[1]))
                                 elif  phoneme in liste_o and len(re.findall(phoneme, row[1])) != 0 :
                                     dico_voyelles["o"] += len(re.findall(phoneme, row[1]))
-                                    nb_pho_total += len(re.findall(phoneme, row[1]))
                                 elif  len(re.findall(phoneme, row[1])) != 0 :
                                     dico_voyelles[phoneme] += len(re.findall(phoneme, row[1]))
 
                                     
-    
+
+                print(dico_voyelles)
                 names = list(dico_voyelles.keys())
-                values = [round((v / nb_pho_total) * 100, 2) for v in dico_voyelles.values()]
+                values = [round((v / sum(dico_voyelles.values())) * 100, 2) for v in dico_voyelles.values()]
                 return names, values
 
 
                 
-Nhugo, Vhugo = stats_phonemes("../resultats/csv_transcriptions/hugo.csv")
-Nbaudelaire, Vbaudelaire = stats_phonemes("../resultats/csv_transcriptions/baudelaire.csv")
-Nmusset, Vmusset = stats_phonemes("../resultats/csv_transcriptions/musset.csv")
-Nlamartine, Vlamartine = stats_phonemes("../resultats/csv_transcriptions/lamartine.csv")
+Nhugo, Vhugo = stats_phonemes("../../resultats/csv_transcriptions/hugo.csv")
+Nbaudelaire, Vbaudelaire = stats_phonemes("../../resultats/csv_transcriptions/baudelaire.csv")
+Nmusset, Vmusset = stats_phonemes("../../resultats/csv_transcriptions/musset.csv")
+Nlamartine, Vlamartine = stats_phonemes("../../resultats/csv_transcriptions/lamartine.csv")
 
 
 N = 4
