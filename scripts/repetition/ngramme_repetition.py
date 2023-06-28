@@ -52,7 +52,7 @@ def stats_repetition(fichier):
                         if row[2] == "12":
                             nb_row += 1
                             
-                            ngramme_syllabe = (ngramme(row[1], 3))
+                            ngramme_syllabe = (ngramme(row[1], 2))
                             lst_row = []
                             for syl in ngramme_syllabe :
 

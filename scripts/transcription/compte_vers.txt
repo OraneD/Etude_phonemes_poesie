@@ -1,0 +1,4 @@
+Corpus Hugo :  Alexandrins : 31188 Alexandrins détectés :26554 -> 1139 vers corrigés sur 4634 erreurs = 27693/31188 Alexandrins bien annotés (88,8%)
+Corpus Baudelaire Alexandrins : 2938 Alexandrins détectés :2644 -> 146 vers corrigés sur 294 erreurs = 2790/2938 Alexandrins bien annotés (94,9%)
+Corpus Musset :  Alexandrins : 7811 Alexandrins détectés :7056 -> 175 vers corrigés sur 755 erreurs = 7231/7811 Alexandrins bien annotés (92,6%)
+Corpus Lamartine : Alexandrins : 16915 Alexandrins détectés :15371 -> 647 vers corrigés sur 1544 erreurs = 16018/16915 Alexandrins bien annotés (94,7%)

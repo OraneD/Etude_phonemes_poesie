@@ -15,12 +15,13 @@ import numpy as np
 liste_phonemes = ["a", "A", "b", "C", "k", "d", "e", "E", "f", "g", "H", "i", "j", "J", "t", "Z", "z", "e~", "w", "@", "s", "R", "2", "u", "y", "o", "O", "9", "v", "m", "n", "N", "S"]
 liste_consonnes_sourdes = ["p", "t", "k", "f", "s" "S"]
 liste_consonnes_sonores = ["b", "d", "g", "v", "z" "j", "l","R", "n" "N", "m"]
-#Pourcentage par phonème
+liste_consonnes = ["p", "t", "k", "f", "s" "S", "b", "d", "g", "v", "z" "j", "l","R", "n" "N", "m"]
+
+
 def stats_consonnes(fichier, consonnes):
     
-                dico_consonne = {}
-                for consonne in consonnes :
-                    dico_consonne[consonne] = 0
+                dico_consonne = {"groupe p, b, m" : 0, "autres consonnes" : 0}
+
 
     
                 with open(fichier, "r") as filecsv:
@@ -28,9 +29,13 @@ def stats_consonnes(fichier, consonnes):
                     csvreader = csv.reader(filecsv)
                     for row in csvreader :
                         if row[2] == "12":
-                            for consonne in consonnes :
-                                if  len(re.findall(consonne, row[1])) != 0 :
-                                    dico_consonne[consonne] += len(re.findall(consonne, row[1]))
+                            for cons in liste_consonnes :
+                                if cons in consonnes and len(re.findall(cons, row[1])) != 0 :
+                                    dico_consonne["groupe p, b, m"] += len(re.findall(cons, row[1]))
+                                elif len(re.findall(cons, row[1])) != 0 :
+                                    dico_consonne["autres consonnes"] += len(re.findall(cons, row[1]))
+                                    
+
 
                                     
     
@@ -40,10 +45,10 @@ def stats_consonnes(fichier, consonnes):
 
 
                 
-Nhugo, Vhugo = stats_consonnes("../resultats/csv_transcriptions/hugo.csv", ["s", "z"])
-Nbaudelaire, Vbaudelaire = stats_consonnes("../resultats/csv_transcriptions/baudelaire.csv", ["s", "z"])
-Nmusset, Vmusset = stats_consonnes("../resultats/csv_transcriptions/musset.csv", ["s", "z"])
-Nlamartine, Vlamartine = stats_consonnes("../resultats/csv_transcriptions/lamartine.csv", ["s", "z"])
+Nhugo, Vhugo = stats_consonnes("../resultats/csv_transcriptions/hugo.csv", ["p", "b", "m"])
+Nbaudelaire, Vbaudelaire = stats_consonnes("../resultats/csv_transcriptions/baudelaire.csv", ["p", "b", "m" ])
+Nmusset, Vmusset = stats_consonnes("../resultats/csv_transcriptions/musset.csv", ["p", "b", "m" ])
+Nlamartine, Vlamartine = stats_consonnes("../resultats/csv_transcriptions/lamartine.csv", ["p", "b", "m" ])
 
 
 N = 4

@@ -100,7 +100,7 @@ def transcription(corpusPath, stats_auteur) :
                                                     if mot == ortho :
                                                         if longueur_vers >= 1 :
                                                             #Règles pour les "@" :
-                                                            if (len(mot) > 3 or mot == "une") and (mot[-1] == "e" or mot[-2:] == "es") and (liste_mots_vers[0])[0] not in voyelles and liste_mots_vers[0][0] != "h" and phonetique[-1] != "@":
+                                                            if (len(mot) > 3 or mot == "une") and (mot[-1] == "e" or mot[-2:] == "es" or mot[-3:] == "ent") and (liste_mots_vers[0])[0] not in voyelles and liste_mots_vers[0][0] != "h" and phonetique[-1] != "@":
                                                                 vers_phonetique += phonetique + colored("@","green") + " "
                                                                 vers_phonetique_sanscouleur += phonetique + "@"
                                                                 for lettre in phonetique :
