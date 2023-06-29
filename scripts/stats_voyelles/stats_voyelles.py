@@ -47,10 +47,10 @@ def stats_phonemes(fichier):
 
 
                 
-Nhugo, Vhugo = stats_phonemes("../../resultats/csv_transcriptions/hugo.csv")
-Nbaudelaire, Vbaudelaire = stats_phonemes("../../resultats/csv_transcriptions/baudelaire.csv")
-Nmusset, Vmusset = stats_phonemes("../../resultats/csv_transcriptions/musset.csv")
-Nlamartine, Vlamartine = stats_phonemes("../../resultats/csv_transcriptions/lamartine.csv")
+Nhugo, Vhugo = stats_phonemes("../../resultats/csv_transcriptions/corpus_corrige/hugo_corrig.csv")
+Nbaudelaire, Vbaudelaire = stats_phonemes("../../resultats/csv_transcriptions/corpus_corrige/baudelaire_corrig.csv")
+Nmusset, Vmusset = stats_phonemes("../../resultats/csv_transcriptions/corpus_corrige/musset_corrig.csv")
+Nlamartine, Vlamartine = stats_phonemes("../../resultats/csv_transcriptions/corpus_corrige/lamartine_corrig.csv")
 
 
 N = 4
