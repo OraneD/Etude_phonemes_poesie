@@ -178700,7 +178700,7 @@ l'être	lEtr
 ôtés	ote
 d'or	dOR
 d'un	de~
-d'une dyn
+d'une	dyn
 qu	k
 c	s
 j	Z
@@ -180380,4 +180380,4 @@ scapin	skape~
 brunette	bRynEt
 balzac	balzak
 rosalinde	Rozale~d
-***
+***	***
