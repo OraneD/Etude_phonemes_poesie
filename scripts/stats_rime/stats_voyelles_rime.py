@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jun 18 18:09:55 2023
+Created on Thu Jun 29 19:28:21 2023
 
 @author: orane
 """
+
 import csv 
 from pathlib import Path
 import re 
@@ -22,7 +23,7 @@ liste_consonnes = ["p", "t", "k", "f", "s" ,"S","b", "d", "g", "v", "z" "j", "l"
 regex_consonnes = "(p|t|k|f|s|S|b|d|g|v|z|j|l|R|n|N|m|Z|w|H)"
 regex_voyelles = "(a|@|2|9|o|O|e|E|u|y|i|e~|A|C|H|j)"
 
-regex = (regex_consonnes + "{0,2}" + regex_voyelles + regex_consonnes + "?\|")
+regex = (regex_consonnes + "{0,2}" + regex_voyelles + regex_consonnes + "?\.")
 
 
 
@@ -41,10 +42,10 @@ def stats_cesure(fichier, csv_output):
                                 rex = re.search(regex, row[1])
                                 
         
-                                if dico_cesure.get(rex.group().strip("|")) == None :
-                                    dico_cesure[rex.group().strip("|")] = 1
+                                if dico_cesure.get(rex.group().strip(".")) == None :
+                                    dico_cesure[rex.group().strip(".")] = 1
                                 else :
-                                    dico_cesure[rex.group().strip("|")] += 1
+                                    dico_cesure[rex.group().strip(".")] += 1
                                 
                             
 
@@ -75,15 +76,14 @@ def stats_cesure(fichier, csv_output):
 
 
                 
-Nhugo, Vhugo = stats_cesure("../../resultats/csv_transcriptions/corpus_corrige/hugo_corrig.csv",
-                            "../../resultats/statistique/cesure/csv/hugo_syllabe_cesure.csv")
+Nhugo, Vhugo = stats_cesure("../../resultats/csv_transcriptions/corpus_corrige/hugo_corrig_p.csv",
+                            "../../resultats/statistique/rime/csv/hugo_syllabe_rime.csv")
 
-Nbaudelaire, Vbaudelaire = stats_cesure("../../resultats/csv_transcriptions/corpus_corrige/baudelaire_corrig.csv",
-                                        "../../resultats/statistique/cesure/csv/baudelaire_syllabe_cesure.csv")
+Nbaudelaire, Vbaudelaire = stats_cesure("../../resultats/csv_transcriptions/corpus_corrige/baudelaire_corrig_p.csv",
+                                        "../../resultats/statistique/rime/csv/baudelaire_syllabe_rime.csv")
 
-Nmusset, Vmusset = stats_cesure("../../resultats/csv_transcriptions/corpus_corrige/musset_corrig.csv",
-                               "../../resultats/statistique/cesure/csv/musset_syllabe_cesure.csv" )
+Nmusset, Vmusset = stats_cesure("../../resultats/csv_transcriptions/corpus_corrige/musset_corrig_p.csv",
+                               "../../resultats/statistique/rime/csv/musset_syllabe_rime.csv" )
 
-Nlamartine, Vlamartine = stats_cesure("../../resultats/csv_transcriptions/corpus_corrige/lamartine_corrig.csv", 
-                                      "../../resultats/statistique/cesure/csv/lamartine_syllabe_cesure.csv")
-
+Nlamartine, Vlamartine = stats_cesure("../../resultats/csv_transcriptions/corpus_corrige/lamartine_corrig_p.csv", 
+                                      "../../resultats/statistique/rime/csv/lamartine_syllabe_rime.csv")
