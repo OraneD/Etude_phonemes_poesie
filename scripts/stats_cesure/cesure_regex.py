@@ -22,11 +22,11 @@ liste_consonnes = ["p", "t", "k", "f", "s" ,"S","b", "d", "g", "v", "z" "j", "l"
 regex_consonnes = "(p|t|k|f|s|S|b|d|g|v|z|j|l|R|n|N|m|Z|w|H)"
 regex_voyelles = "(a|@|2|9|o|O|e|E|u|y|i|e~|A|C|H|j)"
 
-regex = (regex_consonnes + "?" + regex_voyelles + regex_consonnes + "?\|")
+regex = (regex_consonnes + "{0,2}" + regex_voyelles + regex_consonnes + "?\|")
 
 
 
-def stats_cesure(fichier):
+def stats_cesure(fichier, csv_output):
                 dico_cesure = {}
                 nb_row = 0
     
@@ -39,6 +39,7 @@ def stats_cesure(fichier):
         
                             if  re.search(regex, row[1]) :
                                 rex = re.search(regex, row[1])
+                                
         
                                 if dico_cesure.get(rex.group().strip("|")) == None :
                                     dico_cesure[rex.group().strip("|")] = 1
@@ -56,13 +57,13 @@ def stats_cesure(fichier):
                 lst_names = []
                 lst_value = []
                 
-               # keys = ["Syllabe", "Occurrences", "Pourcentage"]
-                #print(sum(dico_cesure.values()))
-               # with open("syllabes_cesure_hugo.csv", "w") as csvfile :
-                   # writer =  csv.writer(csvfile)
-                   # writer.writerow(keys)
-                   # for key, value in dico_cesure.items() :
-                       # writer.writerow([key, value, round(value / sum(dico_cesure.values()) * 100, 2)])
+                keys = ["Syllabe", "Occurrences", "Pourcentage"]
+                print(sum(dico_cesure.values()))
+                with open(csv_output, "w") as csvfile :
+                    writer =  csv.writer(csvfile)
+                    writer.writerow(keys)
+                    for key, value in dico_cesure.items() :
+                        writer.writerow([key, value, round(value / sum(dico_cesure.values()) * 100, 2)])
     
                     
                      
@@ -74,10 +75,17 @@ def stats_cesure(fichier):
 
 
                 
-#Nhugo, Vhugo = stats_cesure("../resultats/csv_transcriptions/hugo.csv")
-#Nbaudelaire, Vbaudelaire = stats_cesure("../resultats/csv_transcriptions/baudelaire.csv")
-#Nmusset, Vmusset = stats_cesure("../../resultats/csv_transcriptions/musset.csv")
-Nlamartine, Vlamartine = stats_cesure("../../resultats/csv_transcriptions/lamartine.csv")
+Nhugo, Vhugo = stats_cesure("../../resultats/csv_transcriptions/corpus_corrige/hugo_corrig.csv",
+                            "../../resultats/statistique/cesure/csv/hugo_syllabe_cesure.csv")
+
+Nbaudelaire, Vbaudelaire = stats_cesure("../../resultats/csv_transcriptions/corpus_corrige/baudelaire_corrig.csv",
+                                        "../../resultats/statistique/cesure/csv/baudelaire_syllabe_cesure.csv")
+
+Nmusset, Vmusset = stats_cesure("../../resultats/csv_transcriptions/corpus_corrige/musset_corrig.csv",
+                               "../../resultats/statistique/cesure/csv/musset_syllabe_cesure.csv" )
+
+Nlamartine, Vlamartine = stats_cesure("../../resultats/csv_transcriptions/corpus_corrige/lamartine_corrig.csv", 
+                                      "../../resultats/statistique/cesure/csv/lamartine_syllabe_cesure.csv")
 
 
 fig, ax = plt.subplots()
