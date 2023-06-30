@@ -20,11 +20,12 @@ couple_f_v = ["f", "v"]
 couple_p_b_m = ["p", "b", "m"]
 couple_s_z = ["s", "z"]
 couple_S_Z = ["S", "Z"]
+couple_t_d = ["t", "d"]
 liste_consonnes =  ["p", "t", "k", "f", "s", "S","b", "d", "g", "v", "z", "j", "l","R", "n", "N", "m", "w", "H"]
 #Pourcentage par phonème
 def stats_phonemes(fichier):
 
-                dico_consonnes = {"k, g" : 0, "f, v" : 0, "H" : 0, "s, z" : 0, "S, Z" : 0, "R" : 0, "l" : 0, "j" : 0,"p, b, m" : 0, "w" : 0, "t" : 0, "d" : 0, "n" : 0}
+                dico_consonnes = {"k, g" : 0, "f, v" : 0, "H" : 0, "s, z" : 0, "S, Z" : 0, "R" : 0, "l" : 0, "j" : 0,"p, b, m" : 0, "w" : 0, "t, d" : 0, "n" : 0}
 
                 with open(fichier, "r") as filecsv:
                     print(fichier)
@@ -46,6 +47,9 @@ def stats_phonemes(fichier):
                                     
                                 elif phoneme in couple_S_Z and len(re.findall(phoneme, row[1])) != 0 :
                                     dico_consonnes["S, Z"] += len(re.findall(phoneme, row[1]))
+                                
+                                elif phoneme in couple_t_d and len(re.findall(phoneme, row[1])) != 0:
+                                    dico_consonnes["t, d"] += len(re.findall(phoneme, row[1]))
                                      
                                 elif len(re.findall(phoneme, row[1])) != 0 :
                                     dico_consonnes[phoneme] += len(re.findall(phoneme, row[1]))
