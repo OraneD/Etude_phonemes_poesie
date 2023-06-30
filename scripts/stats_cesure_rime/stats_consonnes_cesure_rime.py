@@ -69,32 +69,33 @@ Nbaudelaire, Vbaudelaire = stats_consonnes_six_douze("../../resultats/statistiqu
 Nmusset, Vmusset = stats_consonnes_six_douze("../../resultats/statistique/rime_cesure/csv/musset_syllabe_cesure_rime.csv")
 Nlamartine, Vlamartine = stats_consonnes_six_douze("../../resultats/statistique/rime_cesure/csv/lamartine_syllabe_cesure_rime.csv")
 
+def histogramme(x, y, z, u) :
+    N = 4
+    ind = np.arange(len(Nhugo))
+    width = 0.20
+    
+    xvals = x
+    bar1= plt.bar(ind, xvals, width, color = "tab:blue")
+    
+    yvals = y
+    bar2 = plt.bar(ind + width, yvals, width, color = "tab:orange")
+    
+    zvals = z
+    bar3 = plt.bar(ind+width*2, zvals, width, color = "tab:green")
+    
+    uvals = u
+    bar4 = plt.bar(ind+width*3, uvals, width, color = "tab:red")
+    
+    
+    plt.ylabel("%")
+    plt.title("Pourcentage consonnes positions 6 et 12 (parmi toutes les consonnes)")
+    
+    plt.xticks(ind+width, Nhugo)
+    
+    plt.legend( (bar1, bar2, bar3, bar4), ('Hugo', 'Baudelaire', 'Musset', "Lamartine") )
+    plt.show()
 
-N = 4
-ind = np.arange(len(Nhugo))
-width = 0.20
-
-xvals = Vhugo
-bar1= plt.bar(ind, xvals, width, color = "tab:blue")
-
-yvals = Vbaudelaire
-bar2 = plt.bar(ind + width, yvals, width, color = "tab:orange")
-
-zvals = Vmusset
-bar3 = plt.bar(ind+width*2, zvals, width, color = "tab:green")
-
-uvals = Vlamartine
-bar4 = plt.bar(ind+width*3, uvals, width, color = "tab:red")
-
-
-plt.ylabel("%")
-plt.title("Pourcentage consonnes positions 6 et 12 (parmi toutes les consonnes)")
-
-plt.xticks(ind+width, Nhugo)
-
-plt.legend( (bar1, bar2, bar3, bar4), ('Hugo', 'Baudelaire', 'Musset', "Lamartine") )
-plt.show()
-
+histogramme(Vhugo, Vbaudelaire, Vmusset, Vlamartine)
 
 def camembert(labels, valeurs, titre) :
     plt.figure(figsize = (8,8))
@@ -111,3 +112,38 @@ camembert(Nhugo, Vhugo, "Répartition consonnes positions 6 et 12 pour Hugo")
 camembert(Nbaudelaire, Vbaudelaire, "Répartition consonnes positions 6 et 12 pour Baudelaire")
 camembert(Nmusset, Vmusset, "Répartition consonnes positions 6 et 12 pour Musset")
 camembert(Nlamartine, Vlamartine, "Répartition consonnes positions 6 et 12 pour Lamartine")
+
+def histogramme_sup(x1, x2, x3, x4) :
+    
+    valeurs_tous = []
+    
+    for i in range(len(x1)) :
+        j = 0
+        j += round((x1[i] + x2[i] + x3[i] + x4[i])/4, 2)
+        valeurs_tous.append(j)
+    print(sum(valeurs_tous))
+      
+    plt.ylabel("%")
+    width = 0.05
+    ind = np.arange(len(Nhugo))
+    plt.ylim(0,20)
+    bar1= plt.bar(ind, valeurs_tous, color = "tab:blue")
+    plt.xticks(ind+width, Nhugo)
+    plt.title("Pourcentage consonnes positions 6 et 12 sur l'ensemble du corpus")
+    plt.show()
+    
+    plt.figure(figsize = (8,8))
+    plt.pie(valeurs_tous, 
+            labels = Nhugo, 
+            normalize = True, 
+            autopct = '%1.1f%%',
+            #pctdistance = 0.7, labeldistance = 1.4,
+            shadow = True)
+    plt.title("Pourcentage consonnes positions 6 et 12 sur l'ensemble du corpus")
+
+    plt.show()
+    
+    
+
+    
+histogramme_sup(Vhugo, Vbaudelaire, Vmusset, Vlamartine)

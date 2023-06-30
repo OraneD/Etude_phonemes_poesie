@@ -88,7 +88,7 @@ plt.ylabel("%")
 plt.title("Pourcentage de chaque consonne (parmi toutes les consonnes)")
 
 plt.xticks(ind+width, Nhugo)
-
+plt.ylim(0,20)
 plt.legend( (bar1, bar2, bar3, bar4), ('Hugo', 'Baudelaire', 'Musset', "Lamartine") )
 plt.show()
 
@@ -108,3 +108,39 @@ camembert(Nhugo, Vhugo, "Répartition consonnes pour Hugo")
 camembert(Nbaudelaire, Vbaudelaire, "Répartition consonnes pour Baudelaire")
 camembert(Nmusset, Vmusset, "Répartition consonnes pour Musset")
 camembert(Nlamartine, Vlamartine, "Répartition consonnes pour Lamartine")
+
+def histogramme_sup(x1, x2, x3, x4) :
+    
+    
+    
+    valeurs_tous = []
+    
+    for i in range(len(x1)) :
+        j = 0
+        j += round((x1[i] + x2[i] + x3[i] + x4[i])/4, 2)
+        valeurs_tous.append(j)
+    print(sum(valeurs_tous))
+      
+    plt.ylabel("%")
+    width = 0.05
+    ind = np.arange(len(Nhugo))
+    bar1= plt.bar(ind, valeurs_tous, color = "tab:blue")
+    plt.xticks(ind+width, Nhugo)
+    plt.ylim(0,20)
+    plt.title("Pourcentage consonnes l'ensemble du corpus")
+    plt.show()
+    
+    plt.figure(figsize = (8,8))
+    plt.pie(valeurs_tous, 
+            labels = Nhugo, 
+            normalize = True, 
+            autopct = '%1.1f%%',
+            #pctdistance = 0.7, labeldistance = 1.4,
+            shadow = True)
+    plt.title("Pourcentage consonnes sur l'ensemble du corpus")
+
+    plt.show()
+    
+
+    
+histogramme_sup(Vhugo, Vbaudelaire, Vmusset, Vlamartine)

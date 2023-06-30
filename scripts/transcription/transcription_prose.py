@@ -16,19 +16,33 @@ def transcription_prose(fichier):
     
     with open(fichier, "r") as f :
         texte = f.read()
-        texte_propre = vers_propre = re.sub(r"[^\w\s\'’-]", "", texte).lower().strip("-").strip("'")
-        for mot in texte_propre.split(" ") :
+        texte_remplacement_apostrophe = texte.replace("’", "'")
+        texte_propre = re.sub(r"[^\.\?\!\w\s\'’-]", "", texte_remplacement_apostrophe).lower().strip("-").strip("'")
+        liste_mots = texte_propre.split()
+        longueur_txt = len(liste_mots)
+        while longueur_txt > 0 :
+            mot = liste_mots[0].strip("\n").strip("\xa0").strip(".").strip("?").strip("!")
+            liste_mots = liste_mots[1:]
+            longueur_txt = len(liste_mots)
+            if "'" in mot :
+                for part in mot.split("'") :
+                    mot = part
+            elif "-" in mot :
+                for part in mot.split("-") :
+                    mot = part
+                    
             with open("dico1.txt", "r") as dico :
                 lignes = dico.readlines()
                 for ligne in lignes :
                     entry = ligne.split("\t")[0]
                     phonetique = ligne.split("\t")[1]
                     
-                    if mot == ("\n") :
+                    if mot == ("\n") or mot == "." or mot == "?" or mot == "!":
                         transcription_phonetique += mot
                         break
                         
                     if mot.strip() == entry :
+                        
                         print(mot, entry)
                         transcription_phonetique += phonetique.strip("\n")
                         break
