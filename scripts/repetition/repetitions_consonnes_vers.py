@@ -24,6 +24,7 @@ couple_t_d = ["t", "d"]
 liste_consonnes =  ["p", "t", "k", "f", "s", "S","b", "d", "g", "v", "z", "j", "l","R", "n", "N", "m", "w", "H"]
 #Pourcentage par phonème
 def stats_phonemes(fichier, nb_vers):
+                dico_compte = {"0" : 0, "1" : 0, "2" : 0, "3": 0, "4" : 0, "5" : 0, "6" : 0}
 
                 dico_consonnes = {"k, g" : 0, "f, v" : 0, "H" : 0, "s, z" : 0, "S, Z" : 0, "R" : 0, "l" : 0, "j" : 0,"p, b, m" : 0, "w" : 0, "t, d" : 0, "n" : 0}
 
@@ -33,25 +34,25 @@ def stats_phonemes(fichier, nb_vers):
                     for row in csvreader :
                         if row[2] == "12":
                             for phoneme in liste_consonnes :
-                                if phoneme in couple_k_g  and len(re.findall(phoneme, row[1])) == 3 :
+                                if phoneme in couple_k_g  and len(re.findall(phoneme, row[1])) == 5:
                                     dico_consonnes["k, g"] += 1
                                     
-                                elif phoneme in couple_f_v and len(re.findall(phoneme, row[1])) == 3 :
+                                elif phoneme in couple_f_v and len(re.findall(phoneme, row[1])) == 5 :
                                     dico_consonnes["f, v"] += 1
                                     
-                                elif phoneme in couple_p_b_m and len(re.findall(phoneme, row[1])) == 3 :
+                                elif phoneme in couple_p_b_m and len(re.findall(phoneme, row[1])) == 5 :
                                     dico_consonnes["p, b, m"] += 1
                                     
-                                elif phoneme in couple_s_z and len(re.findall(phoneme, row[1])) == 3 :
+                                elif phoneme in couple_s_z and len(re.findall(phoneme, row[1])) == 5 :
                                     dico_consonnes["s, z"] += 1
                                     
-                                elif phoneme in couple_S_Z and len(re.findall(phoneme, row[1])) == 3 :
+                                elif phoneme in couple_S_Z and len(re.findall(phoneme, row[1])) == 5 :
                                     dico_consonnes["S, Z"] += 1
                                 
-                                elif phoneme in couple_t_d and len(re.findall(phoneme, row[1])) == 3:
+                                elif phoneme in couple_t_d and len(re.findall(phoneme, row[1])) == 5:
                                     dico_consonnes["t, d"] += 1
                                      
-                                elif len(re.findall(phoneme, row[1])) == 3 :
+                                elif len(re.findall(phoneme, row[1])) == 5:
                                     dico_consonnes[phoneme] += 1
                                     
     
@@ -66,7 +67,8 @@ Nbaudelaire, Vbaudelaire = stats_phonemes("../../resultats/csv_transcriptions/co
 Nmusset, Vmusset = stats_phonemes("../../resultats/csv_transcriptions/corpus_corrige/musset_corrig.csv", 7231)
 Nlamartine, Vlamartine = stats_phonemes("../../resultats/csv_transcriptions/corpus_corrige/lamartine_corrig.csv", 16018)
 
-
+#je prends tous les vers 
+#par exemple si je prends la consonne R n'est ce pas je veux savoir en moyenne combien de fois le R est répété dans un vers. Pour ce faire, je vais prendre tous les ers où il est une fois deux fois et trois fois si j'ai trois vers où il est 3 fois je fais un plus un plus un si y'a deux vers o
 N = 4
 ind = np.arange(len(Nhugo))
 width = 0.20
@@ -85,7 +87,7 @@ bar4 = plt.bar(ind+width*3, uvals, width, color = "tab:red")
 
 
 plt.ylabel(" Nombre de vers (%)")
-plt.title("Occurrences 3 consonnes dans un vers")
+plt.title("Occurrences 4 consonnes dans un vers")
 
 plt.xticks(ind+width, Nhugo)
 plt.ylim(0,60)
@@ -127,7 +129,7 @@ def histogramme_sup(x1, x2, x3, x4) :
     bar1= plt.bar(ind, valeurs_tous, color = "tab:blue")
     plt.xticks(ind+width, Nhugo)
     plt.ylim(0,60)
-    plt.title("Occurrences 3 consonnes dans un vers")
+    plt.title("Occurrences 4 consonnes dans un vers")
     plt.show()
     
     #plt.figure(figsize = (8,8))
