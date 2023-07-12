@@ -12,6 +12,7 @@ from pathlib import Path
 import re 
 import matplotlib.pyplot as plt
 import numpy as np
+from tabulate import tabulate
 
 
 
@@ -150,3 +151,19 @@ plt.xticks(ind+width, names)
 plt.ylim(0,5)
 plt.legend( (bar1, bar2, bar3, bar4), ('Hugo', 'Baudelaire', 'Musset', "Lamartine") )
 plt.show()
+
+def table() :
+    data = [
+             [str(x) for x in xvals],
+             [str(y) for y in yvals],
+             [str(z) for z in zvals],
+             [str(u) for u in uvals]
+           ]
+    header = [x for x in names]
+    print(tabulate(data, headers = header, tablefmt="fancy_grid", showindex="always"))
+    with open("../../resultats/statistique/tableaux.txt", "a") as tab :
+        tab.write("Moyenne voyelles par vers -----")
+        tab.write(tabulate(data, headers = header, tablefmt="fancy_grid", showindex="always"))
+        
+
+table()

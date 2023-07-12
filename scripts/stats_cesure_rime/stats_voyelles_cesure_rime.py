@@ -12,6 +12,7 @@ import re
 import matplotlib.pyplot as plt
 import numpy as np
 import os
+from tabulate import tabulate
 print(os.getcwd())
 def compte_phonemes(fichier) :
     
@@ -91,6 +92,21 @@ plt.xticks(ind+width, Nhugo)
 
 plt.legend( (bar1, bar2, bar3, bar4), ('Hugo', 'Baudelaire', 'Musset', "Lamartine") )
 plt.show()
+def table() :
+    data = [
+             [str(x) + "%" for x in xvals],
+             [str(y) + "%" for y in yvals],
+             [str(z) + "%" for z in zvals],
+             [str(u)+ "%" for u in uvals]
+           ]
+    header = [x for x in Nhugo]
+    print(tabulate(data, headers = header, tablefmt="fancy_grid", showindex="always"))
+    with open("../../resultats/statistique/tableaux.txt", "a") as tab :
+        tab.write("----- Pourcentage voyelles par auteur (positions 6-12) ----- \n \n")
+        tab.write(tabulate(data, headers = header, tablefmt="fancy_grid", showindex="always"))
+        
+
+table()
 
 
 def camembert(labels, valeurs, titre) :
@@ -140,6 +156,13 @@ def histogramme_sup(x1, x2, x3, x4) :
     plt.title("Pourcentage voyelles positions 6 et 12 sur l'ensemble du corpus")
 
     plt.show()
+    data = [valeurs_tous]
+    head = [x for x in Nhugo]
+    print(tabulate(data, headers = head, tablefmt="fancy_grid", showindex="always"))
+    with open("../../resultats/statistique/tableaux.txt", "a") as tab :
+         tab.write("------ Pourcentage voyelles sur l'ensemble du corpus (positions 6-12) ------- \n \n")
+         tab.write(tabulate(data, headers = head, tablefmt="fancy_grid", showindex="always"))
+    
     
 
     
