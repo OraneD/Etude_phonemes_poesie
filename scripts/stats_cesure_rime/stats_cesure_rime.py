@@ -112,8 +112,9 @@ fig, ax = plt.subplots()
 syl = Nlamartine
 counts = Vlamartine
 
+plt.ylim(0, 3)
 
 ax.bar(syl, counts)
 
-ax.set_ylabel('Pourcentage parmi tous les vers')
-ax.set_title('Syllabes à la césure les plus fréquentes pour Lamartine')
+ax.set_ylabel('vers (%)')
+ax.set_title('Syllabes en positions 6 et 12 les plus fréquentes pour Lamartine')

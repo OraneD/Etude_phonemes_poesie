@@ -42,7 +42,8 @@ def compte_repetition(fichier, nb_vers, liste_pho) :
 
 
     
-    return [round((x/nb_vers) * 100, 2) for x in dico_nb_rep.values()]
+    #return [round((x/nb_vers) * 100, 2) for x in dico_nb_rep.values()] #return pourcentage
+    return [v for v in dico_nb_rep.values()]
     
                     
 
@@ -70,11 +71,12 @@ uvals = nbLamartine
 bar4 = plt.bar(ind+width*3, uvals, width, color = "tab:red")
 
 
-plt.ylabel("Pourcentage de vers")
+plt.ylabel("occurrences")
 plt.title("Répétitions voyelles par vers")
 plt.xlabel("Répétitions")
 
 plt.xticks(ind+width, names)
-plt.ylim(0,40)
+#plt.ylim(0,40)
 plt.legend( (bar1, bar2, bar3, bar4), ('Hugo', 'Baudelaire', 'Musset', "Lamartine") )
 plt.show()
+
