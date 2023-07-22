@@ -59,7 +59,7 @@ def stats_rime(fichier):
                 
                 keys = ["Syllabe", "Occurrences", "Pourcentage"]
                 print(sum(dico_cesure.values()))
-                with open("../resultats/statistique/rime/csv/syllabes_rime_lamartine.csv", "w") as csvfile :
+                with open("../../resultats/statistique/rime/csv/syllabes_rime_hugo.csv", "w") as csvfile :
                     writer =  csv.writer(csvfile)
                     writer.writerow(keys)
                     for key, value in dico_cesure.items() :
@@ -75,19 +75,19 @@ def stats_rime(fichier):
 
 
                 
-#Nhugo, Vhugo = stats_rime("../resultats/csv_transcriptions/hugo.csv")
-#Nbaudelaire, Vbaudelaire = stats_rime("../resultats/csv_transcriptions/baudelaire.csv")
-#Nmusset, Vmusset = stats_rime("../resultats/csv_transcriptions/musset.csv")
-Nlamartine, Vlamartine = stats_rime("../resultats/csv_transcriptions/lamartine.csv")
+Nhugo, Vhugo = stats_rime("../../resultats/csv_transcriptions/corpus_corrige/hugo_corrig.csv")
+#Nbaudelaire, Vbaudelaire = stats_rime("../../resultats/csv_transcriptions/corpus_corrige/baudelaire_corrig.csv")
+#Nmusset, Vmusset = stats_rime("../../resultats/csv_transcriptions/corpus_corrige/musset_corrig.csv")
+#Nlamartine, Vlamartine = stats_rime("../../resultats/csv_transcriptions/corpus_corrige/lamartine_corrig.csv")
 
 
 fig, ax = plt.subplots()
 
-syl = Nlamartine
-counts = Vlamartine
+syl = Nhugo
+counts = Vhugo
 
 
 ax.bar(syl, counts)
-
+ax.set_ylim(0,3.5)
 ax.set_ylabel('Pourcentage parmi tous les vers')
-ax.set_title('Syllabes à la rime les plus fréquentes pour Lamartine')
+ax.set_title('Syllabes à la rime les plus fréquentes pour Hugo')
