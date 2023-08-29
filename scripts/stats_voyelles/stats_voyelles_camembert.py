@@ -17,12 +17,12 @@ from tabulate import tabulate
 print(os.getcwd())
 
 liste_phonemes = ["a", "A", "b", "C", "k", "d", "e", "E", "f", "g", "H", "i", "j", "J", "t", "Z", "z", "e~", "w", "@", "s", "R", "2", "u", "y", "o", "O", "9", "v", "m", "n", "N", "S"]
-liste_e = ["@", "2", "9"]
+liste_e = ["2", "9"]
 liste_o = ["o", "O"]
 liste_nasales = ["A", "C"]
 liste_i = ["e", "i"]
 liste_voyelles = ["a", "@", "2", "9", "o", "O", "e", "E", "u", "y", "i", "e~", "A", "C"]
-liste_voyelles_dico = ["a", "@", "o", "E", "u", "y", "i, e", "e~", "A, C"]
+liste_voyelles_dico = ["a", "@", "o", "E", "u", "y", "i, e", "e~", "A, C", "2, 9"]
 #Pourcentage par phonème
 def stats_phonemes(fichier):
                 dico_voyelles = {}
@@ -36,7 +36,7 @@ def stats_phonemes(fichier):
                         if row[2] == "12":
                             for phoneme in liste_voyelles :
                                 if  phoneme in liste_e and len(re.findall(phoneme, row[1])) != 0 :
-                                    dico_voyelles["@"] += len(re.findall(phoneme, row[1]))
+                                    dico_voyelles["2, 9"] += len(re.findall(phoneme, row[1]))
                                 elif  phoneme in liste_o and len(re.findall(phoneme, row[1])) != 0 :
                                     dico_voyelles["o"] += len(re.findall(phoneme, row[1]))
                                 elif  phoneme in liste_nasales and len(re.findall(phoneme, row[1])) != 0 :
@@ -66,16 +66,16 @@ ind = np.arange(len(Nhugo))
 width = 0.20
 
 xvals = Vhugo
-bar1= plt.bar(ind, xvals, width, color = "tab:blue")
+bar1= plt.bar(ind, xvals, width, color = "black")
 
 yvals = Vbaudelaire
-bar2 = plt.bar(ind + width, yvals, width, color = "tab:orange")
+bar2 = plt.bar(ind + width, yvals, width, color = "lightgrey")
 
 zvals = Vmusset
-bar3 = plt.bar(ind+width*2, zvals, width, color = "tab:green")
+bar3 = plt.bar(ind+width*2, zvals, width, color = "dimgrey")
 
 uvals = Vlamartine
-bar4 = plt.bar(ind+width*3, uvals, width, color = "tab:red")
+bar4 = plt.bar(ind+width*3, uvals, width, color = "whitesmoke")
 
 plt.ylim(0,35)
 plt.ylabel("%")
@@ -95,7 +95,7 @@ def table() :
            ]
     header = [x for x in Nhugo]
     print(tabulate(data, headers = header, tablefmt="fancy_grid", showindex="always"))
-    with open("../../resultats/statistique/tableaux.txt", "a") as tab :
+    with open("../../resultats/statistique/tableaux_fin.txt", "a") as tab :
         tab.write("----- Pourcentage voyelles par auteur (corpus vers) ----- \n \n")
         tab.write(tabulate(data, headers = header, tablefmt="fancy_grid", showindex="always"))
         
@@ -153,7 +153,7 @@ def histogramme_sup(x1, x2, x3, x4) :
     data = [valeurs_tous]
     head = [x for x in Nhugo]
     print(tabulate(data, headers = head, tablefmt="fancy_grid", showindex="always"))
-    with open("../../resultats/statistique/tableaux.txt", "a") as tab :
+    with open("../../resultats/statistique/tableaux_fin.txt", "a") as tab :
          tab.write("------ Pourcentage voyelles sur l'ensemble du corpus (corpus vers) ------- \n \n")
          tab.write(tabulate(data, headers = head, tablefmt="fancy_grid", showindex="always"))
     

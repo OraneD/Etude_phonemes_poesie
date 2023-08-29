@@ -16,10 +16,10 @@ from tabulate import tabulate
 
 
 
-liste_e = ["@", "2", "9"]
+liste_e = ["2", "9"]
 liste_o = ["o", "O"]
 liste_voyelles = ["a", "@", "2", "9", "o", "O", "e", "E", "u", "y", "i", "e~", "A", "C"]
-liste_voyelles_dico = ["a", "@", "o", "e", "E", "u", "y", "i", "e~", "A", "C"]
+liste_voyelles_dico = ["a", "@", "o", "e", "E", "u", "y", "i", "e~", "A", "C", "2, 9"]
 
 class Repetition :
     def __init__(self, occurrences, compte) :
@@ -56,7 +56,7 @@ def stats_phonemes(fichier, nb):
                             if row[2] == "12":
                                 for phoneme in liste_voyelles :
                                     if  phoneme in liste_e and len(re.findall(phoneme, row[1])) == nb :
-                                        dico_voyelles["@"] += 1
+                                        dico_voyelles["2, 9"] += 1
                                     elif  phoneme in liste_o and len(re.findall(phoneme, row[1])) == nb :
                                         dico_voyelles["o"] += 1
                                     elif  len(re.findall(phoneme, row[1])) == nb:
@@ -132,16 +132,16 @@ ind = np.arange(len(names))
 width = 0.20
 
 xvals = [v for v in dico_hugo.values()]
-bar1= plt.bar(ind, xvals, width, color = "tab:blue")
+bar1= plt.bar(ind, xvals, width, color = "black")
 
 yvals = [v for v in dico_baudelaire.values()]
-bar2 = plt.bar(ind + width, yvals, width, color = "tab:orange")
+bar2 = plt.bar(ind + width, yvals, width, color = "lightgrey")
 
 zvals = [v for v in dico_musset.values()]
-bar3 = plt.bar(ind+width*2, zvals, width, color = "tab:green")
+bar3 = plt.bar(ind+width*2, zvals, width, color = "dimgrey")
 
 uvals = [v for v in dico_lamartine.values()]
-bar4 = plt.bar(ind+width*3, uvals, width, color = "tab:red")
+bar4 = plt.bar(ind+width*3, uvals, width, color = "whitesmoke")
 
 
 plt.ylabel(" Occurrences")
@@ -161,7 +161,7 @@ def table() :
            ]
     header = [x for x in names]
     print(tabulate(data, headers = header, tablefmt="fancy_grid", showindex="always"))
-    with open("../../resultats/statistique/tableaux.txt", "a") as tab :
+    with open("../../resultats/statistique/tableaux_fin.txt", "a") as tab :
         tab.write("Moyenne voyelles par vers -----")
         tab.write(tabulate(data, headers = header, tablefmt="fancy_grid", showindex="always"))
         

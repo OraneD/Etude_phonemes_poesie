@@ -92,16 +92,16 @@ def histogramme(x, y, z, u) :
     width = 0.20
     
     xvals = x
-    bar1= plt.bar(ind, xvals, width, color = "tab:blue")
+    bar1= plt.bar(ind, xvals, width, color = "black")
     
     yvals = y
-    bar2 = plt.bar(ind + width, yvals, width, color = "tab:orange")
+    bar2 = plt.bar(ind + width, yvals, width, color = "lightgrey")
     
     zvals = z
-    bar3 = plt.bar(ind+width*2, zvals, width, color = "tab:green")
+    bar3 = plt.bar(ind+width*2, zvals, width, color = "dimgrey")
     
     uvals = u
-    bar4 = plt.bar(ind+width*3, uvals, width, color = "tab:red")
+    bar4 = plt.bar(ind+width*3, uvals, width, color = "whitesmoke")
     
     
     plt.ylabel("Moyenne")

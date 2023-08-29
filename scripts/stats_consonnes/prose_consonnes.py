@@ -18,7 +18,7 @@ liste_consonnes_sourdes = ["p", "t", "k", "f", "s" "S"]
 liste_consonnes_sonores = ["b", "d", "g", "v", "z" "j", "l","R", "n" "N", "m"]
 couple_k_g = ["k" , "g"]
 couple_f_v = ["f", "v"]
-couple_p_b_m = ["p", "b", "m"]
+couple_p_b_m = ["p", "b"]
 couple_s_z = ["s", "z"]
 couple_S_Z = ["S", "Z"]
 couple_t_d = ["t", "d"]
@@ -26,7 +26,7 @@ liste_consonnes =  ["p", "t", "k", "f", "s", "S","b", "d", "g", "v", "z", "j", "
 #Pourcentage par phonème
 def stats_phonemes(fichier):
 
-                dico_consonnes = {"k, g" : 0, "f, v" : 0, "H" : 0, "s, z" : 0, "S, Z" : 0, "R" : 0, "l" : 0, "j" : 0,"p, b, m" : 0, "w" : 0, "t, d" : 0, "n" : 0}
+                dico_consonnes = {"k, g" : 0, "f, v" : 0, "H" : 0, "s, z" : 0, "S, Z" : 0, "R" : 0, "l" : 0, "j" : 0,"p, b" : 0, "w" : 0, "t, d" : 0, "n" : 0, "m" : 0}
 
                 with open(fichier, "r") as file:
                     reader = file.read()
@@ -38,7 +38,7 @@ def stats_phonemes(fichier):
                             dico_consonnes["f, v"] += len(re.findall(phoneme, reader))
                             
                         elif phoneme in couple_p_b_m and len(re.findall(phoneme, reader)) != 0 :
-                            dico_consonnes["p, b, m"] += len(re.findall(phoneme, reader))
+                            dico_consonnes["p, b"] += len(re.findall(phoneme, reader))
                             
                         elif phoneme in couple_s_z and len(re.findall(phoneme, reader)) != 0 :
                             dico_consonnes["s, z"] += len(re.findall(phoneme, reader))
@@ -70,16 +70,16 @@ ind = np.arange(len(Nhugo))
 width = 0.20
 
 xvals = Vhugo
-bar1= plt.bar(ind, xvals, width, color = "tab:blue")
+bar1= plt.bar(ind, xvals, width, color = "black")
 
 yvals = Vbaudelaire
-bar2 = plt.bar(ind + width, yvals, width, color = "tab:orange")
+bar2 = plt.bar(ind + width, yvals, width, color = "lightgrey")
 
 zvals = Vmusset
-bar3 = plt.bar(ind+width*2, zvals, width, color = "tab:green")
+bar3 = plt.bar(ind+width*2, zvals, width, color = "dimgrey")
 
 uvals = Vlamartine
-bar4 = plt.bar(ind+width*3, uvals, width, color = "tab:red")
+bar4 = plt.bar(ind+width*3, uvals, width, color = "whitesmoke")
 
 
 plt.ylabel("%")
@@ -100,7 +100,7 @@ def table() :
            ]
     header = [x for x in Nhugo]
     print(tabulate(data, headers = header, tablefmt="fancy_grid", showindex="always"))
-    with open("../../resultats/statistique/tableaux.txt", "a") as tab :
+    with open("../../resultats/statistique/tableaux_fin.txt", "a") as tab :
         tab.write("----- Pourcentage Consonnes par auteur (corpus prose) ----- \n \n")
         tab.write(tabulate(data, headers = header, tablefmt="fancy_grid", showindex="always"))
         
@@ -158,7 +158,7 @@ def histogramme_sup(x1, x2, x3, x4) :
     data = [valeurs_tous]
     head = [x for x in Nhugo]
     print(tabulate(data, headers = head, tablefmt="fancy_grid", showindex="always"))
-    with open("../../resultats/statistique/tableaux.txt", "a") as tab :
+    with open("../../resultats/statistique/tableaux_fin.txt", "a") as tab :
          tab.write("------ Pourcentage Consonnes sur l'ensemble du corpus ------- \n \n")
          tab.write(tabulate(data, headers = head, tablefmt="fancy_grid", showindex="always"))
     

@@ -16,12 +16,12 @@ from tabulate import tabulate
 
 couple_k_g = ["k" , "g"]
 couple_f_v = ["f", "v"]
-couple_p_b_m = ["p", "b", "m"]
+couple_p_b_m = ["p", "b"]
 couple_s_z = ["s", "z"]
 couple_S_Z = ["S", "Z"]
 couple_t_d = ["t", "d"]
 liste_consonnes =  ["p", "t", "k", "f", "s", "S","b", "d", "g", "v", "z", "j", "l","R", "n", "m", "w", "H", "Z"]
-liste_consonnes_couple = ["k, g", "f, v", "p, b, m", "s, z", "S, Z", "t, d", "j", "l", "R", "n", "w", "H"]
+liste_consonnes_couple = ["k, g", "f, v", "p, b", "s, z", "S, Z", "t, d", "j", "l", "R", "n", "w", "H", "m"]
 
 class Repetition :
     def __init__(self, occurrences, compte) :
@@ -50,7 +50,7 @@ lst_class = []
 def stats_phonemes(fichier, nb):
                     
 
-                    dico_consonnes = {"k, g" : 0, "f, v" : 0, "H" : 0, "s, z" : 0, "S, Z" : 0, "R" : 0, "l" : 0, "j" : 0, "p, b, m" : 0, "w" : 0, "t, d" : 0, "n" : 0}
+                    dico_consonnes = {"k, g" : 0, "f, v" : 0, "H" : 0, "s, z" : 0, "S, Z" : 0, "R" : 0, "l" : 0, "j" : 0, "p, b" : 0, "w" : 0, "t, d" : 0, "n" : 0, "m" : 0}
                     with open(fichier, "r") as filecsv:
                         csvreader = csv.reader(filecsv)
                         for row in csvreader :
@@ -64,7 +64,7 @@ def stats_phonemes(fichier, nb):
                                         dico_consonnes["f, v"] += 1
                                         
                                     elif phoneme in couple_p_b_m and len(re.findall(phoneme, row[1])) == nb :
-                                        dico_consonnes["p, b, m"] += 1
+                                        dico_consonnes["p, b"] += 1
                                         
                                     elif phoneme in couple_s_z and len(re.findall(phoneme, row[1])) == nb :
                                         dico_consonnes["s, z"] += 1
@@ -110,7 +110,7 @@ for num in range(6) :
 
     
 def moyenne_phoneme(lst_phoneme, nb_vers) :
-    dico_consonnes = {"k, g" : 0, "f, v" : 0, "H" : 0, "s, z" : 0, "S, Z" : 0, "R" : 0, "l" : 0, "j" : 0, "p, b, m" : 0, "w" : 0, "t, d" : 0, "n" : 0}
+    dico_consonnes = {"k, g" : 0, "f, v" : 0, "H" : 0, "s, z" : 0, "S, Z" : 0, "R" : 0, "l" : 0, "j" : 0, "p, b" : 0, "w" : 0, "t, d" : 0, "n" : 0, "m" : 0}
     for consonne in liste_consonnes_couple :
         c = 0
         for phoneme in lst_phoneme :
@@ -143,16 +143,16 @@ ind = np.arange(len(names))
 width = 0.20
 
 xvals = [v for v in dico_hugo.values()]
-bar1= plt.bar(ind, xvals, width, color = "tab:blue")
+bar1= plt.bar(ind, xvals, width, color = "black")
 
 yvals = [v for v in dico_baudelaire.values()]
-bar2 = plt.bar(ind + width, yvals, width, color = "tab:orange")
+bar2 = plt.bar(ind + width, yvals, width, color = "lightgrey")
 
 zvals = [v for v in dico_musset.values()]
-bar3 = plt.bar(ind+width*2, zvals, width, color = "tab:green")
+bar3 = plt.bar(ind+width*2, zvals, width, color = "dimgrey")
 
 uvals = [v for v in dico_lamartine.values()]
-bar4 = plt.bar(ind+width*3, uvals, width, color = "tab:red")
+bar4 = plt.bar(ind+width*3, uvals, width, color = "whitesmoke")
 
 
 plt.ylabel(" Occurrences")
@@ -173,7 +173,7 @@ def table() :
            ]
     header = [x for x in names]
     print(tabulate(data, headers = header, tablefmt="fancy_grid", showindex="always"))
-    with open("../../resultats/statistique/tableaux.txt", "a") as tab :
+    with open("../../resultats/statistique/tableaux_fin.txt", "a") as tab :
         tab.write("Moyenne consonnes par vers -----")
         tab.write(tabulate(data, headers = header, tablefmt="fancy_grid", showindex="always"))
         
